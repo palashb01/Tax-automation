@@ -1,0 +1,132 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlserver"
+  url      = env("DATABASE_URL")
+}
+
+model Form_CommodityMaster_corporate_19102022 {
+  code        String  @id @unique @db.VarChar(8)
+  description String? @db.VarChar(2000)
+  AdvTax      String? @db.Char(1)
+  E1          String? @db.Char(1)
+  ES          String? @db.Char(1)
+  F21         String? @db.Char(1)
+  W1          String? @db.VarChar(2)
+  W2          String? @db.VarChar(2)
+}
+
+model Form21_trans_U_corporate_19102022 {
+  Tin           String    @id @unique @db.NVarChar(15)
+  SerialNo      String?   @db.NVarChar(24)
+  Demand_no     String?   @db.NVarChar(14)
+  OfficeCode    String?   @db.NVarChar(5)
+  D_PhoneNo     String?   @db.NVarChar(12)
+  D_regDate     String?   @db.VarChar(10)
+  S_TIN         String?   @db.NVarChar(15)
+  S_Name        String?   @db.NVarChar(100)
+  S_Address     String?   @db.NVarChar(200)
+  S_PhoneNo     String?   @db.NVarChar(12)
+  S_RegDate     String?   @db.VarChar(10)
+  T_Name        String?   @db.NVarChar(100)
+  T_Address     String?   @db.NVarChar(200)
+  T_PhoneNo     String?   @db.NVarChar(12)
+  SPN           String?   @db.NVarChar(15)
+  SPN_regDate   String?   @db.VarChar(10)
+  Receipt_Date  String?   @db.VarChar(25)
+  Receipt_Place String?   @db.VarChar(100)
+  Quantity      String?   @db.NVarChar(10)
+  Unit          String?   @db.Char(15)
+  LoadPlace     String?   @db.NVarChar(100)
+  VehicleNo     String?   @db.NVarChar(12)
+  JourneyDate   String?   @db.VarChar(25)
+  Issue_Date    DateTime? @db.SmallDateTime
+  Status        String?   @db.Char(1)
+  Utilize_Date  DateTime? @db.SmallDateTime
+  Punch         String?   @db.Char(1)
+  Cancel_Date   DateTime? @db.SmallDateTime
+  Update_Status String?   @db.NChar(2)
+  DemandDate    DateTime? @db.SmallDateTime
+  GRNo          String?   @db.VarChar(20)
+  RegAuthCode   String    @db.Char(3)
+  token_no      String    @db.VarChar(12)
+  gstin         String?   @db.VarChar(15)
+}
+
+model Form21InvoiceDetail_u_corporate_19102022 {
+  TIN             String    @id @db.NVarChar(15)
+  Serial_no       String    @db.NVarChar(24)
+  S_TIN           String?   @db.NVarChar(15)
+  TaxInvoice      String    @db.NVarChar(50)
+  TaxInvoice_date String?   @db.VarChar(10)
+  Commodity       String?   @db.Char(8)
+  Quantity_Inv    String?   @db.NVarChar(10)
+  Weight          String?   @db.NVarChar(10)
+  Value_goods     Decimal?  @db.Decimal(18, 2)
+  RegAuthCode     String    @db.Char(3)
+  Updation_date   DateTime? @db.SmallDateTime
+  S_Name          String?   @db.VarChar(100)
+  S_Address       String?   @db.VarChar(200)
+  S_PhoneNo       String?   @db.VarChar(12)
+  gstin           String?   @db.VarChar(15)
+}
+
+model Form38_transUtilized_corporate_19102022 {
+  TIN                       String?  @db.Char(15)
+  Demand_no                 String?  @db.NVarChar(20)
+  Token_no                  String?  @db.NVarChar(25)
+  SubUserPwd                String?  @db.NVarChar(25)
+  Form_no                   String   @db.VarChar(25)
+  DepotCode                 String?  @db.Char(8)
+  Status                    String?  @db.Char(1)
+  OriginStateCode           String?  @db.NVarChar(2)
+  OriginDistrictCode        String?  @db.NVarChar(4)
+  Dest_StateCode            String?  @db.NVarChar(2)
+  Dest_DestrictCode         String?  @db.NVarChar(4)
+  goods_dest                String?  @db.VarChar(200)
+  Name_of_seller            String?  @db.NVarChar(100)
+  Address_of_seller         String?  @db.NVarChar(100)
+  TIN_of_seller             String?  @db.NVarChar(15)
+  Weight                    String?  @db.NVarChar(50)
+  Quantity                  Int
+  Amount                    Decimal? @db.Decimal(18, 2)
+  bill_memo                 String?  @db.NVarChar(100)
+  billdate                  String?  @db.VarChar(10)
+  Name_of_Transporter       String?  @db.NVarChar(100)
+  Address_of_Transporter    String?  @db.NVarChar(100)
+  Service_Providerno        String?  @db.NVarChar(50)
+  Truck_no                  String?  @db.NVarChar(50)
+  Name_of_Driver            String?  @db.NVarChar(100)
+  Address_of_Driver         String?  @db.NVarChar(100)
+  DLNo                      String?  @db.NVarChar(50)
+  Reason_lost               String?  @db.NVarChar(100)
+  Amount_inbound            Decimal? @db.Decimal(18, 2)
+  demand_date               String?  @db.NVarChar(25)
+  Issue_date                String?  @db.NVarChar(25)
+  expiry_date               String?  @db.NVarChar(25)
+  utilize_date              String?  @db.NVarChar(25)
+  lost_date                 String?  @db.NVarChar(10)
+  surrender_date            String?  @db.NVarChar(10)
+  form_expiry               String?  @db.NVarChar(20)
+  printcounter              Int
+  RegAuthCode               String   @unique @db.Char(3)
+  Updation_date             DateTime @db.SmallDateTime
+  EntryDate                 DateTime @db.SmallDateTime
+  BillofEntryNo             String?  @db.VarChar(50)
+  BillOfEntryDate           String?  @db.VarChar(20)
+  GoodsMovement             String?  @db.VarChar(25)
+  CustomClrNo               String?  @db.VarChar(50)
+  CustomClrDate             String?  @db.VarChar(20)
+  TransporterDriverMobileNo String?  @db.VarChar(12)
+  Full_Partial              String?  @db.Char(1)
+  FormExpiryDemand          Int
+  gstin                     String?  @db.VarChar(15)
+}
+
+model GSTIN_DETAILS {
+  GSTIN        String? @db.VarChar(50)
+  GSTINDetails String? @db.VarChar(max)
+  id           Int     @id @unique
+}
