@@ -1,0 +1,18 @@
+{
+  "name": "Tax-automation",
+  "version": "1.0.0",
+  "description": "GST Tax Automation - IIIT Lucknow",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/KarthikS373/Tax-automation.git",
+  "author": "IIIT Lucknow",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@prisma/client": "^4.7.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "prisma": "^4.7.1"
+  }
+}
