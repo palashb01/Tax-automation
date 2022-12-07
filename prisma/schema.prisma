@@ -130,3 +130,108 @@ model GSTIN_DETAILS {
   GSTINDetails String? @db.VarChar(max)
   id           Int     @id @unique
 }
+
+model GSTR2A_FILERS {
+  Id         Int       @id @unique
+  GSTIN      String?   @db.VarChar(15)
+  fp         String?   @db.VarChar(10)
+  B2B        String?   @db.VarChar(max)
+  EntryDate  DateTime?
+  IsFilerted Int?      @db.Bit()
+}
+
+model R1_Filers {
+  Id                                         BigInt   @id @unique
+  GSTIN                                      String?  @db.VarChar(15)
+  Returnperiod                               String?  @db.VarChar(10)
+  GrossTurnover                              Decimal? @db.Decimal(15, 2)
+  cur_gt                                     Decimal? @db.Decimal(15, 2)
+  filing_typ                                 String?  @db.VarChar(2)
+  fil_dt                                     DateTime @db.Date
+  b2b                                        String?  @db.VarChar(max)
+  b2ba                                       String?  @db.VarChar(max)
+  b2cl                                       String?  @db.VarChar(max)
+  b2cla                                      String?  @db.VarChar(max)
+  b2cs                                       String?  @db.VarChar(max)
+  b2csa                                      String?  @db.VarChar(max)
+  nil                                        String?  @db.VarChar(max)
+  Exports                                    String?  @db.VarChar(max)
+  AdvanceTax                                 String?  @db.VarChar(max)
+  AdvanceTaxAmendment                        String?  @db.VarChar(max)
+  AdvanceAdjustedDetail                      String?  @db.VarChar(max)
+  hsn                                        String?  @db.VarChar(max)
+  CreditandDebitNote                         String?  @db.VarChar(max)
+  CreditandDebitNoteAmendment                String?  @db.VarChar(max)
+  CreditAndDebitNoteForUnregistered          String?  @db.VarChar(max)
+  CreditAndDebitNoteAmendmentForUnregistered String?  @db.VarChar(max)
+  doc_Issue                                  String?  @db.VarChar(max)
+  EntryDate                                  DateTime
+  EntryMonth                                 String?  @db.VarChar(6)
+  URLDate                                    String?  @db.VarChar(1000)
+  FileId                                     BigInt?
+  MainJSON                                   String?  @db.VarChar(max)
+  Filtered                                   Int?     @db.Bit
+}
+
+model R3B_FILERS {
+  Id               Int       @id @unique
+  gstin            String?   @db.VarChar(15)
+  ret_period       String?   @db.VarChar(8)
+  fil_dt           DateTime? @db.Date
+  qn               String?   @db.VarChar(max)
+  sup_details      String?   @db.VarChar(max)
+  sup_inter        String?   @db.VarChar(max)
+  itc_elg          String?   @db.VarChar(max)
+  inward_sup       String?   @db.VarChar(max)
+  intr_ltfee       String?   @db.VarChar(max)
+  tax_pmt          String?   @db.VarChar(max)
+  EntryDate        DateTime
+  FileURL          String?   @db.VarChar(max)
+  IsFiltered       Int       @db.Bit
+  FileId           BigInt?
+  CompiledTurnOver Float?
+  MainJSON         String?   @db.VarChar(max)
+}
+
+model R9_FILERS {
+  Id         BigInt    @id @unique
+  gstin      String?   @db.VarChar(15)
+  fp         String?   @db.VarChar(10)
+  fil_dt     DateTime? @db.Date
+  isnil      String?   @db.VarChar(max)
+  table4     String?   @db.VarChar(max)
+  table5     String?   @db.VarChar(max)
+  table6     String?   @db.VarChar(max)
+  table7     String?   @db.VarChar(max)
+  table8     String?   @db.VarChar(max)
+  table9     String?   @db.VarChar(max)
+  table10    String?   @db.VarChar(max)
+  table14    String?   @db.VarChar(max)
+  table15    String?   @db.VarChar(max)
+  table16    String?   @db.VarChar(max)
+  table17    String?   @db.VarChar(max)
+  table18    String?   @db.VarChar(max)
+  tax_pay    String?   @db.VarChar(max)
+  tax_paid   String?   @db.VarChar(max)
+  EntryDate  DateTime
+  FileURL    String?   @db.VarChar(1000)
+  IsFiltered Int       @db.Bit
+  FileId     Int?
+}
+
+model utn_commodity_corporate_19102022 {
+  sid             String?   @db.NVarChar(200)
+  Form_no         String?   @db.NVarChar(25)
+  tin_no          String    @db.Char(15)
+  Comodity_code   String?   @db.NVarChar(100)
+  Weight_Measure  Decimal?  @db.Decimal(18, 2)
+  Unit            String?   @db.NVarChar(200)
+  Quantity        Int?
+  UnitQntity      String?   @db.NVarChar(100)
+  GoodsValue      Decimal?  @db.Decimal(18, 2)
+  bill_memo       String?   @db.NVarChar(100)
+  billdate        String?   @db.NVarChar(10)
+  EntryDate       DateTime? @db.SmallDateTime
+  Commodity_code2 String?   @db.NVarChar(25)
+  gstin           String    @unique @db.VarChar(15)
+}
