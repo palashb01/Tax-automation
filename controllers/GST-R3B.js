@@ -1,11 +1,15 @@
-import { fetchR9 } from "../models/GST-R9.js";
+import { fetchR3B } from "../models/GST-R3B.js";
 
-export const getR9Filers = async (req, res, next) => {
+export const getR3BFilers = async (req, res, next) => {
   const { GSTIN } = req.query;
   if (GSTIN) {
     try {
-      const data = await fetchR9(GSTIN);
+      const data = await fetchR3B(GSTIN);
+      console.log(data);
       if (data && data.gstin.toLowerCase() == GSTIN.toLowerCase()) {
+        if (data.FileId) {
+          data.FileId = data.FileId.toString();
+        }
         res.status(200).send({
           message: "Fetch successful",
           data: data,
