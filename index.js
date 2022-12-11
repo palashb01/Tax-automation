@@ -4,6 +4,8 @@ import cors from "cors";
 import routes from "./routes/index.js";
 import { PORT } from "./utils/constants.js";
 
+import "./models/index.js";
+
 const app = express();
 
 app.use(cors());
@@ -17,6 +19,7 @@ app.use(
     inflate: false,
   })
 );
+
 
 app.use("/", routes);
 
