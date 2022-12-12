@@ -4,33 +4,39 @@ export const getR1Filers = async (req, res, next) => {
   const createTable = (name, desc) => {
     return new Object({
       name: name,
+      nor: 0,
       csamt: 0,
       rt: 0,
       txval: 0,
       iamt: 0,
+      camt: 0,
+      samt: 0,
       desc: desc || "",
     });
   };
 
   const A4 = createTable(
-    "A4",
+    "4A",
     "Taxable outward supplies made to registered persons - other than reverse charge supplies"
   );
   const B4 = createTable(
-    "B4",
+    "4B",
     "Taxable outward supplies made to registered persons attracting tax on reverse charge"
   );
-  const C4 = createTable("C4", "Custom Bonded Warehouse");
-  const B6 = createTable("B6", "Supplies made to SEZ unit or SEZ developer");
-  const C6 = createTable("C6", "Deemed Exports");
+  const C4 = createTable("4C", "Custom Bonded Warehouse");
+  const B6 = createTable("6B", "Supplies made to SEZ unit or SEZ developer");
+  const C6 = createTable("6C", "Deemed Exports");
   const tables = [A4, B4, C4, B6, C6];
 
   const feedData = (table, item) => {
     if (item && item["itm_det"]) {
+      table.nor++;
       table.csamt += Number.parseFloat(item["itm_det"]["csamt"] || "0.00");
       table.rt += Number.parseFloat(item["itm_det"]["rt"] || "0.00");
       table.txval += Number.parseFloat(item["itm_det"]["txval"] || "0.00");
       table.iamt += Number.parseFloat(item["itm_det"]["iamt"] || "0.00");
+      table.camt += Number.parseFloat(item["itm_det"]["camt"] || "0.00");
+      table.samt += Number.parseFloat(item["itm_det"]["samt"] || "0.00");
     }
   };
 
@@ -76,11 +82,14 @@ export const getR1Filers = async (req, res, next) => {
       for (let table of tables) {
         const col = {
           table: table.name,
+          numberOfRecords: table.nor,
           data: {
             csamt: table.csamt,
             rt: table.rt,
             txval: table.txval,
             iamt: table.iamt,
+            camt: table.camt,
+            samt: table.samt,
           },
           desc: table.desc,
         };
