@@ -3,7 +3,7 @@ import prisma from "./index.js";
 export const fetchR1 = async (GSTIN) => {
   const data = await prisma.R1_Filers.findMany({
     where: {
-      Id:Id
+      GSTIN: GSTIN,
     },
     select: {
       Id: true,
