@@ -43,46 +43,55 @@ export const getR1Filers = async (req, res, next) => {
   const { GSTIN } = req.query;
   if (GSTIN) {
     try {
-      const data = await fetchR1(GSTIN);
-      if (data) {
-        if (data.Id) data.Id = data.Id.toString();
-        if (data.FileId) data.FileId = data.FileId.toString();
-      }
-      const parsedData = JSON.parse(data.b2b);
+      const datas = await fetchR1(GSTIN);
+      const result = [];
+      let nof = datas.length || 0;
+      for (let data of datas) {
+        if (data) {
+          if (data.Id) data.Id = data.Id.toString();
+          if (data.FileId) data.FileId = data.FileId.toString();
+        }
 
-      for (let sub of parsedData) {
-        for (let inv of sub["inv"]) {
-          for (let item of inv["itms"]) {
-            if (item) {
-              if (inv["inv_typ"] == "R" && inv["rchrg"] == "N") {
-                // Taxable outward supplies made to registered persons - other than reverse charge supplies
-                feedData(A4, item);
-              } else if (inv["inv_typ"] == "R" && inv["rchrg"] != "N") {
-                // Taxable outward supplies made to registered persons attracting tax on reverse charge
-                feedData(B4, item);
-              } else if (
-                inv["inv_typ"] == "SEWP" ||
-                inv["inv_typ"] == "SEWOP"
-              ) {
-                //  Supplies made to SEZ unit or SEZ developer
-                feedData(B6, item);
-              } else if (inv["inv_typ"] == "DE") {
-                // Deemed Exports
-                feedData(C6, item);
-              } else if (inv["inv_typ"] == "CBW") {
-                // Custom Bonded Warehouse
-                feedData(C4, item);
+        if (data.b2b) {
+          const parsedData = JSON.parse(data.b2b);
+
+          if (parsedData) {
+            for (let sub of parsedData) {
+              for (let inv of sub["inv"]) {
+                for (let item of inv["itms"]) {
+                  if (item) {
+                    if (inv["inv_typ"] == "R" && inv["rchrg"] == "N") {
+                      // Taxable outward supplies made to registered persons - other than reverse charge supplies
+                      feedData(A4, item);
+                    } else if (inv["inv_typ"] == "R" && inv["rchrg"] != "N") {
+                      // Taxable outward supplies made to registered persons attracting tax on reverse charge
+                      feedData(B4, item);
+                    } else if (
+                      inv["inv_typ"] == "SEWP" ||
+                      inv["inv_typ"] == "SEWOP"
+                    ) {
+                      //  Supplies made to SEZ unit or SEZ developer
+                      feedData(B6, item);
+                    } else if (inv["inv_typ"] == "DE") {
+                      // Deemed Exports
+                      feedData(C6, item);
+                    } else if (inv["inv_typ"] == "CBW") {
+                      // Custom Bonded Warehouse
+                      feedData(C4, item);
+                    }
+                  }
+                }
               }
             }
           }
         }
       }
 
-      const result = [];
       for (let table of tables) {
         const col = {
           table: table.name,
           numberOfRecords: table.nor,
+          numberOfFilingsMadeByGSTIN: nof,
           data: {
             csamt: table.csamt,
             rt: table.rt,
