@@ -1,3 +1,4 @@
+import { json } from "express";
 import { fetchR1 } from "../models/GST-R1.js";
 
 export const getR1Filers = async (req, res, next) => {
@@ -198,3 +199,70 @@ export const getR1Filers = async (req, res, next) => {
     });
   }
 };
+
+export const getR1Filers2 = async (req, res, next) => {
+  //TODO: nil, at,txpd,hsn,doc_issue,b2csa,ata
+  try {
+    const { Id } = req.query;
+    const data = await fetchR1(Id);
+    // let results = [];
+    // const createTable = (name, desc) => {
+    //   return new Object({
+    //     name: name,
+    //     nor: 0,
+    //     csamt: 0,
+    //     rt: 0,
+    //     txval: 0,
+    //     iamt: 0,
+    //     camt: 0,
+    //     samt: 0,
+    //     desc: desc || "",
+    //   });
+    // };
+    // const A7 = createTable(
+    //   "7",
+    //   "Taxable supplies to ungistered persons"
+    // )
+    // for(let data7 of JSON.parse(data.b2cs)){
+    //   A7.csamt+=Number.parseFloat(data7.csamt || "0.00");
+    //   A7.rt+=Number.parseFloat(data7.rt || "0.00");
+    //   A7.txval+=Number.parseFloat(data7.txval || "0.00");
+    //   A7.iamt+=Number.parseFloat(data7.iamt || "0.00");
+    //   A7.camt+=Number.parseFloat(data7.camt || "0.00");
+    //   A7.samt+=Number.parseFloat(data7.samt || "0.00");
+    //   A7.nor+=Number.parseFloat(data7.nor || "0.00");
+    // }
+    // results.push(A7);
+    const A8 = {
+      name:"8",
+      expt_amt:0,
+      nil_amt:0,
+      ngsup_amt:0,
+      desc:"Nil rates, exempted and non GST outward supplies"
+    }
+    console.log(data);
+    // const datat = JSON.parse(data.nil);
+    // console.log(datat);
+    // console.log(datat.inv[0]);
+
+    // const datat= JSON.parse(data.nil);
+    // for(let data of datat){
+    //   for(let da of data["inv"]){
+    //     for(let i=0;i<2;i++){
+    //       console.log(da[i]);
+    //     }
+    //   }
+    // }
+    // const datafetch = JSON.parse(data.nil);
+    // for(let data8 of datafetch){
+    //   console.log(data8);
+    //   // A8.expt_amt+=Number.parseFloat(data8.expt_amt || "0.00");
+    //   // A8.nil_amt+=Number.parseFloat(data8.nil_amt || "0.00");
+    //   // A8.ngsup_amt+=Number.parseFloat(data8.ngsup_amt || "0.00");
+    // }
+    res.status(200).send({A8});
+  } catch (error) {
+    res.status(500).send({error});
+  }
+  
+}
