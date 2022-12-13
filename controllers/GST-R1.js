@@ -1,4 +1,4 @@
-import { json } from "express";
+import e, { json } from "express";
 import { fetchR1 } from "../models/GST-R1.js";
 
 export const getR1Filers = async (req, res, next) => {
@@ -206,7 +206,6 @@ export const getR1Filers2 = async (req, res, next) => {
   const createTable = (name, desc) => {
     return new Object({
       name: name,
-      nor: 0,
       csamt: 0,
       rt: 0,
       txval: 0,
@@ -219,7 +218,6 @@ export const getR1Filers2 = async (req, res, next) => {
   const A11 =(name,desc)=>{
     return new Object({
         name:name,
-        nor: 0,
         samt:0.00,
         rt:0.00,
         iamt:0.00,
@@ -229,128 +227,140 @@ export const getR1Filers2 = async (req, res, next) => {
         desc: desc || "",
     })
   }
+  const A7 = createTable("7", "Taxable supplies to ungistered persons");
+  const A8 = {
+    name: "8",
+    expt_amt: 0.00,
+    nil_amt: 0.00,
+    ngsup_amt: 0.00,
+    desc: "Nil rated, exempted and non GST outward supplies",
+  };
+  const A11A = A11("11A(1,2)","Advances received for which invoice has not been issued");
+  const A11B = A11("11B(1,2)","Advance Amount received in earlier tax period and adjusted against the supplies");
+  const A12 = {
+    name: "12",
+    csamt: 0.00,
+    val: 0.00,
+    iamt: 0.00,
+    samt: 0.00,
+    txval: 0.00,
+    camt: 0.00,
+    desc:"HSN wise summary of outward supplies",
+  }
+  const result = {};
   const { GSTIN } = req.query;
   if (GSTIN) {
     try {
       const datas = await fetchR1(GSTIN);
-      const result = [];
-      let nof = datas.length || 0;
-      const A7 = createTable("7", "Taxable supplies to ungistered persons");
-      const A8 = {
-        name: "8",
-        nor: 0,
-        expt_amt: 0.00,
-        nil_amt: 0.00,
-        ngsup_amt: 0.00,
-        desc: "Nil rated, exempted and non GST outward supplies",
-      };
-      const A11A = A11("11A(1,2)","Advances received for which invoice has not been issued");
-      const A11B = A11("11B(1,2)","Advance Amount received in earlier tax period and adjusted against the supplies");
-      const A12 = {
-        name: "12",
-        nor: 0,
-        csamt: 0.00,
-        val: 0.00,
-        iamt: 0.00,
-        samt: 0.00,
-        txval: 0.00,
-        camt: 0.00,
-        desc:"HSN wise summary of outward supplies",
-      }
+      let numberOfFilingsMadeByGSTIN = datas.length || 0;
+      result.numberOfFilingsMadeByGSTIN=numberOfFilingsMadeByGSTIN;
       for (let data of datas) {
         if (data) {
           if (data.Id) data.Id = data.Id.toString();
           if (data.FileId) data.FileId = data.FileId.toString();
         }
-        // if(data.b2cs){
-        //   const parsedData = JSON.parse(data.b2cs);
-        //   if(parsedData){
-        //     for(let item of parsedData){
-        //       if(item){
-        //         A7.nor++;
-        //         A7.csamt+=Number.parseFloat(item.csamt || "0.00");
-        //         A7.rt+=Number.parseFloat(item.rt || "0.00");
-        //         A7.txval+=Number.parseFloat(item.txval || "0.00");
-        //         A7.iamt+=Number.parseFloat(item.iamt || "0.00");
-        //         A7.camt+=Number.parseFloat(item.camt || "0.00");
-        //         A7.samt+=Number.parseFloat(item.samt || "0.00");
-        //       }
-        //     }
-        //   }
-        // }
-        // if(data.nil){
-        //   const A8th = JSON.parse(data.nil);
-        //   for (let dataes of A8th.inv) {
-        //     A8.nor++;
-        //     A8.expt_amt+= Number.parseFloat(dataes.expt_amt || "0.00");
-        //     A8.nil_amt += Number.parseFloat(dataes.nil_amt || "0.00");
-        //     A8.ngsup_amt += Number.parseFloat(dataes.ngsup_amt || "0.00");
-        //   }
-        // }
-        // if(data.AdvanceTax){
-        //   const A11th = JSON.parse(data.AdvanceTax);
-        //   for(let dataest of A11th){
-        //     for(let Dataest of dataest.itms){
-        //       A11A.ad_amt+= Number.parseFloat(Dataest.ad_amt || "0.00");
-        //       A11A.camt+= Number.parseFloat(Dataest.camt || "0.00");
-        //       A11A.samt+= Number.parseFloat(Dataest.samt || "0.00");
-        //       A11A.rt+= Number.parseFloat(Dataest.rt || "0.00");
-        //       A11A.iamt+= Number.parseFloat(Dataest.iamt || "0.00");
-        //       A11A.csamt+= Number.parseFloat(Dataest.csamt || "0.00");
-        //       A11A.nor++;
-        //     }
-        //   }
-        // }
-        // if(data.AdvanceAdjustedDetail){
-        //   const A11thB = JSON.parse(data.AdvanceAdjustedDetail);
-        //   for(let dataest of A11thB){
-        //     for(let Dataest of dataest.itms){
-        //       A11B.ad_amt+= Number.parseFloat(Dataest.ad_amt || "0.00");
-        //       A11B.camt+= Number.parseFloat(Dataest.camt || "0.00");
-        //       A11B.samt+= Number.parseFloat(Dataest.samt || "0.00");
-        //       A11B.rt+= Number.parseFloat(Dataest.rt || "0.00");
-        //       A11B.iamt+= Number.parseFloat(Dataest.iamt || "0.00");
-        //       A11B.csamt+= Number.parseFloat(Dataest.csamt || "0.00");
-        //       A11B.nor++;
-        //     }
-        //   }
-        // }
-        // if(data.hsn){
-        //   const A12th = JSON.parse(data.hsn);
-        //   for(let dataes of A12th.data){
-        //     A12.nor++;
-        //     A12.camt+= Number.parseFloat(dataes.camt || "0.00");
-        //     A12.csamt+= Number.parseFloat(dataes.csamt || "0.00");
-        //     A12.val+= Number.parseFloat(dataes.val || "0.00");
-        //     A12.iamt+= Number.parseFloat(dataes.iamt || "0.00");
-        //     A12.samt+= Number.parseFloat(dataes.samt || "0.00");
-        //     A12.txval+= Number.parseFloat(dataes.txval || "0.00");
-        //   }
-        // }
+        // B2CS is a 7 table
+        if(data.b2cs){
+          const parsedData = JSON.parse(data.b2cs);
+          if(parsedData){
+            for(let item of parsedData){
+              if(item){
+                A7.csamt+=Number.parseFloat(item.csamt || "0.00");
+                A7.rt+=Number.parseFloat(item.rt || "0.00");
+                A7.txval+=Number.parseFloat(item.txval || "0.00");
+                A7.iamt+=Number.parseFloat(item.iamt || "0.00");
+                A7.camt+=Number.parseFloat(item.camt || "0.00");
+                A7.samt+=Number.parseFloat(item.samt || "0.00");
+              }
+            }
+          }
+        }
+
+        // nil = table 8
+        if(data.nil){
+          const nilvalue = JSON.parse(data.nil).inv;
+          if(nilvalue){
+            for(const demo of nilvalue){
+              A8.expt_amt+= Number.parseFloat(demo.expt_amt || "0.00");
+              A8.nil_amt += Number.parseFloat(demo.nil_amt || "0.00");
+              A8.ngsup_amt += Number.parseFloat(demo.ngsup_amt || "0.00");
+            }
+          }
+        }
+
+        // 11(a)_1 , 11(a)_2 , 
+        if(data.AdvanceTax){
+          const A11th = JSON.parse(data.AdvanceTax);
+          if(A11th){
+            for(let dataest of A11th){
+              for(let Dataest of dataest.itms){
+                A11A.ad_amt+= Number.parseFloat(Dataest.ad_amt || "0.00");
+                A11A.camt+= Number.parseFloat(Dataest.camt || "0.00");
+                A11A.samt+= Number.parseFloat(Dataest.samt || "0.00");
+                A11A.rt+= Number.parseFloat(Dataest.rt || "0.00");
+                A11A.iamt+= Number.parseFloat(Dataest.iamt || "0.00");
+                A11A.csamt+= Number.parseFloat(Dataest.csamt || "0.00");
+              }
+            }
+          }
+        }
+        //11(b)_1 , 11(b)_2
+        if(data.AdvanceAdjustedDetail){
+          const A11thB = JSON.parse(data.AdvanceAdjustedDetail);
+          if(A11thB){
+          for(let dataest of A11thB){
+            for(let Dataest of dataest.itms){
+              A11B.ad_amt+= Number.parseFloat(Dataest.ad_amt || "0.00");
+              A11B.camt+= Number.parseFloat(Dataest.camt || "0.00");
+              A11B.samt+= Number.parseFloat(Dataest.samt || "0.00");
+              A11B.rt+= Number.parseFloat(Dataest.rt || "0.00");
+              A11B.iamt+= Number.parseFloat(Dataest.iamt || "0.00");
+              A11B.csamt+= Number.parseFloat(Dataest.csamt || "0.00");
+            }
+          }
+        }
+        }
+        //table 12
+        if(data.hsn){
+          const A12th = JSON.parse(data.hsn);
+          if(A12th){
+            for(let dataes of A12th.data){
+              A12.camt+= Number.parseFloat(dataes.camt || "0.00");
+              A12.csamt+= Number.parseFloat(dataes.csamt || "0.00");
+              A12.val+= Number.parseFloat(dataes.val || "0.00");
+              A12.iamt+= Number.parseFloat(dataes.iamt || "0.00");
+              A12.samt+= Number.parseFloat(dataes.samt || "0.00");
+              A12.txval+= Number.parseFloat(dataes.txval || "0.00");
+            }
+          }
+        }
       
+        // table 13 is null everywhere
 
       }
-      // const col = {
-      //   table: A7.name,
-      //   numberOfRecords: A7.nor,
-      //   numberOfFilingsMadeByGSTIN: nof,
-      //   data: {
-      //     csamt: A7.csamt,
-      //     rt: A7.rt,
-      //     txval: A7.txval,
-      //     iamt: A7.iamt,
-      //     camt: A7.camt,
-      //     samt: A7.samt,
-      //   },
-      //   desc: A7.desc,
-      // };
-      // result.push(col);
-      // result.push(A8);
-      // console.log(result);
-      console.log(A12);
-      res.status(200).send(A12);
+      result['table7']=A7;
+      result['table8']=A8;
+      result['table11(A)1']=A11A;
+      result['table11(B)2']=A11B;
+      result['table12']=A12;
+      res.status(200).send({
+        message:"Data fetched successfully",
+        data:result,
+        error:null
+      });
     } catch (e) {
-      res.status(404).send({ message: e.message });
+      console.log(e);
+      res.status(500).send({
+        message: "An error occured",
+        data: null,
+        error: e.message,
+      });
     }
+  }else {
+    res.status(400).send({
+      message: "Please provide a valid GSTIN",
+      data: null,
+      error: null,
+    });
   }
 };
