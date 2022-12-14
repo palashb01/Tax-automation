@@ -1,4 +1,3 @@
-import e, { json } from "express";
 import { fetchR1 } from "../models/GST-R1.js";
 
 export const getR1Filers = async (req, res, next) => {
@@ -105,24 +104,24 @@ export const getR1Filers = async (req, res, next) => {
           }
         }
 
+        // Credit/Debit Notes (Registered)
         if (data.CreditandDebitNote) {
           const parsedData = JSON.parse(data.CreditandDebitNote);
           if (parsedData && parsedData.length) {
             for (let data of parsedData) {
               const notes = data['nt'];   // array of notes
               for (let note of notes) {
-                // Credit/Debit Notes (Registered)
                 feedData(B9_1, note.itms[0]);
               }
             }
           }
         }
 
+        // Credit/Debit Notes (Unregistered)
         if (data.CreditAndDebitNoteForUnregistered) {
           const parsedData = JSON.parse(data.CreditAndDebitNoteForUnregistered);
           if (parsedData && parsedData.length) {
             for (let note of parsedData) {
-              // Credit/Debit Notes (Unregistered)
               if (note.typ == 'B2CL') {
                 feedData(B9_2.B2CL, note.itms[0]);
               } else if (note.typ == 'EXPWP') {
@@ -136,7 +135,6 @@ export const getR1Filers = async (req, res, next) => {
 
         if (data.b2ba) {
           const parsedData = JSON.parse(data.b2ba);
-
           if (parsedData) {
             for (let sub of parsedData) {
               for (let inv of sub["inv"]) {
@@ -158,7 +156,7 @@ export const getR1Filers = async (req, res, next) => {
                       feedData(A9_6, item);
                     } else if (inv["inv_typ"] == "CBW") {
                       // Custom Bonded Warehouse
-                      // ⚠️TODO - CBW mentioned attributes excel but not present in GSTR1 form⚠️
+                      // ⚠️TODO - CBW mentioned attributes in excel sheet but not present in GSTR1 form⚠️
                       // feedData(?, item);
                     }
                     // ⚠️TODO - A9_3, A9_4⚠️
@@ -168,7 +166,27 @@ export const getR1Filers = async (req, res, next) => {
             }
           }
         }
+        
+        // Exports with or without payment
+        if (data.Exports) {
+          const parsedData = JSON.parse(data.Exports);
+          if (parsedData && parsedData.length) {
+            for (let data of parsedData) {
+              const invoices = data['inv'];   // array of invoices
+              for (let invoice of invoices) {
+                const item = invoice.itms[0];
+                A6.numberOfRecords++;
+                A6.csamt += Number.parseFloat(item["csamt"] || "0.00");
+                A6.txval += Number.parseFloat(item["txval"] || "0.00");
+                A6.iamt += Number.parseFloat(item["iamt"] || "0.00");
+                A6.camt += Number.parseFloat(item["camt"] || "0.00");
+                A6.samt += Number.parseFloat(item["samt"] || "0.00");
+              }
+            }
+          }
+        }
 
+        // ⚠️TODO - C9_1, C9_2⚠️
 
 
       }
