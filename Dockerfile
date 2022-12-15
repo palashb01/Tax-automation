@@ -7,4 +7,4 @@ RUN set -eux \
         nodejs \
         yarn
 RUN yarn
-CMD ["yarn","start"]
+CMD ["yarn","dev"]
