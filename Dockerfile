@@ -7,4 +7,5 @@ RUN set -eux \
         nodejs \
         yarn
 RUN yarn
+RUN yarn prisma generate
 CMD ["yarn","dev"]
