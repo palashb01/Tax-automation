@@ -1,19 +1,18 @@
 generator client {
-  provider = "prisma-client-js"
-  output   = "./generated/client2"
+    provider = "prisma-client-js"
+    output   = "./generated/client2"
 }
 
 datasource db {
-  provider = "sqlserver"
-  url      = env("DATABASE_GSTR9C_URL")
+    provider = "sqlserver"
+    url      = env("DATABASE_GSTR9C_URL")
 }
 
-/// The underlying table does not contain a valid unique identifier and can therefore currently not be handled by the Prisma Client.
 model R9C_FILERS {
-  Id         BigInt    @id @unique
-  fil_dt     DateTime? @db.Date
-  dcupdtls   String?   @db.VarChar(Max)
-  gstr9cdata String?   @db.VarChar(Max)
-  FileId     Int?
-  IsFiltered Boolean?
+    Id         BigInt    @id @unique
+    fil_dt     DateTime? @db.Date
+    dcupdtls   String?   @db.VarChar(Max)
+    gstr9cdata String?   @db.VarChar(Max)
+    FileId     Int?
+    IsFiltered Boolean?
 }
