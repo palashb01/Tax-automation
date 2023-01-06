@@ -30,14 +30,14 @@ export const getR9CFilers = async (req, res, next) => {
           row7g.unrec_tax_turn=finaldata.table7.unrec_tax_turn;
         }
         if(finaldata.table9){
-          row9r.camt = finaldata.table9.unrec_amt.camt;
-          row9r.samt = finaldata.table9.unrec_amt.samt;
-          row9r.iamt = finaldata.table9.unrec_amt.iamt;
-          row9r.csamt = finaldata.table9.unrec_amt.csamt;
-          row9p.camt = finaldata.table9.tot_amt_payable.camt;
-          row9p.samt = finaldata.table9.tot_amt_payable.samt;
-          row9p.iamt = finaldata.table9.tot_amt_payable.iamt;
-          row9p.csamt = finaldata.table9.tot_amt_payable.csamt;
+          row9r.camt = finaldata.table9.unrec_amt.cgst;
+          row9r.samt = finaldata.table9.unrec_amt.sgst;
+          row9r.iamt = finaldata.table9.unrec_amt.igst;
+          row9r.csamt = finaldata.table9.unrec_amt.cess;
+          row9p.camt = finaldata.table9.tot_amt_payable.cgst;
+          row9p.samt = finaldata.table9.tot_amt_payable.sgst;
+          row9p.iamt = finaldata.table9.tot_amt_payable.igst;
+          row9p.csamt = finaldata.table9.tot_amt_payable.cess;
         }
         if(finaldata.table12){
           row12f.unrec_itc=finaldata.table12.unrec_itc;
