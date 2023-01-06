@@ -358,8 +358,8 @@ export const getR1Filers2 = async (req, res, next) => {
       }
       result['table7']=A7;
       result['table8']=A8;
-      result['table11(A)1']=A11A;
-      result['table11(B)2']=A11B;
+      result['table11A_1']=A11A;
+      result['table11B_2']=A11B;
       result['table12']=A12;
       res.status(200).send({
         message:"Data fetched successfully",
