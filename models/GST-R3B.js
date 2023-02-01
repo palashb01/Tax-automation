@@ -1,10 +1,11 @@
 import prisma from "./index.js";
 
 export const fetchR3B = async (GSTIN) => {
-  const data = await prisma.R3B_FILERS.findFirst({
+  const data = await prisma.R3B_FILERS.findMany({
     where: {
       gstin: GSTIN,
     },
+    distinct: ["ret_period"],
     select: {
       Id: true,
       gstin: true,
