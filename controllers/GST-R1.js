@@ -44,7 +44,7 @@ export const getR1Filers = async (req, res, next) => {
   B9_2.EXPWOP = createTable('EXPWOP', 'EXPWOP');
 
   const tables = [
-    A4, B4, C4, B6, C6,
+    A4, B4, C4, A5_B5, B6, C6,
     B9_1, B9_2, A6, A9_1, A9_2, A9_3, A9_4, A9_5, A9_6, C9_1, C9_2
   ];
 
