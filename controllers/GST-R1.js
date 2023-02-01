@@ -23,6 +23,7 @@ export const getR1Filers = async (req, res, next) => {
     "Taxable outward supplies made to registered persons attracting tax on reverse charge"
   );
   const C4 = createTable("4C", "Custom Bonded Warehouse");
+  const A5_B5 = createTable("5A_5B", "B2C (Large) Invoices");
   const B6 = createTable("6B", "Supplies made to SEZ unit or SEZ developer");
   const C6 = createTable("6C", "Deemed Exports");
 
@@ -97,6 +98,22 @@ export const getR1Filers = async (req, res, next) => {
                       // Custom Bonded Warehouse
                       feedData(C4, item);
                     }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        if (data.b2cl) {
+          const parsedData = JSON.parse(data.b2cl);
+
+          if (parsedData) {
+            for (let sub of parsedData) {
+              for (let inv of sub["inv"]) {
+                for (let item of inv["itms"]) {
+                  if (item) {
+                    feedData(A5_B5, item);
                   }
                 }
               }
