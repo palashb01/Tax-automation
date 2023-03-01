@@ -1,11 +1,11 @@
 import { fetchGSTINDetails } from "../models/GSTIN-details.js";
 
 export const getGSTINDetails = async (req, res, next) => {
-  const { GSTIN } = req.query;
-  if (GSTIN) {
+  const { scode } = req.query;
+  if (scode) {
     try {
-      const data = await fetchGSTINDetails(GSTIN);
-      if (data && data.GSTIN.toLowerCase() == GSTIN.toLowerCase()) {
+      const data = await fetchGSTINDetails(scode);
+      if (data) {
         res.status(200).send({
           message: "Fetch successful",
           data: data,
@@ -28,7 +28,7 @@ export const getGSTINDetails = async (req, res, next) => {
     }
   } else {
     res.status(400).send({
-      message: "Please provide a valid GSTIN",
+      message: "Please provide a valid GST scode",
       data: null,
       error: null,
     });

@@ -1,13 +1,12 @@
 import prisma from "./index.js";
 
-export const fetchGSTINDetails = async (GSTIN) => {
-  const data = await prisma.GSTIN_DETAILS.findFirst({
+export const fetchGSTINDetails = async (scode) => {
+  const data = await prisma.GSTIN_DETAILS.findMany({
     where: {
-      GSTIN: GSTIN,
+      div_scode: scode,
     },
     select: {
       GSTIN: true,
-      GSTINDetails: true,
       id: true,
     },
   });
