@@ -30,7 +30,7 @@ export const getGSTINDetails = async (req, res, next) => {
     }
   } else {
     res.status(400).send({
-      message: "Please provide a valid GSTIN",
+      message: "Please provide a valid GST scode",
       data: null,
       error: null,
     });
