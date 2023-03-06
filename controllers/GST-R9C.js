@@ -1,6 +1,7 @@
 import { fetchR9C } from "../models/GST-R9C.js";
 
 export const getR9CFilers = async (req, res, next) => {
+  console.log("FETCH R9C");
   const { GSTIN } = req.query;
   if (GSTIN) {
     try {
@@ -52,6 +53,8 @@ export const getR9CFilers = async (req, res, next) => {
         result.row9p=row9p;
         result.row12c=row12c;
         result.row5p=row5p;
+
+        console.log("R9C SENT");
 
         res.status(200).send({
           message: "Fetch successful",

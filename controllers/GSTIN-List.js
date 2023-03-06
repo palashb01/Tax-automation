@@ -1,13 +1,13 @@
-import { fetchR9 } from "../models/GST-R9.js";
+import { fetchGSTINList } from "../models/GSTIN.js";
 
-export const getR9Filers = async (req, res, next) => {
-  console.log("FETCH R9");
-  const { GSTIN } = req.query;
-  if (GSTIN) {
+export const getGSTINList = async (req, res, next) => {
+  console.log("FETCHING SCODE");
+  const { scode } = req.query;
+  if (scode) {
     try {
-      const data = await fetchR9(GSTIN);
-      if (data && data.gstin.toLowerCase() == GSTIN.toLowerCase()) {
-        console.log("R9 SENT");
+      const data = await fetchGSTINList(scode);
+      if (data) {
+        console.log("SENT SCODE");
         res.status(200).send({
           message: "Fetch successful",
           data: data,
@@ -30,7 +30,7 @@ export const getR9Filers = async (req, res, next) => {
     }
   } else {
     res.status(400).send({
-      message: "Please provide a valid GSTIN",
+      message: "Please provide a valid GST scode",
       data: null,
       error: null,
     });

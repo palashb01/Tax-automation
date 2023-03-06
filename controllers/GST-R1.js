@@ -1,6 +1,7 @@
 import { fetchR1 } from "../models/GST-R1.js";
 
 export const getR1Filers = async (req, res, next) => {
+  console.log("FETCH R1");
   const createTable = (name, desc) => {
     return new Object({
       name: name,
@@ -23,6 +24,7 @@ export const getR1Filers = async (req, res, next) => {
     "Taxable outward supplies made to registered persons attracting tax on reverse charge"
   );
   const C4 = createTable("4C", "Custom Bonded Warehouse");
+  const A5_B5 = createTable("5A_5B", "B2C (Large) Invoices");
   const B6 = createTable("6B", "Supplies made to SEZ unit or SEZ developer");
   const C6 = createTable("6C", "Deemed Exports");
 
@@ -43,7 +45,7 @@ export const getR1Filers = async (req, res, next) => {
   B9_2.EXPWOP = createTable('EXPWOP', 'EXPWOP');
 
   const tables = [
-    A4, B4, C4, B6, C6,
+    A4, B4, C4, A5_B5, B6, C6,
     B9_1, B9_2, A6, A9_1, A9_2, A9_3, A9_4, A9_5, A9_6, C9_1, C9_2
   ];
 
@@ -97,6 +99,22 @@ export const getR1Filers = async (req, res, next) => {
                       // Custom Bonded Warehouse
                       feedData(C4, item);
                     }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        if (data.b2cl) {
+          const parsedData = JSON.parse(data.b2cl);
+
+          if (parsedData) {
+            for (let sub of parsedData) {
+              for (let inv of sub["inv"]) {
+                for (let item of inv["itms"]) {
+                  if (item) {
+                    feedData(A5_B5, item);
                   }
                 }
               }
@@ -196,6 +214,8 @@ export const getR1Filers = async (req, res, next) => {
         result['table' + table.name] = table;
       }
 
+      console.log("R1 SENT");
+
       res.status(200).send({
         message: "Data fetched successfully",
         data: result,
@@ -219,6 +239,7 @@ export const getR1Filers = async (req, res, next) => {
 };
 
 export const getR1Filers2 = async (req, res, next) => {
+  console.log("FETCH R12");
   //TODO: txpd,hsn,doc_issue,b2csa,ata
 
   const createTable = (name, desc) => {
@@ -341,7 +362,7 @@ export const getR1Filers2 = async (req, res, next) => {
         //table 12
         if(data.hsn){
           const A12th = JSON.parse(data.hsn);
-          if(A12th){
+          if(A12th?.data){
             for(let dataes of A12th.data){
               A12.camt+= Number.parseFloat(dataes.camt || "0.00");
               A12.csamt+= Number.parseFloat(dataes.csamt || "0.00");
@@ -361,6 +382,7 @@ export const getR1Filers2 = async (req, res, next) => {
       result['table11A_1']=A11A;
       result['table11B_2']=A11B;
       result['table12']=A12;
+      console.log("R12 SENT")
       res.status(200).send({
         message:"Data fetched successfully",
         data:result,

@@ -129,6 +129,7 @@ model GSTIN_DETAILS {
   GSTIN        String? @db.VarChar(50)
   GSTINDetails String? @db.VarChar(max)
   id           Int     @id @unique
+  div_scode    String? @db.VarChar(10)
 }
 
 model GSTR2A_FILERS {
