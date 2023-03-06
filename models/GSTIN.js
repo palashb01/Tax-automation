@@ -6,8 +6,9 @@ export const fetchGSTINList = async (scode) => {
       div_scode: scode,
     },
     select: {
-      GSTIN: true,
       id: true,
+      GSTIN: true,
+      div_scode: true,
     },
   });
 
