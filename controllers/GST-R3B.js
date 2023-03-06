@@ -1,6 +1,7 @@
 import { fetchR3B } from "../models/GST-R3B.js";
 
 export const getR3BFilers = async (req, res, next) => {
+  console.log("FETCH R3B");
   const { GSTIN } = req.query;
   if (GSTIN) {
     try {
@@ -28,6 +29,9 @@ export const getR3BFilers = async (req, res, next) => {
         if (partial_data.FileId) {
           partial_data.FileId = partial_data.FileId.toString();
         }
+
+        console.log("R3B SENT");
+
         res.status(200).send({
           message: "Fetch successful",
           data: { ...partial_data, total_sup_details: { osup_det } },

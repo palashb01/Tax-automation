@@ -1,6 +1,7 @@
 import { fetchR1 } from "../models/GST-R1.js";
 
 export const getR1Filers = async (req, res, next) => {
+  console.log("FETCH R1");
   const createTable = (name, desc) => {
     return new Object({
       name: name,
@@ -213,6 +214,8 @@ export const getR1Filers = async (req, res, next) => {
         result['table' + table.name] = table;
       }
 
+      console.log("R1 SENT");
+
       res.status(200).send({
         message: "Data fetched successfully",
         data: result,
@@ -236,6 +239,7 @@ export const getR1Filers = async (req, res, next) => {
 };
 
 export const getR1Filers2 = async (req, res, next) => {
+  console.log("FETCH R12");
   //TODO: txpd,hsn,doc_issue,b2csa,ata
 
   const createTable = (name, desc) => {
@@ -358,7 +362,7 @@ export const getR1Filers2 = async (req, res, next) => {
         //table 12
         if(data.hsn){
           const A12th = JSON.parse(data.hsn);
-          if(A12th){
+          if(A12th?.data){
             for(let dataes of A12th.data){
               A12.camt+= Number.parseFloat(dataes.camt || "0.00");
               A12.csamt+= Number.parseFloat(dataes.csamt || "0.00");
@@ -378,6 +382,7 @@ export const getR1Filers2 = async (req, res, next) => {
       result['table11A_1']=A11A;
       result['table11B_2']=A11B;
       result['table12']=A12;
+      console.log("R12 SENT")
       res.status(200).send({
         message:"Data fetched successfully",
         data:result,

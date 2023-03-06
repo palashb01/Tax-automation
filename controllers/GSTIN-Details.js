@@ -1,11 +1,13 @@
-import { fetchGSTINDetails } from "../models/GSTIN-details.js";
+import { fetchGSTINDetails } from "../models/GSTIN.js";
 
 export const getGSTINDetails = async (req, res, next) => {
-  const { scode } = req.query;
-  if (scode) {
+  console.log("FETCH DETAILS");
+  const { GSTIN } = req.query;
+  if (GSTIN) {
     try {
-      const data = await fetchGSTINDetails(scode);
-      if (data) {
+      const data = await fetchGSTINDetails(GSTIN);
+      if (data && data.GSTIN.toLowerCase() == GSTIN.toLowerCase()) {
+        console.log("DETAILS SENT")
         res.status(200).send({
           message: "Fetch successful",
           data: data,
