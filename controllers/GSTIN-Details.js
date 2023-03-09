@@ -1,4 +1,4 @@
-import { fetchGSTINDetails } from "../models/GSTIN-Details.js";
+import { fetchGSTINDetails } from "../models/GSTIN-details.js";
 
 export const getGSTINDetails = async (req, res, next) => {
   const { GSTIN } = req.query;
