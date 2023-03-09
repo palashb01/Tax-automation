@@ -236,3 +236,12 @@ model utn_commodity_corporate_19102022 {
   Commodity_code2 String?   @db.NVarChar(25)
   gstin           String    @unique @db.VarChar(15)
 }
+
+model R9C_FILERS {
+    Id         BigInt    @id @unique
+    fil_dt     DateTime? @db.Date
+    dcupdtls   String?   @db.VarChar(Max)
+    gstr9cdata String?   @db.VarChar(Max)
+    FileId     Int?
+    IsFiltered Boolean?
+}

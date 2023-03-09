@@ -22,6 +22,6 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "dev:gen": "yarn prisma:dev && nodemon index.js",
-    "prisma:dev": "yarn prisma generate && yarn prisma generate --schema=./prisma/schema2.prisma"
+    "prisma:dev": "yarn prisma generate"
   }
 }

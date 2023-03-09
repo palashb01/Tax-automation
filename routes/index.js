@@ -14,7 +14,6 @@ router.get("/r12", getR1Filers2);
 router.get("/r1", getR1Filers);
 router.get("/r9", getR9Filers);
 router.get("/r9c", getR9CFilers);
-router.get("/r9c", getR9CFilers);
 router.get("/r3b", getR3BFilers);
 router.get("/gstin-details", getGSTINDetails);
 router.get("/gstin-list", getGSTINList);
