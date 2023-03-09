@@ -4,6 +4,7 @@ export default {
     "name": "Ashwani Kumar Singh-I",
     "vat_OfficeCode": "89168",
     "DESIG": "AC",
+    "gst_Scode": "UP001",
     "sector": "Kanpur Dehat, AC"
   },
   "UP006": {
@@ -11,6 +12,7 @@ export default {
     "name": "Narendra Yadav",
     "vat_OfficeCode": "89010",
     "DESIG": "AC",
+    "gst_Scode": "UP006",
     "sector": "Agra Sector-10, AC"
   },
   "UP003": {
@@ -18,6 +20,7 @@ export default {
     "name": "Alok Kumar-II",
     "vat_OfficeCode": "89001",
     "DESIG": "AC",
+    "gst_Scode": "UP003",
     "sector": "Agra Sector-1, AC"
   },
   "UP036": {
@@ -25,6 +28,7 @@ export default {
     "name": "Vijay Kumar-VIII",
     "vat_OfficeCode": "89002",
     "DESIG": "AC",
+    "gst_Scode": "UP036",
     "sector": "Agra Sector-2 , AC"
   },
   "UP042": {
@@ -32,6 +36,7 @@ export default {
     "name": "Akhilesh Kumar-III",
     "vat_OfficeCode": "89003",
     "DESIG": "AC",
+    "gst_Scode": "UP042",
     "sector": "Agra Sector-3, AC"
   },
   "UP045": {
@@ -39,6 +44,7 @@ export default {
     "name": "Shailendra Kumar-I",
     "vat_OfficeCode": "89004",
     "DESIG": "AC",
+    "gst_Scode": "UP045",
     "sector": "Agra Sector-4 , AC"
   },
   "UP048": {
@@ -46,6 +52,7 @@ export default {
     "name": "Praveen Kumar Gupta",
     "vat_OfficeCode": "89005",
     "DESIG": "AC",
+    "gst_Scode": "UP048",
     "sector": "Agra Sector-5, AC"
   },
   "UP051": {
@@ -53,6 +60,7 @@ export default {
     "name": "Nadeem Khan",
     "vat_OfficeCode": "89006",
     "DESIG": "AC",
+    "gst_Scode": "UP051",
     "sector": "Agra Sector-6, AC"
   },
   "UP054": {
@@ -60,6 +68,7 @@ export default {
     "name": "Anil Kumar-VII",
     "vat_OfficeCode": "89007",
     "DESIG": "AC",
+    "gst_Scode": "UP054",
     "sector": "Agra Sector-7, AC"
   },
   "UP057": {
@@ -67,6 +76,7 @@ export default {
     "name": "Rajnesh Kumar",
     "vat_OfficeCode": "89008",
     "DESIG": "AC",
+    "gst_Scode": "UP057",
     "sector": "Agra Sector-8, AC"
   },
   "UP060": {
@@ -74,6 +84,7 @@ export default {
     "name": "Sandeep Ratna",
     "vat_OfficeCode": "89009",
     "DESIG": "AC",
+    "gst_Scode": "UP060",
     "sector": "Agra Sector-9, AC"
   },
   "UP009": {
@@ -81,6 +92,7 @@ export default {
     "name": "Prashant Kumar Singh-I",
     "vat_OfficeCode": "89011",
     "DESIG": "AC",
+    "gst_Scode": "UP009",
     "sector": "Agra Sector-11, AC"
   },
   "UP012": {
@@ -88,6 +100,7 @@ export default {
     "name": "Gandharva Singh",
     "vat_OfficeCode": "89012",
     "DESIG": "AC",
+    "gst_Scode": "UP012",
     "sector": "Agra Sector-12, AC"
   },
   "UP024": {
@@ -95,6 +108,7 @@ export default {
     "name": "Ratnendra Swarup Singh Dr.",
     "vat_OfficeCode": "89016",
     "DESIG": "AC",
+    "gst_Scode": "UP024",
     "sector": "Agra Sector-16, AC"
   },
   "UP029": {
@@ -102,6 +116,7 @@ export default {
     "name": "Devendra Pal Singh",
     "vat_OfficeCode": "89017",
     "DESIG": "CTO",
+    "gst_Scode": "UP029",
     "sector": "Agra Sector-17,AC"
   },
   "UP032": {
@@ -109,6 +124,7 @@ export default {
     "name": "Pravesh Kumar",
     "vat_OfficeCode": "89018",
     "DESIG": "AC",
+    "gst_Scode": "UP032",
     "sector": "Agra Sector-18,AC"
   },
   "UP033": {
@@ -116,6 +132,7 @@ export default {
     "name": "Rakesh Kumar-VI",
     "vat_OfficeCode": "89019",
     "DESIG": "AC",
+    "gst_Scode": "UP033",
     "sector": "Agra Sector-19, AC"
   },
   "UP020": {
@@ -123,6 +140,7 @@ export default {
     "name": "Rahul Kumar Dwivedi",
     "vat_OfficeCode": "79014",
     "DESIG": "DC",
+    "gst_Scode": "UP020",
     "sector": "Agra Sector-14, DC"
   },
   "UP021": {
@@ -130,6 +148,7 @@ export default {
     "name": "Vikas Mishra 1",
     "vat_OfficeCode": "89015",
     "DESIG": "AC",
+    "gst_Scode": "UP021",
     "sector": "Agra Sector-15, AC"
   },
   "UP039": {
@@ -137,6 +156,7 @@ export default {
     "name": "Mahendra Pratap Singh-II",
     "vat_OfficeCode": "89020",
     "DESIG": "AC",
+    "gst_Scode": "UP039",
     "sector": "Agra Sector-20 , AC"
   },
   "UP064": {
@@ -144,6 +164,7 @@ export default {
     "name": "Satendra Singh Yadav",
     "vat_OfficeCode": "89089",
     "DESIG": "AC",
+    "gst_Scode": "UP064",
     "sector": "Aligarh Sector-1, AC"
   },
   "UP076": {
@@ -151,6 +172,7 @@ export default {
     "name": "Anita-II Ms.",
     "vat_OfficeCode": "89090",
     "DESIG": "AC",
+    "gst_Scode": "UP076",
     "sector": "Aligarh Sector-2, AC"
   },
   "UP079": {
@@ -158,6 +180,7 @@ export default {
     "name": "Akshay Lal",
     "vat_OfficeCode": "89091",
     "DESIG": "AC",
+    "gst_Scode": "UP079",
     "sector": "Aligarh Sector-3, AC"
   },
   "UP420": {
@@ -165,6 +188,7 @@ export default {
     "name": "Dinesh Chandra Shukla",
     "vat_OfficeCode": "89101",
     "DESIG": "AC",
+    "gst_Scode": "UP420",
     "sector": "Etah , Sector-1, AC"
   },
   "UP088": {
@@ -172,6 +196,7 @@ export default {
     "name": "Sandeep Kiran",
     "vat_OfficeCode": "89094",
     "DESIG": "AC",
+    "gst_Scode": "UP088",
     "sector": "Aligarh Sector-6, AC"
   },
   "UP067": {
@@ -179,6 +204,7 @@ export default {
     "name": "Vikas Kumar Kaushik",
     "vat_OfficeCode": "89098",
     "DESIG": "CTO",
+    "gst_Scode": "UP067",
     "sector": "Aligarh Sector-10, AC"
   },
   "UP070": {
@@ -186,6 +212,7 @@ export default {
     "name": "Krishan Kumar",
     "vat_OfficeCode": "89099",
     "DESIG": "AC",
+    "gst_Scode": "UP070",
     "sector": "Aligarh Sector-11, AC"
   },
   "UP073": {
@@ -193,6 +220,7 @@ export default {
     "name": "Nandni Goel",
     "vat_OfficeCode": "89100",
     "DESIG": "AC",
+    "gst_Scode": "UP073",
     "sector": "Aligarh Sector-12 , AC"
   },
   "UP091": {
@@ -200,6 +228,7 @@ export default {
     "name": "Girish Chandra",
     "vat_OfficeCode": "89095",
     "DESIG": "AC",
+    "gst_Scode": "UP091",
     "sector": "Aligarh Sector-7, AC"
   },
   "UP094": {
@@ -207,6 +236,7 @@ export default {
     "name": "Hemant Kumar",
     "vat_OfficeCode": "89096",
     "DESIG": "AC",
+    "gst_Scode": "UP094",
     "sector": "Aligarh Sector-8, AC"
   },
   "UP823": {
@@ -214,6 +244,7 @@ export default {
     "name": "Reena Singh Smt.",
     "vat_OfficeCode": "89104",
     "DESIG": "AC",
+    "gst_Scode": "UP823",
     "sector": "Kashiram Nagar Sector-1, AC"
   },
   "UP824": {
@@ -221,6 +252,7 @@ export default {
     "name": "Manoj Kumar Dr.-II",
     "vat_OfficeCode": "89105",
     "DESIG": "AC",
+    "gst_Scode": "UP824",
     "sector": "Kashiram Nagar Sector-2, AC"
   },
   "UP097": {
@@ -228,6 +260,7 @@ export default {
     "name": "Sanjay Kumar Singh Gautam",
     "vat_OfficeCode": "89097",
     "DESIG": "AC",
+    "gst_Scode": "UP097",
     "sector": "Aligarh Sector-9, AC"
   },
   "UP828": {
@@ -235,6 +268,7 @@ export default {
     "name": "Gulab Chandra-IV",
     "vat_OfficeCode": "89112",
     "DESIG": "AC",
+    "gst_Scode": "UP828",
     "sector": "Kosikalan, AC"
   },
   "UP921": {
@@ -242,6 +276,7 @@ export default {
     "name": "Sunil Kumar-IV",
     "vat_OfficeCode": "89113",
     "DESIG": "AC",
+    "gst_Scode": "UP921",
     "sector": "Mahamaya Nagar Sector-1, AC"
   },
   "UP927": {
@@ -249,6 +284,7 @@ export default {
     "name": "Umesh Singh",
     "vat_OfficeCode": "89115",
     "DESIG": "AC",
+    "gst_Scode": "UP927",
     "sector": "Mahamaya Nagar Sector-3, AC"
   },
   "UP952": {
@@ -256,6 +292,7 @@ export default {
     "name": "Neeraj Gautam",
     "vat_OfficeCode": "89107",
     "DESIG": "AC",
+    "gst_Scode": "UP952",
     "sector": "Mathura Sector-2, AC"
   },
   "UP955": {
@@ -263,6 +300,7 @@ export default {
     "name": "Rajesh Kumar Misra-II",
     "vat_OfficeCode": "89108",
     "DESIG": "AC",
+    "gst_Scode": "UP955",
     "sector": "Mathura Sector-3, AC"
   },
   "UP958": {
@@ -270,6 +308,7 @@ export default {
     "name": "Seema Ms.",
     "vat_OfficeCode": "89109",
     "DESIG": "AC",
+    "gst_Scode": "UP958",
     "sector": "Mathura Sector-4, AC"
   },
   "UP961": {
@@ -277,6 +316,7 @@ export default {
     "name": "Abhizet Gupta",
     "vat_OfficeCode": "89110",
     "DESIG": "AC",
+    "gst_Scode": "UP961",
     "sector": "Mathura Sector-5, AC"
   },
   "UP101": {
@@ -284,6 +324,7 @@ export default {
     "name": "Ram Niwas Pandey",
     "vat_OfficeCode": "89041",
     "DESIG": "AC",
+    "gst_Scode": "UP101",
     "sector": "Prayagraj &nbsp;Sector-1, AC"
   },
   "UP119": {
@@ -291,6 +332,7 @@ export default {
     "name": "Abhinav Soni",
     "vat_OfficeCode": "89042",
     "DESIG": "AC",
+    "gst_Scode": "UP119",
     "sector": "Prayagraj &nbsp;Sector-2, AC"
   },
   "UP122": {
@@ -298,6 +340,7 @@ export default {
     "name": "Ram Naresh Verma",
     "vat_OfficeCode": "89043",
     "DESIG": "AC",
+    "gst_Scode": "UP122",
     "sector": "Prayagraj &nbsp;Sector-3, AC"
   },
   "UP125": {
@@ -305,6 +348,7 @@ export default {
     "name": "Rishi Bhushan Pathak",
     "vat_OfficeCode": "89044",
     "DESIG": "AC",
+    "gst_Scode": "UP125",
     "sector": "Prayagraj &nbsp;Sector-4, AC"
   },
   "UP128": {
@@ -312,6 +356,7 @@ export default {
     "name": "Ratnesh Singh",
     "vat_OfficeCode": "89045",
     "DESIG": "AC",
+    "gst_Scode": "UP128",
     "sector": "Prayagraj &nbsp;Sector-5, AC"
   },
   "UP131": {
@@ -319,6 +364,7 @@ export default {
     "name": "Kedarnath",
     "vat_OfficeCode": "89046",
     "DESIG": "AC",
+    "gst_Scode": "UP131",
     "sector": "Prayagraj &nbsp;Sector-6, AC"
   },
   "UP1148": {
@@ -326,6 +372,7 @@ export default {
     "name": "Arvind Kumar Pandey",
     "vat_OfficeCode": "89055",
     "DESIG": "AC",
+    "gst_Scode": "UP1148",
     "sector": "PratapgarhÃ¾ Sector-1, AC"
   },
   "UP1151": {
@@ -333,6 +380,7 @@ export default {
     "name": "Shweta Singh",
     "vat_OfficeCode": "89056",
     "DESIG": "AC",
+    "gst_Scode": "UP1151",
     "sector": "PratapgarhÃ¾ Sector-2, AC"
   },
   "UP104": {
@@ -340,6 +388,7 @@ export default {
     "name": "Antariksha Srivastava",
     "vat_OfficeCode": "89050",
     "DESIG": "AC",
+    "gst_Scode": "UP104",
     "sector": "Prayagraj &nbsp;Sector-10, AC"
   },
   "UP107": {
@@ -347,6 +396,7 @@ export default {
     "name": "Rikesh Singh",
     "vat_OfficeCode": "89051",
     "DESIG": "AC",
+    "gst_Scode": "UP107",
     "sector": "Prayagraj &nbsp;Sector-11, AC"
   },
   "UP110": {
@@ -354,6 +404,7 @@ export default {
     "name": "Mithilesh Kumar",
     "vat_OfficeCode": "89052",
     "DESIG": "AC",
+    "gst_Scode": "UP110",
     "sector": "Prayagraj &nbsp;Sector-12, AC"
   },
   "UP113": {
@@ -361,6 +412,7 @@ export default {
     "name": "Niraj Kumar Maurya",
     "vat_OfficeCode": "89053",
     "DESIG": "AC",
+    "gst_Scode": "UP113",
     "sector": "Prayagraj &nbsp;Sector-13, AC"
   },
   "UP116": {
@@ -368,6 +420,7 @@ export default {
     "name": "Sushil Chandra Gangwar",
     "vat_OfficeCode": "89054",
     "DESIG": "AC",
+    "gst_Scode": "UP116",
     "sector": "Prayagraj &nbsp;Sector-14, AC"
   },
   "UP463": {
@@ -375,6 +428,7 @@ export default {
     "name": "Kuldeep Gyanee",
     "vat_OfficeCode": "89057",
     "DESIG": "AC",
+    "gst_Scode": "UP463",
     "sector": "Fatehpur Sector-1, AC"
   },
   "UP466": {
@@ -382,6 +436,7 @@ export default {
     "name": "Ajendra Kumar Tripathi",
     "vat_OfficeCode": "89058",
     "DESIG": "AC",
+    "gst_Scode": "UP466",
     "sector": "Fatehpur Sector-2, AC"
   },
   "UP469": {
@@ -389,6 +444,7 @@ export default {
     "name": "Rameshwar Tripathi",
     "vat_OfficeCode": "89059",
     "DESIG": "AC",
+    "gst_Scode": "UP469",
     "sector": "Fatehpur Sector-3, AC"
   },
   "UP825": {
@@ -396,6 +452,7 @@ export default {
     "name": "Ruchi Agarwal Ms.",
     "vat_OfficeCode": "89060",
     "DESIG": "CTO",
+    "gst_Scode": "UP825",
     "sector": "Kaushambi , AC"
   },
   "UP219": {
@@ -403,6 +460,7 @@ export default {
     "name": "Sudha Verma Smt.",
     "vat_OfficeCode": "89021",
     "DESIG": "AC",
+    "gst_Scode": "UP219",
     "sector": "Bareilly Sector-1, AC"
   },
   "UP225": {
@@ -410,6 +468,7 @@ export default {
     "name": "Jai Prakash Shukla",
     "vat_OfficeCode": "89022",
     "DESIG": "AC",
+    "gst_Scode": "UP225",
     "sector": "Bareilly Sector-2, AC"
   },
   "UP240": {
@@ -417,6 +476,7 @@ export default {
     "name": "Nivedita Singh Ms.",
     "vat_OfficeCode": "89027",
     "DESIG": "AC",
+    "gst_Scode": "UP240",
     "sector": "Bareilly Sector-7, AC"
   },
   "UP243": {
@@ -424,6 +484,7 @@ export default {
     "name": "Shriddha Kumari Ms.",
     "vat_OfficeCode": "89028",
     "DESIG": "AC",
+    "gst_Scode": "UP243",
     "sector": "Bareilly Sector-8, AC"
   },
   "UP1139": {
@@ -431,6 +492,7 @@ export default {
     "name": "Sadhna Chauhan",
     "vat_OfficeCode": "89038",
     "DESIG": "AC",
+    "gst_Scode": "UP1139",
     "sector": "Pilibhit Sector-1, AC"
   },
   "UP1142": {
@@ -438,6 +500,7 @@ export default {
     "name": "Bhim",
     "vat_OfficeCode": "89039",
     "DESIG": "AC",
+    "gst_Scode": "UP1142",
     "sector": "Pilibhit Sector-2, AC"
   },
   "UP1144": {
@@ -445,6 +508,7 @@ export default {
     "name": "Santosh Kumar Verma-I",
     "vat_OfficeCode": "79039",
     "DESIG": "DC",
+    "gst_Scode": "UP1144",
     "sector": "Pilibhit Sector-2, DC"
   },
   "UP1145": {
@@ -452,6 +516,7 @@ export default {
     "name": "Vandana Verma Ms.",
     "vat_OfficeCode": "89040",
     "DESIG": "AC",
+    "gst_Scode": "UP1145",
     "sector": "Pilibhit Sector-3, AC"
   },
   "UP1291": {
@@ -459,6 +524,7 @@ export default {
     "name": "Devendra Kumar-II",
     "vat_OfficeCode": "89034",
     "DESIG": "CTO",
+    "gst_Scode": "UP1291",
     "sector": "Shahjahanpur Sector-1, AC"
   },
   "UP1294": {
@@ -466,6 +532,7 @@ export default {
     "name": "Dipti Gupta Ms.",
     "vat_OfficeCode": "89035",
     "DESIG": "AC",
+    "gst_Scode": "UP1294",
     "sector": "Shahjahanpur Sector-2, AC"
   },
   "UP1300": {
@@ -473,6 +540,7 @@ export default {
     "name": "Santosh Kumar-VI",
     "vat_OfficeCode": "89037",
     "DESIG": "AC",
+    "gst_Scode": "UP1300",
     "sector": "Shahjahanpur Sector-4 , AC"
   },
   "UP429": {
@@ -480,6 +548,7 @@ export default {
     "name": "Rajendra Patel",
     "vat_OfficeCode": "89389",
     "DESIG": "AC",
+    "gst_Scode": "UP429",
     "sector": "Etawah Sector-1, AC"
   },
   "UP432": {
@@ -487,6 +556,7 @@ export default {
     "name": "Arunendra",
     "vat_OfficeCode": "89390",
     "DESIG": "DC",
+    "gst_Scode": "UP432",
     "sector": "Etawah Sector-2, AC"
   },
   "UP435": {
@@ -494,6 +564,7 @@ export default {
     "name": "Mohammad Imran Khan",
     "vat_OfficeCode": "89391",
     "DESIG": "CTO",
+    "gst_Scode": "UP435",
     "sector": "Etawah Sector-3, AC"
   },
   "UP454": {
@@ -501,6 +572,7 @@ export default {
     "name": "Jeetendra Pratap Verma",
     "vat_OfficeCode": "89393",
     "DESIG": "AC",
+    "gst_Scode": "UP454",
     "sector": "Fatehgarh Sector-1, AC"
   },
   "UP456": {
@@ -508,6 +580,7 @@ export default {
     "name": "Vipin Kumar Nag",
     "vat_OfficeCode": "79393",
     "DESIG": "DC",
+    "gst_Scode": "UP456",
     "sector": "Fatehgarh Sector-1, DC"
   },
   "UP457": {
@@ -515,6 +588,7 @@ export default {
     "name": "Vijay Kumar Tripathi-II",
     "vat_OfficeCode": "89394",
     "DESIG": "AC",
+    "gst_Scode": "UP457",
     "sector": "Fatehgarh Sector-2, AC"
   },
   "UP460": {
@@ -522,6 +596,7 @@ export default {
     "name": "Santosh Singh",
     "vat_OfficeCode": "89395",
     "DESIG": "AC",
+    "gst_Scode": "UP460",
     "sector": "Fatehgarh Sector-3, AC"
   },
   "UP715": {
@@ -529,6 +604,7 @@ export default {
     "name": "Rajesh Kumar -II",
     "vat_OfficeCode": "89398",
     "DESIG": "AC",
+    "gst_Scode": "UP715",
     "sector": "Kannauj Sector-1, AC"
   },
   "UP718": {
@@ -536,6 +612,7 @@ export default {
     "name": "Jitendra Kumar Pandey",
     "vat_OfficeCode": "89399",
     "DESIG": "AC",
+    "gst_Scode": "UP718",
     "sector": "Kannauj Sector-2, AC"
   },
   "UP1254": {
@@ -543,6 +620,7 @@ export default {
     "name": "Panch Lal",
     "vat_OfficeCode": "89397",
     "DESIG": "AC",
+    "gst_Scode": "UP1254",
     "sector": "Sector-2 Auraiya, AC"
   },
   "UP1217": {
@@ -550,6 +628,7 @@ export default {
     "name": "Mata Prasad Pathak",
     "vat_OfficeCode": "89396",
     "DESIG": "AC",
+    "gst_Scode": "UP1217",
     "sector": "Sector-1 Auraiya, AC"
   },
   "UP472": {
@@ -557,6 +636,7 @@ export default {
     "name": "Ramesh Kumar-I",
     "vat_OfficeCode": "89403",
     "DESIG": "AC",
+    "gst_Scode": "UP472",
     "sector": "Firozabad Sector-1, AC"
   },
   "UP478": {
@@ -564,6 +644,7 @@ export default {
     "name": "Arvind Kumar Singh-III",
     "vat_OfficeCode": "89405",
     "DESIG": "AC",
+    "gst_Scode": "UP478",
     "sector": "Firozabad Sector-3, AC"
   },
   "UP481": {
@@ -571,6 +652,7 @@ export default {
     "name": "Santosh Kumar Singh-II",
     "vat_OfficeCode": "89406",
     "DESIG": "AC",
+    "gst_Scode": "UP481",
     "sector": "Firozabad Sector-4, AC"
   },
   "UP484": {
@@ -578,6 +660,7 @@ export default {
     "name": "Anand Kumar Singh-II",
     "vat_OfficeCode": "89407",
     "DESIG": "AC",
+    "gst_Scode": "UP484",
     "sector": "Firozabad Sector-5, AC"
   },
   "UP940": {
@@ -585,6 +668,7 @@ export default {
     "name": "Arvind Kumar-V",
     "vat_OfficeCode": "89400",
     "DESIG": "AC",
+    "gst_Scode": "UP940",
     "sector": "Mainpuri Sector-1, AC"
   },
   "UP946": {
@@ -592,6 +676,7 @@ export default {
     "name": "Om Prakash",
     "vat_OfficeCode": "89402",
     "DESIG": "AC",
+    "gst_Scode": "UP946",
     "sector": "Mainpuri Sector-3, AC"
   },
   "UP1312": {
@@ -599,6 +684,7 @@ export default {
     "name": "Shikha Tiwari Ms.",
     "vat_OfficeCode": "89408",
     "DESIG": "AC",
+    "gst_Scode": "UP1312",
     "sector": "Shikohabad Sector-1 , AC"
   },
   "UP1315": {
@@ -606,6 +692,7 @@ export default {
     "name": "Amit Kumar Singh-IV",
     "vat_OfficeCode": "89409",
     "DESIG": "AC",
+    "gst_Scode": "UP1315",
     "sector": "Shikohabad Sector-2, AC"
   },
   "UP146": {
@@ -613,6 +700,7 @@ export default {
     "name": "Rupam Upadhyay Ms",
     "vat_OfficeCode": "89416",
     "DESIG": "CTO",
+    "gst_Scode": "UP146",
     "sector": "Ambedkar Nagar Â&nbsp;, Sector-2, AC"
   },
   "UP315": {
@@ -620,6 +708,7 @@ export default {
     "name": "Sanghmitra Gautam Ms.",
     "vat_OfficeCode": "89479",
     "DESIG": "AC",
+    "gst_Scode": "UP315",
     "sector": "Chatrapati Sahuji Maharaj,Sector-2 AC"
   },
   "UP438": {
@@ -627,6 +716,7 @@ export default {
     "name": "Vipin Kumar",
     "vat_OfficeCode": "89410",
     "DESIG": "AC",
+    "gst_Scode": "UP438",
     "sector": "Ayodhya Sector-1, AC"
   },
   "UP441": {
@@ -634,6 +724,7 @@ export default {
     "name": "Ajay Vikram",
     "vat_OfficeCode": "89411",
     "DESIG": "AC",
+    "gst_Scode": "UP441",
     "sector": "Ayodhya Sector-2, AC"
   },
   "UP443": {
@@ -641,6 +732,7 @@ export default {
     "name": "Garima Singh Smt",
     "vat_OfficeCode": "79411",
     "DESIG": "CTO",
+    "gst_Scode": "UP443",
     "sector": "Ayodhya Sector-2, DC"
   },
   "UP1358": {
@@ -648,6 +740,7 @@ export default {
     "name": "Akhilesh Kumar-II",
     "vat_OfficeCode": "89417",
     "DESIG": "AC",
+    "gst_Scode": "UP1358",
     "sector": "Sultanpur Â&nbsp;Sector-1, AC"
   },
   "UP1364": {
@@ -655,6 +748,7 @@ export default {
     "name": "Amit Aggarwal",
     "vat_OfficeCode": "89419",
     "DESIG": "AC",
+    "gst_Scode": "UP1364",
     "sector": "Sultanpur Sector-3, AC"
   },
   "UP208": {
@@ -662,6 +756,7 @@ export default {
     "name": "Vandana Singh-IV MS.",
     "vat_OfficeCode": "89422",
     "DESIG": "CTO",
+    "gst_Scode": "UP208",
     "sector": "Barabanki Sector-2, AC"
   },
   "UP211": {
@@ -669,6 +764,7 @@ export default {
     "name": "Praveen Singh",
     "vat_OfficeCode": "89423",
     "DESIG": "AC",
+    "gst_Scode": "UP211",
     "sector": "Barabanki Sector-3 , AC"
   },
   "UP214": {
@@ -676,6 +772,7 @@ export default {
     "name": "Vandana Singh-III Ms.",
     "vat_OfficeCode": "89424",
     "DESIG": "AC",
+    "gst_Scode": "UP214",
     "sector": "Barabanki Sector-4, AC"
   },
   "UP444": {
@@ -683,6 +780,7 @@ export default {
     "name": "Durgesh Kumar-II",
     "vat_OfficeCode": "89412",
     "DESIG": "AC",
+    "gst_Scode": "UP444",
     "sector": "Ayodhya Sector-3, AC"
   },
   "UP179": {
@@ -690,6 +788,7 @@ export default {
     "name": "Kamlesh Kumar-II",
     "vat_OfficeCode": "89430",
     "DESIG": "AC",
+    "gst_Scode": "UP179",
     "sector": "Bahraich ,Sector-2, AC"
   },
   "UP182": {
@@ -697,6 +796,7 @@ export default {
     "name": "Madhusudan Singh",
     "vat_OfficeCode": "89431",
     "DESIG": "AC",
+    "gst_Scode": "UP182",
     "sector": "Bahraich ,Sector-3, AC"
   },
   "UP566": {
@@ -704,6 +804,7 @@ export default {
     "name": "Shiv Kumar Yadav",
     "vat_OfficeCode": "89427",
     "DESIG": "CTO",
+    "gst_Scode": "UP566",
     "sector": "Gonda ,Sector-3, AC"
   },
   "UP569": {
@@ -711,6 +812,7 @@ export default {
     "name": "Anubhava Singh",
     "vat_OfficeCode": "89428",
     "DESIG": "AC",
+    "gst_Scode": "UP569",
     "sector": "Gonda ,Sector-4, AC"
   },
   "UP1220": {
@@ -718,6 +820,7 @@ export default {
     "name": "Mohammad Danish",
     "vat_OfficeCode": "89432",
     "DESIG": "AC",
+    "gst_Scode": "UP1220",
     "sector": "Sector-1 Balrampur, AC"
   },
   "UP1268": {
@@ -725,6 +828,7 @@ export default {
     "name": "Mohd.Imteyaz Siddiquei",
     "vat_OfficeCode": "89433",
     "DESIG": "AC",
+    "gst_Scode": "UP1268",
     "sector": "Sector-2, Balrampur, AC"
   },
   "UP1318": {
@@ -732,6 +836,7 @@ export default {
     "name": "Krishna Murari Yadav",
     "vat_OfficeCode": "89435",
     "DESIG": "AC",
+    "gst_Scode": "UP1318",
     "sector": "Shravsti Â&nbsp;Â&nbsp;, AC"
   },
   "UP1094": {
@@ -739,6 +844,7 @@ export default {
     "name": "Prabhakar Nath Mishra",
     "vat_OfficeCode": "89237",
     "DESIG": "AC",
+    "gst_Scode": "UP1094",
     "sector": "Noida Sector-1, AC"
   },
   "UP1112": {
@@ -746,6 +852,7 @@ export default {
     "name": "Devendra Singh",
     "vat_OfficeCode": "89238",
     "DESIG": "CTO",
+    "gst_Scode": "UP1112",
     "sector": "Noida Sector-2, AC"
   },
   "UP1115": {
@@ -753,6 +860,7 @@ export default {
     "name": "Hemant Kumar Pankaj",
     "vat_OfficeCode": "89239",
     "DESIG": "AC",
+    "gst_Scode": "UP1115",
     "sector": "Noida Sector-3, AC"
   },
   "UP1118": {
@@ -760,6 +868,7 @@ export default {
     "name": "Virendra Singh-IV",
     "vat_OfficeCode": "89240",
     "DESIG": "AC",
+    "gst_Scode": "UP1118",
     "sector": "Noida Sector-4, AC"
   },
   "UP1121": {
@@ -767,6 +876,7 @@ export default {
     "name": "Amit Kumar-II",
     "vat_OfficeCode": "89241",
     "DESIG": "AC",
+    "gst_Scode": "UP1121",
     "sector": "Noida Sector-5, AC"
   },
   "UP1124": {
@@ -774,6 +884,7 @@ export default {
     "name": "Shirinam Kashyap Ms.",
     "vat_OfficeCode": "89242",
     "DESIG": "AC",
+    "gst_Scode": "UP1124",
     "sector": "Noida Sector-6, AC"
   },
   "UP1127": {
@@ -781,6 +892,7 @@ export default {
     "name": "Khushboo Ms.",
     "vat_OfficeCode": "89243",
     "DESIG": "AC",
+    "gst_Scode": "UP1127",
     "sector": "Noida Sector-7, AC"
   },
   "UP1132": {
@@ -788,6 +900,7 @@ export default {
     "name": "Aditya Bharti",
     "vat_OfficeCode": "79244",
     "DESIG": "DC",
+    "gst_Scode": "UP1132",
     "sector": "Noida Sector-8, DC"
   },
   "UP1097": {
@@ -795,6 +908,7 @@ export default {
     "name": "Anirudha Singh",
     "vat_OfficeCode": "89246",
     "DESIG": "AC",
+    "gst_Scode": "UP1097",
     "sector": "Noida Sector-10, AC"
   },
   "UP1103": {
@@ -802,6 +916,7 @@ export default {
     "name": "Shyam Sunder Pathak",
     "vat_OfficeCode": "89248",
     "DESIG": "AC",
+    "gst_Scode": "UP1103",
     "sector": "Noida Sector-12, AC"
   },
   "UP1109": {
@@ -809,6 +924,7 @@ export default {
     "name": "Subhash Chandra-III",
     "vat_OfficeCode": "89250",
     "DESIG": "AC",
+    "gst_Scode": "UP1109",
     "sector": "Noida Sector-14, AC"
   },
   "UP1133": {
@@ -816,6 +932,7 @@ export default {
     "name": "Rajendra Kumar Sharma",
     "vat_OfficeCode": "89245",
     "DESIG": "CTO",
+    "gst_Scode": "UP1133",
     "sector": "Noida Sector-9, AC"
   },
   "UP1245": {
@@ -823,6 +940,7 @@ export default {
     "name": "Somank Chauhan",
     "vat_OfficeCode": "89251",
     "DESIG": "AC",
+    "gst_Scode": "UP1245",
     "sector": "Sector-1,Gautambudha Nagar, AC"
   },
   "UP1276": {
@@ -830,6 +948,7 @@ export default {
     "name": "Anand Kumar Tripathi",
     "vat_OfficeCode": "89252",
     "DESIG": "AC",
+    "gst_Scode": "UP1276",
     "sector": "Sector-2,Gautambudha Nagar , AC"
   },
   "UP1285": {
@@ -837,6 +956,7 @@ export default {
     "name": "Sanjay Saroj",
     "vat_OfficeCode": "89253",
     "DESIG": "AC",
+    "gst_Scode": "UP1285",
     "sector": "Sector-3,Gautambudha Nagar , AC"
   },
   "UP491": {
@@ -844,6 +964,7 @@ export default {
     "name": "Salony Bhardwaj Smt.",
     "vat_OfficeCode": "89357",
     "DESIG": "AC",
+    "gst_Scode": "UP491",
     "sector": "Ghaziabad Sector-1, AC"
   },
   "UP487": {
@@ -851,6 +972,7 @@ export default {
     "name": "Anmol Mittal",
     "vat_OfficeCode": "89375",
     "DESIG": "CTO",
+    "gst_Scode": "UP487",
     "sector": "Ghaziabad Modi Nagar , AC"
   },
   "UP526": {
@@ -858,6 +980,7 @@ export default {
     "name": "Sanjeev Kumar Niranjan",
     "vat_OfficeCode": "79358",
     "DESIG": "DC",
+    "gst_Scode": "UP526",
     "sector": "Ghaziabad Sector-2, DC"
   },
   "UP527": {
@@ -865,6 +988,7 @@ export default {
     "name": "Subhash Chandra-II",
     "vat_OfficeCode": "89359",
     "DESIG": "AC",
+    "gst_Scode": "UP527",
     "sector": "Ghaziabad Sector-3, AC"
   },
   "UP530": {
@@ -872,6 +996,7 @@ export default {
     "name": "Rishi Prasad Rastogi",
     "vat_OfficeCode": "89360",
     "DESIG": "AC",
+    "gst_Scode": "UP530",
     "sector": "Ghaziabad Sector-4 , AC"
   },
   "UP533": {
@@ -879,6 +1004,7 @@ export default {
     "name": "Santosh Kumar Singh-IV",
     "vat_OfficeCode": "89361",
     "DESIG": "AC",
+    "gst_Scode": "UP533",
     "sector": "Ghaziabad Sector-5 , AC"
   },
   "UP536": {
@@ -886,6 +1012,7 @@ export default {
     "name": "Shivangi Upadhyay",
     "vat_OfficeCode": "89362",
     "DESIG": "AC",
+    "gst_Scode": "UP536",
     "sector": "Ghaziabad Sector-6, AC"
   },
   "UP497": {
@@ -893,6 +1020,7 @@ export default {
     "name": "Sushant Mishra",
     "vat_OfficeCode": "89367",
     "DESIG": "AC",
+    "gst_Scode": "UP497",
     "sector": "Ghaziabad Sector-11 , AC"
   },
   "UP500": {
@@ -900,6 +1028,7 @@ export default {
     "name": "Prateek Singh",
     "vat_OfficeCode": "89368",
     "DESIG": "AC",
+    "gst_Scode": "UP500",
     "sector": "Ghaziabad Sector-12, AC"
   },
   "UP542": {
@@ -907,6 +1036,7 @@ export default {
     "name": "Chandra Shekhar Mishra-II",
     "vat_OfficeCode": "89364",
     "DESIG": "AC",
+    "gst_Scode": "UP542",
     "sector": "Ghaziabad Sector-8, AC"
   },
   "UP545": {
@@ -914,6 +1044,7 @@ export default {
     "name": "Pallavi Mall Ms.",
     "vat_OfficeCode": "89365",
     "DESIG": "CTO",
+    "gst_Scode": "UP545",
     "sector": "Ghaziabad Sector-9 , AC"
   },
   "UP1225": {
@@ -921,6 +1052,7 @@ export default {
     "name": "Abhay Kumar Patel",
     "vat_OfficeCode": "89376",
     "DESIG": "AC",
+    "gst_Scode": "UP1225",
     "sector": "Sector-1 Hapur , AC"
   },
   "UP1260": {
@@ -928,6 +1060,7 @@ export default {
     "name": "Yateendra Kumar",
     "vat_OfficeCode": "89377",
     "DESIG": "AC",
+    "gst_Scode": "UP1260",
     "sector": "Sector-2 Hapur , AC"
   },
   "UP1279": {
@@ -935,6 +1068,7 @@ export default {
     "name": "Suraj Singh Gautam",
     "vat_OfficeCode": "89378",
     "DESIG": "AC",
+    "gst_Scode": "UP1279",
     "sector": "Sector-3 Hapur , AC"
   },
   "UP1288": {
@@ -942,6 +1076,7 @@ export default {
     "name": "Ajay Kumar Pandey-I",
     "vat_OfficeCode": "89379",
     "DESIG": "AC",
+    "gst_Scode": "UP1288",
     "sector": "Sector-4 Hapur, AC"
   },
   "UP288": {
@@ -949,6 +1084,7 @@ export default {
     "name": "Sandip Kumar",
     "vat_OfficeCode": "89381",
     "DESIG": "AC",
+    "gst_Scode": "UP288",
     "sector": "Bulandshahar Sector-2, AC"
   },
   "UP294": {
@@ -956,6 +1092,7 @@ export default {
     "name": "Kapil Kumar",
     "vat_OfficeCode": "89383",
     "DESIG": "AC",
+    "gst_Scode": "UP294",
     "sector": "Bulandshahar Sector-4 , AC"
   },
   "UP405": {
@@ -963,6 +1100,7 @@ export default {
     "name": "Anil Kumar Rai",
     "vat_OfficeCode": "89386",
     "DESIG": "AC",
+    "gst_Scode": "UP405",
     "sector": "Debai , AC"
   },
   "UP611": {
@@ -970,6 +1108,7 @@ export default {
     "name": "Ram Vijay",
     "vat_OfficeCode": "89388",
     "DESIG": "AC",
+    "gst_Scode": "UP611",
     "sector": "Gulawati, AC"
   },
   "UP1230": {
@@ -977,6 +1116,7 @@ export default {
     "name": "Arvind Kumar Singh-IV",
     "vat_OfficeCode": "89384",
     "DESIG": "AC",
+    "gst_Scode": "UP1230",
     "sector": "Sector-1 Khurja, AC"
   },
   "UP503": {
@@ -984,6 +1124,7 @@ export default {
     "name": "Swati Agarwal",
     "vat_OfficeCode": "89369",
     "DESIG": "AC",
+    "gst_Scode": "UP503",
     "sector": "Ghaziabad Sector-13 , AC"
   },
   "UP506": {
@@ -991,6 +1132,7 @@ export default {
     "name": "Devendra Singh-III",
     "vat_OfficeCode": "89370",
     "DESIG": "AC",
+    "gst_Scode": "UP506",
     "sector": "Ghaziabad Sector-14, AC"
   },
   "UP509": {
@@ -998,6 +1140,7 @@ export default {
     "name": "Ajay Kumar Rawat",
     "vat_OfficeCode": "89371",
     "DESIG": "CTO",
+    "gst_Scode": "UP509",
     "sector": "Ghaziabad Sector-15 , AC"
   },
   "UP512": {
@@ -1005,6 +1148,7 @@ export default {
     "name": "Renoo Rai Ms.",
     "vat_OfficeCode": "89372",
     "DESIG": "CTO",
+    "gst_Scode": "UP512",
     "sector": "Ghaziabad Sector-16, AC"
   },
   "UP515": {
@@ -1012,6 +1156,7 @@ export default {
     "name": "Harendra Pratap Singh",
     "vat_OfficeCode": "89373",
     "DESIG": "AC",
+    "gst_Scode": "UP515",
     "sector": "Ghaziabad Sector-17 , AC"
   },
   "UP518": {
@@ -1019,6 +1164,7 @@ export default {
     "name": "Sachin Kumar-II",
     "vat_OfficeCode": "89374",
     "DESIG": "AC",
+    "gst_Scode": "UP518",
     "sector": "Ghaziabad Sector-18, AC"
   },
   "UP521": {
@@ -1026,6 +1172,7 @@ export default {
     "name": "Kamlesh Kumari-I Smt.",
     "vat_OfficeCode": "89456",
     "DESIG": "DC",
+    "gst_Scode": "UP521",
     "sector": "Ghaziabad Sector-19,AC"
   },
   "UP258": {
@@ -1033,6 +1180,7 @@ export default {
     "name": "Shrawan Kumar",
     "vat_OfficeCode": "89074",
     "DESIG": "AC",
+    "gst_Scode": "UP258",
     "sector": "Basti Sector-2, AC"
   },
   "UP261": {
@@ -1040,6 +1188,7 @@ export default {
     "name": "Anil Kumar Sharma",
     "vat_OfficeCode": "89075",
     "DESIG": "AC",
+    "gst_Scode": "UP261",
     "sector": "Basti Sector-3, AC"
   },
   "UP264": {
@@ -1047,6 +1196,7 @@ export default {
     "name": "Vikas Dwivedi",
     "vat_OfficeCode": "89076",
     "DESIG": "AC",
+    "gst_Scode": "UP264",
     "sector": "Basti Sector-4, AC"
   },
   "UP587": {
@@ -1054,6 +1204,7 @@ export default {
     "name": "Vishal Bahadur Chaudhary",
     "vat_OfficeCode": "89062",
     "DESIG": "AC",
+    "gst_Scode": "UP587",
     "sector": "Gorakhpur Sector-2, AC"
   },
   "UP590": {
@@ -1061,6 +1212,7 @@ export default {
     "name": "Vinay Kumar Pandey",
     "vat_OfficeCode": "89063",
     "DESIG": "AC",
+    "gst_Scode": "UP590",
     "sector": "Gorakhpur Sector-3, AC"
   },
   "UP593": {
@@ -1068,6 +1220,7 @@ export default {
     "name": "Jitendra Kumar Bharati",
     "vat_OfficeCode": "89064",
     "DESIG": "AC",
+    "gst_Scode": "UP593",
     "sector": "Gorakhpur Sector-4, AC"
   },
   "UP596": {
@@ -1075,6 +1228,7 @@ export default {
     "name": "Roshan Lal",
     "vat_OfficeCode": "89065",
     "DESIG": "AC",
+    "gst_Scode": "UP596",
     "sector": "Gorakhpur Sector-5, AC"
   },
   "UP599": {
@@ -1082,6 +1236,7 @@ export default {
     "name": "Ravish Kumar Singh",
     "vat_OfficeCode": "89066",
     "DESIG": "AC",
+    "gst_Scode": "UP599",
     "sector": "Gorakhpur Sector-6, AC"
   },
   "UP1321": {
@@ -1089,6 +1244,7 @@ export default {
     "name": "Mohd.Alimuddin",
     "vat_OfficeCode": "89078",
     "DESIG": "AC",
+    "gst_Scode": "UP1321",
     "sector": "Sidharth Nagar ,Sector-2, AC"
   },
   "UP1327": {
@@ -1096,6 +1252,7 @@ export default {
     "name": "Ram Anuj Maurya",
     "vat_OfficeCode": "89459",
     "DESIG": "AC",
+    "gst_Scode": "UP1327",
     "sector": "Sidharth Nagar, Sector-1,Sidharth Nagar AC"
   },
   "UP414": {
@@ -1103,6 +1260,7 @@ export default {
     "name": "Jayant Kumar Singh",
     "vat_OfficeCode": "89084",
     "DESIG": "AC",
+    "gst_Scode": "UP414",
     "sector": "Deoria Sector -4, AC"
   },
   "UP417": {
@@ -1110,6 +1268,7 @@ export default {
     "name": "Ashish Mishra-II",
     "vat_OfficeCode": "89081",
     "DESIG": "AC",
+    "gst_Scode": "UP417",
     "sector": "Deoria Sector-1, AC"
   },
   "UP575": {
@@ -1117,6 +1276,7 @@ export default {
     "name": "Bharat Bhushan",
     "vat_OfficeCode": "89071",
     "DESIG": "AC",
+    "gst_Scode": "UP575",
     "sector": "Gorakhpur Sector -11, AC"
   },
   "UP578": {
@@ -1124,6 +1284,7 @@ export default {
     "name": "Nitesh",
     "vat_OfficeCode": "89072",
     "DESIG": "CTO",
+    "gst_Scode": "UP578",
     "sector": "Gorakhpur Sector -12, AC"
   },
   "UP584": {
@@ -1131,6 +1292,7 @@ export default {
     "name": "Amit Kumar Singh-V",
     "vat_OfficeCode": "89070",
     "DESIG": "AC",
+    "gst_Scode": "UP584",
     "sector": "Gorakhpur Sector-10, AC"
   },
   "UP602": {
@@ -1138,6 +1300,7 @@ export default {
     "name": "Rajesh Kumar Singh-II",
     "vat_OfficeCode": "89067",
     "DESIG": "AC",
+    "gst_Scode": "UP602",
     "sector": "Gorakhpur Sector-7 , AC"
   },
   "UP605": {
@@ -1145,6 +1308,7 @@ export default {
     "name": "Amit Tiwari",
     "vat_OfficeCode": "89068",
     "DESIG": "AC",
+    "gst_Scode": "UP605",
     "sector": "Gorakhpur Sector-8, AC"
   },
   "UP834": {
@@ -1152,6 +1316,7 @@ export default {
     "name": "Sunil Kumar-V Dr.",
     "vat_OfficeCode": "89087",
     "DESIG": "AC",
+    "gst_Scode": "UP834",
     "sector": "Kushi Nagar Â&nbsp;,Sector-1, AC"
   },
   "UP937": {
@@ -1159,6 +1324,7 @@ export default {
     "name": "Vivek Kumar-IV",
     "vat_OfficeCode": "89086",
     "DESIG": "AC",
+    "gst_Scode": "UP937",
     "sector": "Mahraj Ganj Â&nbsp;,Sector -2, AC"
   },
   "UP199": {
@@ -1166,6 +1332,7 @@ export default {
     "name": "Pawan Kumar Agrawal",
     "vat_OfficeCode": "89129",
     "DESIG": "AC",
+    "gst_Scode": "UP199",
     "sector": "Banda Sector-1, AC"
   },
   "UP614": {
@@ -1173,6 +1340,7 @@ export default {
     "name": "Ram Naresh Singh",
     "vat_OfficeCode": "89133",
     "DESIG": "AC",
+    "gst_Scode": "UP614",
     "sector": "Hamirpur Sector-1 , AC"
   },
   "UP817": {
@@ -1180,6 +1348,7 @@ export default {
     "name": "Prashant Awasthi",
     "vat_OfficeCode": "89131",
     "DESIG": "AC",
+    "gst_Scode": "UP817",
     "sector": "Karvi Sector-1, AC"
   },
   "UP820": {
@@ -1187,6 +1356,7 @@ export default {
     "name": "Abhilash Yadav",
     "vat_OfficeCode": "89132",
     "DESIG": "AC",
+    "gst_Scode": "UP820",
     "sector": "Karvi Sector-2 , AC"
   },
   "UP930": {
@@ -1194,6 +1364,7 @@ export default {
     "name": "Jai Prakash",
     "vat_OfficeCode": "89135",
     "DESIG": "AC",
+    "gst_Scode": "UP930",
     "sector": "Mahoba , AC"
   },
   "UP658": {
@@ -1201,6 +1372,7 @@ export default {
     "name": "Bharat Lal",
     "vat_OfficeCode": "89126",
     "DESIG": "AC",
+    "gst_Scode": "UP658",
     "sector": "Jalaun, Sector-1 Orai , AC"
   },
   "UP661": {
@@ -1208,6 +1380,7 @@ export default {
     "name": "Ajay Kumar Shrivas",
     "vat_OfficeCode": "89127",
     "DESIG": "AC",
+    "gst_Scode": "UP661",
     "sector": "Jalaun, Sector-2 Orai , AC"
   },
   "UP664": {
@@ -1215,6 +1388,7 @@ export default {
     "name": "Praveen Shrotriya",
     "vat_OfficeCode": "89128",
     "DESIG": "AC",
+    "gst_Scode": "UP664",
     "sector": "Jalaun, Sector-3 Orai , AC"
   },
   "UP691": {
@@ -1222,6 +1396,7 @@ export default {
     "name": "Atul Kumar",
     "vat_OfficeCode": "89118",
     "DESIG": "AC",
+    "gst_Scode": "UP691",
     "sector": "Jhansi Sector-3, AC"
   },
   "UP694": {
@@ -1229,6 +1404,7 @@ export default {
     "name": "Deepti Singh",
     "vat_OfficeCode": "89119",
     "DESIG": "AC",
+    "gst_Scode": "UP694",
     "sector": "Jhansi Sector-4, AC"
   },
   "UP697": {
@@ -1236,6 +1412,7 @@ export default {
     "name": "Jitendra Pratap Agrahari",
     "vat_OfficeCode": "89120",
     "DESIG": "AC",
+    "gst_Scode": "UP697",
     "sector": "Jhansi Sector-5, AC"
   },
   "UP700": {
@@ -1243,6 +1420,7 @@ export default {
     "name": "Saurabh Prakash Umrao",
     "vat_OfficeCode": "89121",
     "DESIG": "AC",
+    "gst_Scode": "UP700",
     "sector": "Jhansi Sector-6, AC"
   },
   "UP703": {
@@ -1250,6 +1428,7 @@ export default {
     "name": "Ved Prakash Shukla",
     "vat_OfficeCode": "89122",
     "DESIG": "AC",
+    "gst_Scode": "UP703",
     "sector": "Jhansi Sector-7, AC"
   },
   "UP706": {
@@ -1257,6 +1436,7 @@ export default {
     "name": "Vineet Kumar",
     "vat_OfficeCode": "89123",
     "DESIG": "AC",
+    "gst_Scode": "UP706",
     "sector": "Jhansi Sector-8, AC"
   },
   "UP852": {
@@ -1264,6 +1444,7 @@ export default {
     "name": "Pawan Kumar-II",
     "vat_OfficeCode": "89125",
     "DESIG": "AC",
+    "gst_Scode": "UP852",
     "sector": "Lalitpur, Sector-2, AC"
   },
   "UP760": {
@@ -1271,6 +1452,7 @@ export default {
     "name": "Anurag Barolia",
     "vat_OfficeCode": "89137",
     "DESIG": "AC",
+    "gst_Scode": "UP760",
     "sector": "Kanpur Sector-2, AC"
   },
   "UP793": {
@@ -1278,6 +1460,7 @@ export default {
     "name": "Apoorva Shukla",
     "vat_OfficeCode": "89138",
     "DESIG": "CTO",
+    "gst_Scode": "UP793",
     "sector": "Kanpur Sector-3, AC"
   },
   "UP802": {
@@ -1285,6 +1468,7 @@ export default {
     "name": "Niraj Kumar Shukla",
     "vat_OfficeCode": "89140",
     "DESIG": "CTO",
+    "gst_Scode": "UP802",
     "sector": "Kanpur Sector-5, AC"
   },
   "UP799": {
@@ -1292,6 +1476,7 @@ export default {
     "name": "Ramesh Kumar Singh-I",
     "vat_OfficeCode": "89139",
     "DESIG": "AC",
+    "gst_Scode": "UP799",
     "sector": "Kanpur Sector-4, AC"
   },
   "UP1370": {
@@ -1299,6 +1484,7 @@ export default {
     "name": "Ashit Kumar Mishra",
     "vat_OfficeCode": "89166",
     "DESIG": "AC",
+    "gst_Scode": "UP1370",
     "sector": "Unnao Â&nbsp;Sector-1, AC"
   },
   "UP1373": {
@@ -1306,6 +1492,7 @@ export default {
     "name": "Umesh",
     "vat_OfficeCode": "89167",
     "DESIG": "AC",
+    "gst_Scode": "UP1373",
     "sector": "Unnao Sector-2,, AC"
   },
   "UP730": {
@@ -1313,6 +1500,7 @@ export default {
     "name": "Brij Bhan Gupta",
     "vat_OfficeCode": "89145",
     "DESIG": "AC",
+    "gst_Scode": "UP730",
     "sector": "Kanpur Sector-10, AC"
   },
   "UP733": {
@@ -1320,6 +1508,7 @@ export default {
     "name": "Prashant Singh-II",
     "vat_OfficeCode": "89146",
     "DESIG": "AC",
+    "gst_Scode": "UP733",
     "sector": "Kanpur Sector-11, AC"
   },
   "UP739": {
@@ -1327,6 +1516,7 @@ export default {
     "name": "Rajeev Mishra",
     "vat_OfficeCode": "89148",
     "DESIG": "AC",
+    "gst_Scode": "UP739",
     "sector": "Kanpur Sector-13, AC"
   },
   "UP811": {
@@ -1334,6 +1524,7 @@ export default {
     "name": "Komal Chhabra",
     "vat_OfficeCode": "89143",
     "DESIG": "AC",
+    "gst_Scode": "UP811",
     "sector": "Kanpur Sector-8, AC"
   },
   "UP748": {
@@ -1341,6 +1532,7 @@ export default {
     "name": "Ambuj Singh",
     "vat_OfficeCode": "89151",
     "DESIG": "AC",
+    "gst_Scode": "UP748",
     "sector": "Kanpur Sector-16, AC"
   },
   "UP753": {
@@ -1348,6 +1540,7 @@ export default {
     "name": "Raj Narayan Yadav",
     "vat_OfficeCode": "79152",
     "DESIG": "DC",
+    "gst_Scode": "UP753",
     "sector": "Kanpur Sector-17, DC"
   },
   "UP754": {
@@ -1355,6 +1548,7 @@ export default {
     "name": "Anil Kumar Jain",
     "vat_OfficeCode": "89153",
     "DESIG": "AC",
+    "gst_Scode": "UP754",
     "sector": "Kanpur Sector-18, AC"
   },
   "UP757": {
@@ -1362,6 +1556,7 @@ export default {
     "name": "Prashant Kumar Singh-II",
     "vat_OfficeCode": "89154",
     "DESIG": "AC",
+    "gst_Scode": "UP757",
     "sector": "Kanpur Sector-19, AC"
   },
   "UP763": {
@@ -1369,6 +1564,7 @@ export default {
     "name": "Rakesh Kumar Kanaujiya",
     "vat_OfficeCode": "89155",
     "DESIG": "AC",
+    "gst_Scode": "UP763",
     "sector": "Kanpur Sector-20, AC"
   },
   "UP766": {
@@ -1376,6 +1572,7 @@ export default {
     "name": "Harivansh Shekhar",
     "vat_OfficeCode": "89156",
     "DESIG": "AC",
+    "gst_Scode": "UP766",
     "sector": "Kanpur Sector-21, AC"
   },
   "UP769": {
@@ -1383,6 +1580,7 @@ export default {
     "name": "Priyanka Smt.",
     "vat_OfficeCode": "89157",
     "DESIG": "CTO",
+    "gst_Scode": "UP769",
     "sector": "Kanpur Sector-22, AC"
   },
   "UP772": {
@@ -1390,6 +1588,7 @@ export default {
     "name": "Vibha Singh",
     "vat_OfficeCode": "89158",
     "DESIG": "AC",
+    "gst_Scode": "UP772",
     "sector": "Kanpur Sector-23, AC"
   },
   "UP775": {
@@ -1397,6 +1596,7 @@ export default {
     "name": "Krishna Kumar Mishra",
     "vat_OfficeCode": "89159",
     "DESIG": "AC",
+    "gst_Scode": "UP775",
     "sector": "Kanpur Sector-24, AC"
   },
   "UP778": {
@@ -1404,6 +1604,7 @@ export default {
     "name": "Sunil Kumar Chaudhari",
     "vat_OfficeCode": "89160",
     "DESIG": "AC",
+    "gst_Scode": "UP778",
     "sector": "Kanpur Sector-25, AC"
   },
   "UP781": {
@@ -1411,6 +1612,7 @@ export default {
     "name": "Sharwan Kumar Mishra",
     "vat_OfficeCode": "89161",
     "DESIG": "AC",
+    "gst_Scode": "UP781",
     "sector": "Kanpur Sector-26, AC"
   },
   "UP784": {
@@ -1418,6 +1620,7 @@ export default {
     "name": "Vikash Kumar",
     "vat_OfficeCode": "89162",
     "DESIG": "AC",
+    "gst_Scode": "UP784",
     "sector": "Kanpur Sector-27, AC"
   },
   "UP787": {
@@ -1425,6 +1628,7 @@ export default {
     "name": "Santosh Mani",
     "vat_OfficeCode": "89163",
     "DESIG": "AC",
+    "gst_Scode": "UP787",
     "sector": "Kanpur Sector-28, AC"
   },
   "UP790": {
@@ -1432,6 +1636,7 @@ export default {
     "name": "Niraj Kumar Mishra",
     "vat_OfficeCode": "89164",
     "DESIG": "AC",
+    "gst_Scode": "UP790",
     "sector": "Kanpur Sector-29, AC"
   },
   "UP796": {
@@ -1439,6 +1644,7 @@ export default {
     "name": "Vineeta Srivastava Smt.",
     "vat_OfficeCode": "89165",
     "DESIG": "AC",
+    "gst_Scode": "UP796",
     "sector": "Kanpur Sector-30, AC"
   },
   "UP620": {
@@ -1446,6 +1652,7 @@ export default {
     "name": "Beer Singh",
     "vat_OfficeCode": "89191",
     "DESIG": "AC",
+    "gst_Scode": "UP620",
     "sector": "Hardoi , Sector-1 , AC"
   },
   "UP623": {
@@ -1453,6 +1660,7 @@ export default {
     "name": "Avinash Azad",
     "vat_OfficeCode": "89192",
     "DESIG": "AC",
+    "gst_Scode": "UP623",
     "sector": "Hardoi ,Sector-2, AC"
   },
   "UP861": {
@@ -1460,13 +1668,15 @@ export default {
     "name": "Akanksha Shukla Ms.",
     "vat_OfficeCode": "89171",
     "DESIG": "AC",
-    "sector": "Lucknow Sector- 3, AC"
+    "gst_Scode": "UP861",
+    "sector": "Lucknow Sector- 3 , AC"
   },
   "UP858": {
     "EmpID": "125869",
     "name": "Meenakshi Gupta-II Ms.",
     "vat_OfficeCode": "89170",
     "DESIG": "CTO",
+    "gst_Scode": "UP858",
     "sector": "Lucknow Sector- 2, AC"
   },
   "UP864": {
@@ -1474,6 +1684,7 @@ export default {
     "name": "Supriya Dwivedi Smt.",
     "vat_OfficeCode": "89172",
     "DESIG": "AC",
+    "gst_Scode": "UP864",
     "sector": "Lucknow Sector- 4, AC"
   },
   "UP867": {
@@ -1481,6 +1692,7 @@ export default {
     "name": "Pratibha Singh Smt.",
     "vat_OfficeCode": "89173",
     "DESIG": "AC",
+    "gst_Scode": "UP867",
     "sector": "Lucknow Sector- 5, AC"
   },
   "UP873": {
@@ -1488,20 +1700,23 @@ export default {
     "name": "Veerendra Lal",
     "vat_OfficeCode": "89175",
     "DESIG": "AC",
-    "sector": "Lucknow Sector- 7, AC"
+    "gst_Scode": "UP873",
+    "sector": "Lucknow Sector- 7 , AC"
   },
   "UP876": {
     "EmpID": "124056",
     "name": "Pradeep Kumar-IV",
     "vat_OfficeCode": "89176",
     "DESIG": "AC",
-    "sector": "Lucknow Sector- 8, AC"
+    "gst_Scode": "UP876",
+    "sector": "Lucknow Sector- 8 , AC"
   },
   "UP879": {
     "EmpID": "124080",
     "name": "Varun Kumar Tripathi",
     "vat_OfficeCode": "89177",
     "DESIG": "AC",
+    "gst_Scode": "UP879",
     "sector": "Lucknow Sector- 9, AC"
   },
   "UP888": {
@@ -1509,6 +1724,7 @@ export default {
     "name": "Saumya Jaiswal Ms.",
     "vat_OfficeCode": "89180",
     "DESIG": "AC",
+    "gst_Scode": "UP888",
     "sector": "Lucknow Sector-12, AC"
   },
   "UP891": {
@@ -1516,6 +1732,7 @@ export default {
     "name": "Purnima Yadav",
     "vat_OfficeCode": "89181",
     "DESIG": "AC",
+    "gst_Scode": "UP891",
     "sector": "Lucknow Sector-13 , AC"
   },
   "UP1154": {
@@ -1523,6 +1740,7 @@ export default {
     "name": "Rajesh Kumar Mishra-I",
     "vat_OfficeCode": "89195",
     "DESIG": "AC",
+    "gst_Scode": "UP1154",
     "sector": "Raibareilly Sector-1 , AC"
   },
   "UP894": {
@@ -1530,6 +1748,7 @@ export default {
     "name": "Zeshan Afjal",
     "vat_OfficeCode": "89182",
     "DESIG": "AC",
+    "gst_Scode": "UP894",
     "sector": "Lucknow Sector-14 , AC"
   },
   "UP897": {
@@ -1537,6 +1756,7 @@ export default {
     "name": "Sarika Singh",
     "vat_OfficeCode": "89183",
     "DESIG": "AC",
+    "gst_Scode": "UP897",
     "sector": "Lucknow Sector-15 , AC"
   },
   "UP900": {
@@ -1544,6 +1764,7 @@ export default {
     "name": "Yogesh Kumar Singh",
     "vat_OfficeCode": "89184",
     "DESIG": "AC",
+    "gst_Scode": "UP900",
     "sector": "Lucknow Sector-16, AC"
   },
   "UP903": {
@@ -1551,6 +1772,7 @@ export default {
     "name": "Parul Rajvanshi Ms",
     "vat_OfficeCode": "89185",
     "DESIG": "AC",
+    "gst_Scode": "UP903",
     "sector": "Lucknow Sector-17 , AC"
   },
   "UP906": {
@@ -1558,6 +1780,7 @@ export default {
     "name": "Anil Kumar-X",
     "vat_OfficeCode": "89186",
     "DESIG": "AC",
+    "gst_Scode": "UP906",
     "sector": "Lucknow Sector-18, AC"
   },
   "UP909": {
@@ -1565,6 +1788,7 @@ export default {
     "name": "Kamna Dubey Shukla Smt.",
     "vat_OfficeCode": "89187",
     "DESIG": "AC",
+    "gst_Scode": "UP909",
     "sector": "Lucknow Sector-19, AC"
   },
   "UP915": {
@@ -1572,6 +1796,7 @@ export default {
     "name": "Anchal Agarwal MS.",
     "vat_OfficeCode": "89189",
     "DESIG": "AC",
+    "gst_Scode": "UP915",
     "sector": "Lucknow Sector-21, AC"
   },
   "UP918": {
@@ -1579,6 +1804,7 @@ export default {
     "name": "Pushp Raj Singh",
     "vat_OfficeCode": "89190",
     "DESIG": "AC",
+    "gst_Scode": "UP918",
     "sector": "Lucknow Sector-22 , AC"
   },
   "UP837": {
@@ -1586,6 +1812,7 @@ export default {
     "name": "Surem Kumar",
     "vat_OfficeCode": "89202",
     "DESIG": "AC",
+    "gst_Scode": "UP837",
     "sector": "Lakhimpur Kheri ,Sector-1, AC"
   },
   "UP840": {
@@ -1593,6 +1820,7 @@ export default {
     "name": "Arun Kumar Yadav",
     "vat_OfficeCode": "89203",
     "DESIG": "AC",
+    "gst_Scode": "UP840",
     "sector": "Lakhimpur Kheri ,Sector-2, AC"
   },
   "UP846": {
@@ -1600,6 +1828,7 @@ export default {
     "name": "Lalit Kumar Upadhyay",
     "vat_OfficeCode": "89205",
     "DESIG": "AC",
+    "gst_Scode": "UP846",
     "sector": "Lakhimpur Kheri ,Sector-4, AC"
   },
   "UP1136": {
@@ -1607,6 +1836,7 @@ export default {
     "name": "Virendra Pal Singh",
     "vat_OfficeCode": "89206",
     "DESIG": "AC",
+    "gst_Scode": "UP1136",
     "sector": "Pallia kalan, AC"
   },
   "UP1331": {
@@ -1614,6 +1844,7 @@ export default {
     "name": "Ashok Kumar-I",
     "vat_OfficeCode": "89198",
     "DESIG": "AC",
+    "gst_Scode": "UP1331",
     "sector": "Sitapur ,Sector-1, AC"
   },
   "UP1334": {
@@ -1621,6 +1852,7 @@ export default {
     "name": "Manju Maurya Ms.",
     "vat_OfficeCode": "89199",
     "DESIG": "AC",
+    "gst_Scode": "UP1334",
     "sector": "Sitapur ,Sector-2, AC"
   },
   "UP1340": {
@@ -1628,6 +1860,7 @@ export default {
     "name": "Neeraj Shukla",
     "vat_OfficeCode": "89201",
     "DESIG": "AC",
+    "gst_Scode": "UP1340",
     "sector": "Sitapur ,Sector-4, AC"
   },
   "UP976": {
@@ -1635,6 +1868,7 @@ export default {
     "name": "Manoj Kumar Yadav-III",
     "vat_OfficeCode": "89295",
     "DESIG": "AC",
+    "gst_Scode": "UP976",
     "sector": "Mawana, AC"
   },
   "UP979": {
@@ -1642,6 +1876,7 @@ export default {
     "name": "Shailendra Kumar Maurya",
     "vat_OfficeCode": "89281",
     "DESIG": "CTO",
+    "gst_Scode": "UP979",
     "sector": "Meerut Sector-1, AC"
   },
   "UP994": {
@@ -1649,6 +1884,7 @@ export default {
     "name": "Ajit Kumar Singh",
     "vat_OfficeCode": "89282",
     "DESIG": "AC",
+    "gst_Scode": "UP994",
     "sector": "Meerut Sector-2, AC"
   },
   "UP997": {
@@ -1656,6 +1892,7 @@ export default {
     "name": "Nagendra Kumar Tripathi",
     "vat_OfficeCode": "89283",
     "DESIG": "AC",
+    "gst_Scode": "UP997",
     "sector": "Meerut Sector-3, AC"
   },
   "UP1003": {
@@ -1663,6 +1900,7 @@ export default {
     "name": "Anil Kumar Tripathi",
     "vat_OfficeCode": "89285",
     "DESIG": "AC",
+    "gst_Scode": "UP1003",
     "sector": "Meerut Sector-5, AC"
   },
   "UP1006": {
@@ -1670,6 +1908,7 @@ export default {
     "name": "Shobhana Tomar Ms.",
     "vat_OfficeCode": "89286",
     "DESIG": "CTO",
+    "gst_Scode": "UP1006",
     "sector": "Meerut Sector-6, AC"
   },
   "UP1009": {
@@ -1677,6 +1916,7 @@ export default {
     "name": "Amit Kumar Yadav",
     "vat_OfficeCode": "89287",
     "DESIG": "AC",
+    "gst_Scode": "UP1009",
     "sector": "Meerut Sector-7, AC"
   },
   "UP1214": {
@@ -1684,6 +1924,7 @@ export default {
     "name": "Saghir Ahamad Khan",
     "vat_OfficeCode": "89294",
     "DESIG": "AC",
+    "gst_Scode": "UP1214",
     "sector": "Sardhana, AC"
   },
   "UP252": {
@@ -1691,6 +1932,7 @@ export default {
     "name": "Vikas Panwar",
     "vat_OfficeCode": "89297",
     "DESIG": "AC",
+    "gst_Scode": "UP252",
     "sector": "Barout Sector-2, AC"
   },
   "UP982": {
@@ -1698,6 +1940,7 @@ export default {
     "name": "Sanjay Nath Saroj",
     "vat_OfficeCode": "89290",
     "DESIG": "AC",
+    "gst_Scode": "UP982",
     "sector": "Meerut Sector-10, AC"
   },
   "UP988": {
@@ -1705,6 +1948,7 @@ export default {
     "name": "Brijesh Kumar Saroj",
     "vat_OfficeCode": "89292",
     "DESIG": "AC",
+    "gst_Scode": "UP988",
     "sector": "Meerut Sector-12, AC"
   },
   "UP1012": {
@@ -1712,6 +1956,7 @@ export default {
     "name": "Arun Shukla",
     "vat_OfficeCode": "89288",
     "DESIG": "AC",
+    "gst_Scode": "UP1012",
     "sector": "Meerut Sector-8, AC"
   },
   "UP1015": {
@@ -1719,6 +1964,7 @@ export default {
     "name": "Pragya Sharma Ms.",
     "vat_OfficeCode": "89289",
     "DESIG": "AC",
+    "gst_Scode": "UP1015",
     "sector": "Meerut Sector-9, AC"
   },
   "UP279": {
@@ -1726,6 +1972,7 @@ export default {
     "name": "Rahul Kumar",
     "vat_OfficeCode": "89229",
     "DESIG": "AC",
+    "gst_Scode": "UP279",
     "sector": "Bijnor, Sector-1, AC"
   },
   "UP282": {
@@ -1733,6 +1980,7 @@ export default {
     "name": "Rajiv Kumar Singh",
     "vat_OfficeCode": "89230",
     "DESIG": "AC",
+    "gst_Scode": "UP282",
     "sector": "Bijnor, Sector-2, AC"
   },
   "UP309": {
@@ -1740,6 +1988,7 @@ export default {
     "name": "Ram Milan Yadav",
     "vat_OfficeCode": "89232",
     "DESIG": "AC",
+    "gst_Scode": "UP309",
     "sector": "Chandpur, Sector-2, AC"
   },
   "UP1087": {
@@ -1747,6 +1996,7 @@ export default {
     "name": "Surendra Kumar",
     "vat_OfficeCode": "89235",
     "DESIG": "AC",
+    "gst_Scode": "UP1087",
     "sector": "Nazibabad , Sector-1Â&nbsp;, AC"
   },
   "UP1090": {
@@ -1754,6 +2004,7 @@ export default {
     "name": "Vinay Kumar Shukla",
     "vat_OfficeCode": "89236",
     "DESIG": "AC",
+    "gst_Scode": "UP1090",
     "sector": "Nazibabad , Sector-2, AC"
   },
   "UP1248": {
@@ -1761,6 +2012,7 @@ export default {
     "name": "Praveen Kumar",
     "vat_OfficeCode": "89234",
     "DESIG": "AC",
+    "gst_Scode": "UP1248",
     "sector": "Sector-2 Â&nbsp;Dhampur , AC"
   },
   "UP632": {
@@ -1768,6 +2020,7 @@ export default {
     "name": "Vinod Kumar Khanghera",
     "vat_OfficeCode": "89219",
     "DESIG": "AC",
+    "gst_Scode": "UP632",
     "sector": "Hasanpur Sector-1, AC"
   },
   "UP709": {
@@ -1775,6 +2028,7 @@ export default {
     "name": "Ram Nath Singh",
     "vat_OfficeCode": "89218",
     "DESIG": "CTO",
+    "gst_Scode": "UP709",
     "sector": "Jyotibaphule Nagar ,Sector-1 Amroha, AC"
   },
   "UP635": {
@@ -1782,6 +2036,7 @@ export default {
     "name": "Amit Nimekar",
     "vat_OfficeCode": "89220",
     "DESIG": "CTO",
+    "gst_Scode": "UP635",
     "sector": "Hasanpur Sector-2, AC"
   },
   "UP1030": {
@@ -1789,6 +2044,7 @@ export default {
     "name": "Rajendra Singh Yadav",
     "vat_OfficeCode": "89207",
     "DESIG": "AC",
+    "gst_Scode": "UP1030",
     "sector": "Moradabad &nbsp;Sector-1, AC"
   },
   "UP1039": {
@@ -1796,6 +2052,7 @@ export default {
     "name": "Ramesh Kumar Singh-II",
     "vat_OfficeCode": "89210",
     "DESIG": "AC",
+    "gst_Scode": "UP1039",
     "sector": "Moradabad &nbsp;Sector-4, AC"
   },
   "UP1042": {
@@ -1803,6 +2060,7 @@ export default {
     "name": "Santosh Kumar Gautam",
     "vat_OfficeCode": "89211",
     "DESIG": "AC",
+    "gst_Scode": "UP1042",
     "sector": "Moradabad &nbsp;Sector-5, AC"
   },
   "UP1251": {
@@ -1810,6 +2068,7 @@ export default {
     "name": "Yogendra Singh-II",
     "vat_OfficeCode": "89222",
     "DESIG": "CTO",
+    "gst_Scode": "UP1251",
     "sector": "Sector-2 Â&nbsp;Sambhal, AC"
   },
   "UP1048": {
@@ -1817,6 +2076,7 @@ export default {
     "name": "Ritesh Barnawal",
     "vat_OfficeCode": "89213",
     "DESIG": "AC",
+    "gst_Scode": "UP1048",
     "sector": "Moradabad &nbsp;Sector-7, AC"
   },
   "UP1051": {
@@ -1824,6 +2084,7 @@ export default {
     "name": "Arvind Kumar Nishad",
     "vat_OfficeCode": "89216",
     "DESIG": "AC",
+    "gst_Scode": "UP1051",
     "sector": "Moradabad Sector-10, AC"
   },
   "UP1054": {
@@ -1831,6 +2092,7 @@ export default {
     "name": "Vishal Singh",
     "vat_OfficeCode": "89214",
     "DESIG": "AC",
+    "gst_Scode": "UP1054",
     "sector": "Moradabad Sector-8, AC"
   },
   "UP1057": {
@@ -1838,6 +2100,7 @@ export default {
     "name": "Hira Lal Jaiswal",
     "vat_OfficeCode": "89215",
     "DESIG": "AC",
+    "gst_Scode": "UP1057",
     "sector": "Moradabad Sector-9, AC"
   },
   "UP1163": {
@@ -1845,6 +2108,7 @@ export default {
     "name": "Sujeet Kumar Singh",
     "vat_OfficeCode": "89223",
     "DESIG": "AC",
+    "gst_Scode": "UP1163",
     "sector": "Rampur Sector-1, AC"
   },
   "UP1166": {
@@ -1852,6 +2116,7 @@ export default {
     "name": "Bijyendra Pal Singh",
     "vat_OfficeCode": "89224",
     "DESIG": "AC",
+    "gst_Scode": "UP1166",
     "sector": "Rampur Sector-2, AC"
   },
   "UP1169": {
@@ -1859,6 +2124,7 @@ export default {
     "name": "Pawan",
     "vat_OfficeCode": "89225",
     "DESIG": "AC",
+    "gst_Scode": "UP1169",
     "sector": "Rampur Sector-3, AC"
   },
   "UP1236": {
@@ -1866,6 +2132,7 @@ export default {
     "name": "Param Hans Lal Srivastava",
     "vat_OfficeCode": "89226",
     "DESIG": "AC",
+    "gst_Scode": "UP1236",
     "sector": "Sector-1, Chandausi, AC"
   },
   "UP1270": {
@@ -1873,6 +2140,7 @@ export default {
     "name": "Ram Lakhan Yadav",
     "vat_OfficeCode": "89227",
     "DESIG": "CTO",
+    "gst_Scode": "UP1270",
     "sector": "Sector-2, Chandausi, AC"
   },
   "UP1282": {
@@ -1880,6 +2148,7 @@ export default {
     "name": "Mahesh Chandra Sharma",
     "vat_OfficeCode": "89228",
     "DESIG": "CTO",
+    "gst_Scode": "UP1282",
     "sector": "Sector-3, Chandausi, AC"
   },
   "UP1060": {
@@ -1887,6 +2156,7 @@ export default {
     "name": "Raj Kumar-V",
     "vat_OfficeCode": "89271",
     "DESIG": "AC",
+    "gst_Scode": "UP1060",
     "sector": "Muzaffar Nagar Sector-1, AC"
   },
   "UP1066": {
@@ -1894,6 +2164,7 @@ export default {
     "name": "Vinod Mitra",
     "vat_OfficeCode": "89273",
     "DESIG": "AC",
+    "gst_Scode": "UP1066",
     "sector": "Muzaffar Nagar Sector-3, AC"
   },
   "UP1069": {
@@ -1901,6 +2172,7 @@ export default {
     "name": "Anirudha Kumar Rai",
     "vat_OfficeCode": "89274",
     "DESIG": "AC",
+    "gst_Scode": "UP1069",
     "sector": "Muzaffar Nagar Sector-4, AC"
   },
   "UP1072": {
@@ -1908,6 +2180,7 @@ export default {
     "name": "Vikash Kumar Gupta",
     "vat_OfficeCode": "89275",
     "DESIG": "AC",
+    "gst_Scode": "UP1072",
     "sector": "Muzaffar Nagar Sector-5, AC"
   },
   "UP1075": {
@@ -1915,6 +2188,7 @@ export default {
     "name": "Arvind Kumar Mishra",
     "vat_OfficeCode": "89276",
     "DESIG": "AC",
+    "gst_Scode": "UP1075",
     "sector": "Muzaffar Nagar Sector-6, AC"
   },
   "UP1078": {
@@ -1922,6 +2196,7 @@ export default {
     "name": "Suman Rai",
     "vat_OfficeCode": "89277",
     "DESIG": "AC",
+    "gst_Scode": "UP1078",
     "sector": "Muzaffar Nagar Sector-7, AC"
   },
   "UP1081": {
@@ -1929,6 +2204,7 @@ export default {
     "name": "Praduman Chaudhary",
     "vat_OfficeCode": "89278",
     "DESIG": "AC",
+    "gst_Scode": "UP1081",
     "sector": "Muzaffar Nagar Sector-8, AC"
   },
   "UP1273": {
@@ -1936,6 +2212,7 @@ export default {
     "name": "Sateesh Chand",
     "vat_OfficeCode": "89280",
     "DESIG": "AC",
+    "gst_Scode": "UP1273",
     "sector": "Sector-2, Khatauli , AC"
   },
   "UP1172": {
@@ -1943,6 +2220,7 @@ export default {
     "name": "Umang Dwivedi Smt",
     "vat_OfficeCode": "89254",
     "DESIG": "CTO",
+    "gst_Scode": "UP1172",
     "sector": "Saharanpur Sector-1, AC"
   },
   "UP1184": {
@@ -1950,6 +2228,7 @@ export default {
     "name": "Birendra Kumar Pandey",
     "vat_OfficeCode": "89255",
     "DESIG": "CTO",
+    "gst_Scode": "UP1184",
     "sector": "Saharanpur Sector-2, AC"
   },
   "UP1187": {
@@ -1957,6 +2236,7 @@ export default {
     "name": "Kamal Kumar Pandey",
     "vat_OfficeCode": "89256",
     "DESIG": "AC",
+    "gst_Scode": "UP1187",
     "sector": "Saharanpur Sector-3, AC"
   },
   "UP1193": {
@@ -1964,6 +2244,7 @@ export default {
     "name": "Kul Deep",
     "vat_OfficeCode": "89258",
     "DESIG": "AC",
+    "gst_Scode": "UP1193",
     "sector": "Saharanpur Sector-5, AC"
   },
   "UP1196": {
@@ -1971,6 +2252,7 @@ export default {
     "name": "Pooja Gautam",
     "vat_OfficeCode": "89259",
     "DESIG": "AC",
+    "gst_Scode": "UP1196",
     "sector": "Saharanpur Sector-6, AC"
   },
   "UP1257": {
@@ -1978,6 +2260,7 @@ export default {
     "name": "Anita-I Ms.",
     "vat_OfficeCode": "89267",
     "DESIG": "AC",
+    "gst_Scode": "UP1257",
     "sector": "Sector-2 Devband , AC"
   },
   "UP1175": {
@@ -1985,6 +2268,7 @@ export default {
     "name": "Suman Patel",
     "vat_OfficeCode": "89263",
     "DESIG": "AC",
+    "gst_Scode": "UP1175",
     "sector": "Saharanpur Sector-10, AC"
   },
   "UP1222": {
@@ -1992,6 +2276,7 @@ export default {
     "name": "Hari Shankar Singh-II",
     "vat_OfficeCode": "89266",
     "DESIG": "AC",
+    "gst_Scode": "UP1222",
     "sector": "Sector-1 Devband , AC"
   },
   "UP1181": {
@@ -1999,6 +2284,7 @@ export default {
     "name": "Ankita Pilaniya Ms.",
     "vat_OfficeCode": "89265",
     "DESIG": "AC",
+    "gst_Scode": "UP1181",
     "sector": "Saharanpur Sector-12, AC"
   },
   "UP1199": {
@@ -2006,6 +2292,7 @@ export default {
     "name": "Amit Kumar-I",
     "vat_OfficeCode": "89260",
     "DESIG": "AC",
+    "gst_Scode": "UP1199",
     "sector": "Saharanpur Sector-7, AC"
   },
   "UP1202": {
@@ -2013,6 +2300,7 @@ export default {
     "name": "Amit Kumar Agarwal",
     "vat_OfficeCode": "89261",
     "DESIG": "AC",
+    "gst_Scode": "UP1202",
     "sector": "Saharanpur Sector-8, AC"
   },
   "UP1205": {
@@ -2020,6 +2308,7 @@ export default {
     "name": "Dheerendra Kumar",
     "vat_OfficeCode": "89262",
     "DESIG": "AC",
+    "gst_Scode": "UP1205",
     "sector": "Saharanpur Sector-9, AC"
   },
   "UP1306": {
@@ -2027,6 +2316,7 @@ export default {
     "name": "Prashant Vyas",
     "vat_OfficeCode": "89269",
     "DESIG": "AC",
+    "gst_Scode": "UP1306",
     "sector": "Shamli Sector-2, AC"
   },
   "UP1309": {
@@ -2034,6 +2324,7 @@ export default {
     "name": "Rajendra Kumar Chakravarti",
     "vat_OfficeCode": "89270",
     "DESIG": "AC",
+    "gst_Scode": "UP1309",
     "sector": "Shamli Sector-3, AC"
   },
   "UP297": {
@@ -2041,6 +2332,7 @@ export default {
     "name": "Praveen Kumar Singh",
     "vat_OfficeCode": "89320",
     "DESIG": "AC",
+    "gst_Scode": "UP297",
     "sector": "Chandauli Sector-1, AC"
   },
   "UP300": {
@@ -2048,6 +2340,7 @@ export default {
     "name": "Manoj Kumar Mishra",
     "vat_OfficeCode": "89321",
     "DESIG": "AC",
+    "gst_Scode": "UP300",
     "sector": "Chandauli Sector-2, AC"
   },
   "UP1376": {
@@ -2055,6 +2348,7 @@ export default {
     "name": "Shailendra Kumar-II",
     "vat_OfficeCode": "89299",
     "DESIG": "AC",
+    "gst_Scode": "UP1376",
     "sector": "Varanasi Sector-1 , AC"
   },
   "UP1406": {
@@ -2062,6 +2356,7 @@ export default {
     "name": "Lal Singh-II",
     "vat_OfficeCode": "89300",
     "DESIG": "AC",
+    "gst_Scode": "UP1406",
     "sector": "Varanasi Sector-2 , AC"
   },
   "UP1421": {
@@ -2069,6 +2364,7 @@ export default {
     "name": "Sanchi Rastogi Ms.",
     "vat_OfficeCode": "89303",
     "DESIG": "CTO",
+    "gst_Scode": "UP1421",
     "sector": "Varanasi Sector-5, AC"
   },
   "UP1424": {
@@ -2076,6 +2372,7 @@ export default {
     "name": "Nitish Tripathi",
     "vat_OfficeCode": "89304",
     "DESIG": "CTO",
+    "gst_Scode": "UP1424",
     "sector": "Varanasi Sector-6, AC"
   },
   "UP1427": {
@@ -2083,6 +2380,7 @@ export default {
     "name": "Ajay Kumar Sonkar",
     "vat_OfficeCode": "89305",
     "DESIG": "AC",
+    "gst_Scode": "UP1427",
     "sector": "Varanasi Sector-7, AC"
   },
   "UP1433": {
@@ -2090,6 +2388,7 @@ export default {
     "name": "Rananjay Yadav",
     "vat_OfficeCode": "89307",
     "DESIG": "AC",
+    "gst_Scode": "UP1433",
     "sector": "Varanasi Sector-9, AC"
   },
   "UP548": {
@@ -2097,6 +2396,7 @@ export default {
     "name": "Mithilesh Kumar Barnwal",
     "vat_OfficeCode": "89323",
     "DESIG": "AC",
+    "gst_Scode": "UP548",
     "sector": "Ghazipur Sector-1, AC"
   },
   "UP551": {
@@ -2104,6 +2404,7 @@ export default {
     "name": "Atul Kumar Yadav",
     "vat_OfficeCode": "89324",
     "DESIG": "CTO",
+    "gst_Scode": "UP551",
     "sector": "Ghazipur Sector-2, AC"
   },
   "UP1382": {
@@ -2111,6 +2412,7 @@ export default {
     "name": "Utkarsh",
     "vat_OfficeCode": "89309",
     "DESIG": "CTO",
+    "gst_Scode": "UP1382",
     "sector": "Varanasi Sector-11, AC"
   },
   "UP1388": {
@@ -2118,6 +2420,7 @@ export default {
     "name": "Prashant Kumar-II",
     "vat_OfficeCode": "89311",
     "DESIG": "AC",
+    "gst_Scode": "UP1388",
     "sector": "Varanasi Sector-13, AC"
   },
   "UP1391": {
@@ -2125,6 +2428,7 @@ export default {
     "name": "Arvind Kumar-VI",
     "vat_OfficeCode": "89312",
     "DESIG": "AC",
+    "gst_Scode": "UP1391",
     "sector": "Varanasi Sector-14, AC"
   },
   "UP1394": {
@@ -2132,6 +2436,7 @@ export default {
     "name": "Anil Kumar Dinkar",
     "vat_OfficeCode": "89314",
     "DESIG": "AC",
+    "gst_Scode": "UP1394",
     "sector": "Varanasi Sector-16, AC"
   },
   "UP1436": {
@@ -2139,6 +2444,7 @@ export default {
     "name": "Babulesh Kumar Tiwari",
     "vat_OfficeCode": "89313",
     "DESIG": "AC",
+    "gst_Scode": "UP1436",
     "sector": "Varanasi, Sector-15, AC"
   },
   "UP149": {
@@ -2146,6 +2452,7 @@ export default {
     "name": "Om Prakash Shukla",
     "vat_OfficeCode": "89333",
     "DESIG": "CTO",
+    "gst_Scode": "UP149",
     "sector": "Azamgarh Sector-1, AC"
   },
   "UP158": {
@@ -2153,6 +2460,7 @@ export default {
     "name": "Pradeep Kumar-V",
     "vat_OfficeCode": "89336",
     "DESIG": "AC",
+    "gst_Scode": "UP158",
     "sector": "Azamgarh Sector-4, AC"
   },
   "UP155": {
@@ -2160,6 +2468,7 @@ export default {
     "name": "Sunil Singh Yadav",
     "vat_OfficeCode": "89335",
     "DESIG": "AC",
+    "gst_Scode": "UP155",
     "sector": "Azamgarh Sector-3, AC"
   },
   "UP188": {
@@ -2167,6 +2476,7 @@ export default {
     "name": "Ravindra Kumar-I",
     "vat_OfficeCode": "89339",
     "DESIG": "AC",
+    "gst_Scode": "UP188",
     "sector": "Balia Sector-2, AC"
   },
   "UP191": {
@@ -2174,6 +2484,7 @@ export default {
     "name": "Vivek Kumar-V",
     "vat_OfficeCode": "89340",
     "DESIG": "AC",
+    "gst_Scode": "UP191",
     "sector": "Balia Sector-3, AC"
   },
   "UP967": {
@@ -2181,6 +2492,7 @@ export default {
     "name": "Alok Chandra Gautam",
     "vat_OfficeCode": "89342",
     "DESIG": "AC",
+    "gst_Scode": "UP967",
     "sector": "Mau Sector-1, AC"
   },
   "UP970": {
@@ -2188,6 +2500,7 @@ export default {
     "name": "Abhishek Kumar Singh Dr.",
     "vat_OfficeCode": "89343",
     "DESIG": "AC",
+    "gst_Scode": "UP970",
     "sector": "Mau Sector-2 , AC"
   },
   "UP973": {
@@ -2195,6 +2508,7 @@ export default {
     "name": "Ashish Mishra-I",
     "vat_OfficeCode": "89344",
     "DESIG": "AC",
+    "gst_Scode": "UP973",
     "sector": "Mau Sector-3 , AC"
   },
   "UP270": {
@@ -2202,6 +2516,7 @@ export default {
     "name": "Ambrish Kumar Singh",
     "vat_OfficeCode": "89355",
     "DESIG": "AC",
+    "gst_Scode": "UP270",
     "sector": "Bhadohi Sector-2, AC"
   },
   "UP273": {
@@ -2209,6 +2524,7 @@ export default {
     "name": "Sanjay Kumar Singh-VIII",
     "vat_OfficeCode": "89356",
     "DESIG": "AC",
+    "gst_Scode": "UP273",
     "sector": "Bhadohi Sector-3, AC"
   },
   "UP1018": {
@@ -2216,6 +2532,7 @@ export default {
     "name": "Ajay Kumar-VI",
     "vat_OfficeCode": "89345",
     "DESIG": "AC",
+    "gst_Scode": "UP1018",
     "sector": "Mirzapur Sector-1, AC"
   },
   "UP1021": {
@@ -2223,6 +2540,7 @@ export default {
     "name": "Avinash Chandra Rai",
     "vat_OfficeCode": "89346",
     "DESIG": "AC",
+    "gst_Scode": "UP1021",
     "sector": "Mirzapur Sector-2, AC"
   },
   "UP1024": {
@@ -2230,6 +2548,7 @@ export default {
     "name": "Shubha Singh",
     "vat_OfficeCode": "89347",
     "DESIG": "AC",
+    "gst_Scode": "UP1024",
     "sector": "Mirzapur Sector-3, AC"
   },
   "UP1343": {
@@ -2237,6 +2556,7 @@ export default {
     "name": "Dhananjay Kumar Singh",
     "vat_OfficeCode": "89349",
     "DESIG": "AC",
+    "gst_Scode": "UP1343",
     "sector": "Sonbhadra Sector-1, AC"
   },
   "UP1346": {
@@ -2244,6 +2564,7 @@ export default {
     "name": "Shiv Kumar Singh",
     "vat_OfficeCode": "89350",
     "DESIG": "AC",
+    "gst_Scode": "UP1346",
     "sector": "Sonbhadra Sector-2, AC"
   },
   "UP1349": {
@@ -2251,6 +2572,7 @@ export default {
     "name": "Sanjay Kumar Singh-IX",
     "vat_OfficeCode": "89351",
     "DESIG": "AC",
+    "gst_Scode": "UP1349",
     "sector": "Sonbhadra Sector-3, AC"
   },
   "UP1355": {
@@ -2258,6 +2580,7 @@ export default {
     "name": "Siddarth SIngh",
     "vat_OfficeCode": "89353",
     "DESIG": "AC",
+    "gst_Scode": "UP1355",
     "sector": "Sonbhadra Sector-5, AC"
   },
   "UP667": {
@@ -2265,6 +2588,7 @@ export default {
     "name": "Manish Kumar Rai-II",
     "vat_OfficeCode": "89327",
     "DESIG": "AC",
+    "gst_Scode": "UP667",
     "sector": "Jaunpur Sector-1, AC"
   },
   "UP670": {
@@ -2272,6 +2596,7 @@ export default {
     "name": "Vipin Sonkar",
     "vat_OfficeCode": "89328",
     "DESIG": "AC",
+    "gst_Scode": "UP670",
     "sector": "Jaunpur Sector-2, AC"
   },
   "UP676": {
@@ -2279,6 +2604,7 @@ export default {
     "name": "Rajesh Kumar Dwivedi",
     "vat_OfficeCode": "89330",
     "DESIG": "AC",
+    "gst_Scode": "UP676",
     "sector": "Jaunpur Sector-4, AC"
   },
   "UP679": {
@@ -2286,6 +2612,7 @@ export default {
     "name": "Amit Kumar Singh-II",
     "vat_OfficeCode": "89331",
     "DESIG": "AC",
+    "gst_Scode": "UP679",
     "sector": "Jaunpur Sector-5, AC"
   },
   "UP682": {
@@ -2293,6 +2620,7 @@ export default {
     "name": "Abhishek Kumar Tiwari",
     "vat_OfficeCode": "89332",
     "DESIG": "CTO",
+    "gst_Scode": "UP682",
     "sector": "Jaunpur Sector-6, AC"
   },
   "UP1400": {
@@ -2300,6 +2628,7 @@ export default {
     "name": "Pramod Kumar Upadhyay",
     "vat_OfficeCode": "89316",
     "DESIG": "AC",
+    "gst_Scode": "UP1400",
     "sector": "Varanasi Sector-18, AC"
   },
   "UP1403": {
@@ -2307,6 +2636,7 @@ export default {
     "name": "Varun Kumar",
     "vat_OfficeCode": "89317",
     "DESIG": "AC",
+    "gst_Scode": "UP1403",
     "sector": "Varanasi Sector-19, AC"
   },
   "UP1412": {
@@ -2314,6 +2644,7 @@ export default {
     "name": "Uday Pratap Singh-III",
     "vat_OfficeCode": "89319",
     "DESIG": "DC",
+    "gst_Scode": "UP1412",
     "sector": "Varanasi Sector-21, AC"
   },
   "UP1328": {
@@ -2321,6 +2652,7 @@ export default {
     "name": "Ashish Kumar-II",
     "vat_OfficeCode": "89387",
     "DESIG": "AC",
+    "gst_Scode": "UP1328",
     "sector": "Sikandarbad, AC"
   },
   "UP855": {
@@ -2328,6 +2660,7 @@ export default {
     "name": "Commissioner, Commercial Tax U.P.",
     "vat_OfficeCode": "89169",
     "DESIG": "Admin",
+    "gst_Scode": "UP855",
     "sector": "Lucknow Sector- 1, AC"
   },
   "UP856": {
@@ -2335,6 +2668,7 @@ export default {
     "name": "Pushpa Devi Gautam Smt",
     "vat_OfficeCode": "99169",
     "DESIG": "CTO",
+    "gst_Scode": "UP856",
     "sector": "Lucknow Sector- 1, CTO"
   },
   "UP627": {
@@ -2342,6 +2676,7 @@ export default {
     "name": "Damyanti Gangwar Ms.",
     "vat_OfficeCode": "99193",
     "DESIG": "CTO",
+    "gst_Scode": "UP627",
     "sector": "Hardoi ,Sector-3, CTO"
   },
   "UP630": {
@@ -2349,6 +2684,7 @@ export default {
     "name": "Sudhir Kumar Mishra",
     "vat_OfficeCode": "99194",
     "DESIG": "CTO",
+    "gst_Scode": "UP630",
     "sector": "Hardoi ,Sector-4, CTO"
   },
   "UP624": {
@@ -2356,6 +2692,7 @@ export default {
     "name": "Dharmendra Kumar-III",
     "vat_OfficeCode": "99192",
     "DESIG": "CTO",
+    "gst_Scode": "UP624",
     "sector": "Hardoi ,Sector-2, CTO"
   },
   "UP865": {
@@ -2363,6 +2700,7 @@ export default {
     "name": "Shri Pal",
     "vat_OfficeCode": "99172",
     "DESIG": "CTO",
+    "gst_Scode": "UP865",
     "sector": "Lucknow Sector- 4, CTO"
   },
   "UP862": {
@@ -2370,13 +2708,15 @@ export default {
     "name": "Preeti Tiwari Smt",
     "vat_OfficeCode": "99171",
     "DESIG": "CTO",
-    "sector": "Lucknow Sector- 3, CTO"
+    "gst_Scode": "UP862",
+    "sector": "Lucknow Sector- 3 , CTO"
   },
   "UP797": {
     "EmpID": "126531",
     "name": "M I Siddiqui",
     "vat_OfficeCode": "99165",
     "DESIG": "CTO",
+    "gst_Scode": "UP797",
     "sector": "Kanpur Sector-30, CTO"
   },
   "UP791": {
@@ -2384,6 +2724,7 @@ export default {
     "name": "Aditya Pratap Singh Bishen",
     "vat_OfficeCode": "99164",
     "DESIG": "CTO",
+    "gst_Scode": "UP791",
     "sector": "Kanpur Sector-29, CTO"
   },
   "UP788": {
@@ -2391,6 +2732,7 @@ export default {
     "name": "Kamal Singh",
     "vat_OfficeCode": "99163",
     "DESIG": "CTO",
+    "gst_Scode": "UP788",
     "sector": "Kanpur Sector-28, CTO"
   },
   "UP785": {
@@ -2398,6 +2740,7 @@ export default {
     "name": "Akansha Sankhwar Ms",
     "vat_OfficeCode": "99162",
     "DESIG": "CTO",
+    "gst_Scode": "UP785",
     "sector": "Kanpur Sector-27, CTO"
   },
   "UP782": {
@@ -2405,6 +2748,7 @@ export default {
     "name": "Brajendra Kumar",
     "vat_OfficeCode": "99161",
     "DESIG": "CTO",
+    "gst_Scode": "UP782",
     "sector": "Kanpur Sector-26, CTO"
   },
   "UP779": {
@@ -2412,6 +2756,7 @@ export default {
     "name": "Rimjhim Asthana Ms",
     "vat_OfficeCode": "99160",
     "DESIG": "CTO",
+    "gst_Scode": "UP779",
     "sector": "Kanpur Sector-25, CTO"
   },
   "UP776": {
@@ -2419,6 +2764,7 @@ export default {
     "name": "Sandhya",
     "vat_OfficeCode": "99159",
     "DESIG": "CTO",
+    "gst_Scode": "UP776",
     "sector": "Kanpur Sector-24, CTO"
   },
   "UP901": {
@@ -2426,6 +2772,7 @@ export default {
     "name": "Smita Kesarwani Ms.",
     "vat_OfficeCode": "99184",
     "DESIG": "CTO",
+    "gst_Scode": "UP901",
     "sector": "Lucknow Sector-16, CTO"
   },
   "UP898": {
@@ -2433,6 +2780,7 @@ export default {
     "name": "Gautam Kumar Singh",
     "vat_OfficeCode": "99183",
     "DESIG": "CTO",
+    "gst_Scode": "UP898",
     "sector": "Lucknow Sector-15 , CTO"
   },
   "UP895": {
@@ -2440,6 +2788,7 @@ export default {
     "name": "Shaleen Tiwari Dr.",
     "vat_OfficeCode": "99182",
     "DESIG": "CTO",
+    "gst_Scode": "UP895",
     "sector": "Lucknow Sector-14 , CTO"
   },
   "UP1155": {
@@ -2447,6 +2796,7 @@ export default {
     "name": "Ruchi Yadav-II Smt.",
     "vat_OfficeCode": "99195",
     "DESIG": "CTO",
+    "gst_Scode": "UP1155",
     "sector": "Raibareilly Sector-1 , CTO"
   },
   "UP892": {
@@ -2454,6 +2804,7 @@ export default {
     "name": "Pratap Singh Bisht",
     "vat_OfficeCode": "99181",
     "DESIG": "CTO",
+    "gst_Scode": "UP892",
     "sector": "Lucknow Sector-13 , CTO"
   },
   "UP889": {
@@ -2461,6 +2812,7 @@ export default {
     "name": "Ankur Dwivedi",
     "vat_OfficeCode": "99180",
     "DESIG": "CTO",
+    "gst_Scode": "UP889",
     "sector": "Lucknow Sector-12, CTO"
   },
   "UP1158": {
@@ -2468,6 +2820,7 @@ export default {
     "name": "Jagdish Prasad Verma",
     "vat_OfficeCode": "99196",
     "DESIG": "CTO",
+    "gst_Scode": "UP1158",
     "sector": "Raibareilly Sector-2 , CTO"
   },
   "UP880": {
@@ -2475,6 +2828,7 @@ export default {
     "name": "Sweta Ojha Ms.",
     "vat_OfficeCode": "99177",
     "DESIG": "CTO",
+    "gst_Scode": "UP880",
     "sector": "Lucknow Sector- 9, CTO"
   },
   "UP622": {
@@ -2482,6 +2836,7 @@ export default {
     "name": "Rakesh Kumar-IV",
     "vat_OfficeCode": "79191",
     "DESIG": "DC",
+    "gst_Scode": "UP622",
     "sector": "Hardoi , Sector-1 , DC"
   },
   "UP878": {
@@ -2489,13 +2844,15 @@ export default {
     "name": "Sandeep Chandra",
     "vat_OfficeCode": "79176",
     "DESIG": "DC",
-    "sector": "Lucknow Sector- 8, DC"
+    "gst_Scode": "UP878",
+    "sector": "Lucknow Sector- 8 , DC"
   },
   "UP883": {
     "EmpID": "125488",
     "name": "Asheesh Kumar",
     "vat_OfficeCode": "99178",
     "DESIG": "CTO",
+    "gst_Scode": "UP883",
     "sector": "Lucknow Sector-10, CTO"
   },
   "UP886": {
@@ -2503,6 +2860,7 @@ export default {
     "name": "Kalpana Kannojia",
     "vat_OfficeCode": "99179",
     "DESIG": "CTO",
+    "gst_Scode": "UP886",
     "sector": "Lucknow Sector-11, CTO"
   },
   "UP874": {
@@ -2510,13 +2868,15 @@ export default {
     "name": "Akanksha Singh Ms",
     "vat_OfficeCode": "99175",
     "DESIG": "CTO",
-    "sector": "Lucknow Sector- 7, CTO"
+    "gst_Scode": "UP874",
+    "sector": "Lucknow Sector- 7 , CTO"
   },
   "UP868": {
     "EmpID": "127186",
     "name": "Pratishtha Singh Ms",
     "vat_OfficeCode": "99173",
     "DESIG": "CTO",
+    "gst_Scode": "UP868",
     "sector": "Lucknow Sector- 5, CTO"
   },
   "UP871": {
@@ -2524,13 +2884,15 @@ export default {
     "name": "Ankita Singh Ms",
     "vat_OfficeCode": "99174",
     "DESIG": "CTO",
-    "sector": "Lucknow Sector- 6, CTO"
+    "gst_Scode": "UP871",
+    "sector": "Lucknow Sector- 6 , CTO"
   },
   "UP1016": {
     "EmpID": "127000",
     "name": "Gaya Prasad",
     "vat_OfficeCode": "99289",
     "DESIG": "CTO",
+    "gst_Scode": "UP1016",
     "sector": "Meerut Sector-9, CTO"
   },
   "UP1013": {
@@ -2538,6 +2900,7 @@ export default {
     "name": "Renu Pandey Ms",
     "vat_OfficeCode": "99288",
     "DESIG": "CTO",
+    "gst_Scode": "UP1013",
     "sector": "Meerut Sector-8, CTO"
   },
   "UP992": {
@@ -2545,6 +2908,7 @@ export default {
     "name": "Prashant Kumar Khevariya",
     "vat_OfficeCode": "99293",
     "DESIG": "CTO",
+    "gst_Scode": "UP992",
     "sector": "Meerut Sector-13, CTO"
   },
   "UP983": {
@@ -2552,6 +2916,7 @@ export default {
     "name": "Rakesh Sharan Khanna",
     "vat_OfficeCode": "99290",
     "DESIG": "CTO",
+    "gst_Scode": "UP983",
     "sector": "Meerut Sector-10, CTO"
   },
   "UP986": {
@@ -2559,6 +2924,7 @@ export default {
     "name": "Anil Kumar Yadav",
     "vat_OfficeCode": "99291",
     "DESIG": "CTO",
+    "gst_Scode": "UP986",
     "sector": "Meerut Sector-11, CTO"
   },
   "UP253": {
@@ -2566,6 +2932,7 @@ export default {
     "name": "Sri Krishna",
     "vat_OfficeCode": "99297",
     "DESIG": "CTO",
+    "gst_Scode": "UP253",
     "sector": "Barout Sector-2, CTO"
   },
   "UP249": {
@@ -2573,6 +2940,7 @@ export default {
     "name": "Puneet Kumar Sharma",
     "vat_OfficeCode": "89296",
     "DESIG": "CTO",
+    "gst_Scode": "UP249",
     "sector": "Barout Sector-1, AC"
   },
   "UP174": {
@@ -2580,6 +2948,7 @@ export default {
     "name": "Billu Singh",
     "vat_OfficeCode": "99298",
     "DESIG": "CTO",
+    "gst_Scode": "UP174",
     "sector": "Baghpat , CTO"
   },
   "UP1004": {
@@ -2587,6 +2956,7 @@ export default {
     "name": "Dhal Gopal Singh",
     "vat_OfficeCode": "99285",
     "DESIG": "CTO",
+    "gst_Scode": "UP1004",
     "sector": "Meerut Sector-5, CTO"
   },
   "UP1001": {
@@ -2594,6 +2964,7 @@ export default {
     "name": "Mithilesh Pratap",
     "vat_OfficeCode": "99284",
     "DESIG": "CTO",
+    "gst_Scode": "UP1001",
     "sector": "Meerut Sector-4, CTO"
   },
   "UP998": {
@@ -2601,6 +2972,7 @@ export default {
     "name": "Mohammad Nafees",
     "vat_OfficeCode": "99283",
     "DESIG": "CTO",
+    "gst_Scode": "UP998",
     "sector": "Meerut Sector-3, CTO"
   },
   "UP995": {
@@ -2608,6 +2980,7 @@ export default {
     "name": "Pradeep Kumar-VIII",
     "vat_OfficeCode": "99282",
     "DESIG": "CTO",
+    "gst_Scode": "UP995",
     "sector": "Meerut Sector-2, CTO"
   },
   "UP977": {
@@ -2615,6 +2988,7 @@ export default {
     "name": "Bhawna Chandra Ms.",
     "vat_OfficeCode": "99295",
     "DESIG": "CTO",
+    "gst_Scode": "UP977",
     "sector": "Mawana, CTO"
   },
   "UP1341": {
@@ -2622,6 +2996,7 @@ export default {
     "name": "Shri Ram",
     "vat_OfficeCode": "99201",
     "DESIG": "CTO",
+    "gst_Scode": "UP1341",
     "sector": "Sitapur ,Sector-4, CTO"
   },
   "UP1338": {
@@ -2629,6 +3004,7 @@ export default {
     "name": "Siyaram",
     "vat_OfficeCode": "99200",
     "DESIG": "CTO",
+    "gst_Scode": "UP1338",
     "sector": "Sitapur ,Sector-3, CTO"
   },
   "UP1335": {
@@ -2636,6 +3012,7 @@ export default {
     "name": "Banshi Lal",
     "vat_OfficeCode": "99199",
     "DESIG": "CTO",
+    "gst_Scode": "UP1335",
     "sector": "Sitapur ,Sector-2, CTO"
   },
   "UP847": {
@@ -2643,6 +3020,7 @@ export default {
     "name": "Om Prakash Yadav",
     "vat_OfficeCode": "99205",
     "DESIG": "CTO",
+    "gst_Scode": "UP847",
     "sector": "Lakhimpur Kheri ,Sector-4, CTO"
   },
   "UP841": {
@@ -2650,6 +3028,7 @@ export default {
     "name": "Ram Prasad",
     "vat_OfficeCode": "99203",
     "DESIG": "CTO",
+    "gst_Scode": "UP841",
     "sector": "Lakhimpur Kheri ,Sector-2, CTO"
   },
   "UP844": {
@@ -2657,6 +3036,7 @@ export default {
     "name": "Sunita Devi Smt",
     "vat_OfficeCode": "99204",
     "DESIG": "CTO",
+    "gst_Scode": "UP844",
     "sector": "Lakhimpur Kheri ,Sector-3, CTO"
   },
   "UP919": {
@@ -2664,6 +3044,7 @@ export default {
     "name": "Abhishek Mishra",
     "vat_OfficeCode": "99190",
     "DESIG": "CTO",
+    "gst_Scode": "UP919",
     "sector": "Lucknow Sector-22 , CTO"
   },
   "UP916": {
@@ -2671,6 +3052,7 @@ export default {
     "name": "Raj Kumar Shukla",
     "vat_OfficeCode": "99189",
     "DESIG": "CTO",
+    "gst_Scode": "UP916",
     "sector": "Lucknow Sector-21, CTO"
   },
   "UP907": {
@@ -2678,6 +3060,7 @@ export default {
     "name": "Ashok Mishra",
     "vat_OfficeCode": "99186",
     "DESIG": "CTO",
+    "gst_Scode": "UP907",
     "sector": "Lucknow Sector-18, CTO"
   },
   "UP904": {
@@ -2685,6 +3068,7 @@ export default {
     "name": "Chandra Prakash",
     "vat_OfficeCode": "99185",
     "DESIG": "CTO",
+    "gst_Scode": "UP904",
     "sector": "Lucknow Sector-17 , CTO"
   },
   "UP1416": {
@@ -2692,6 +3076,7 @@ export default {
     "name": "B S L Srivastava",
     "vat_OfficeCode": "99301",
     "DESIG": "CTO",
+    "gst_Scode": "UP1416",
     "sector": "Varanasi Sector-3 , CTO"
   },
   "UP1407": {
@@ -2699,6 +3084,7 @@ export default {
     "name": "Kalpana Yadav Smt.",
     "vat_OfficeCode": "99300",
     "DESIG": "CTO",
+    "gst_Scode": "UP1407",
     "sector": "Varanasi Sector-2 , CTO"
   },
   "UP1377": {
@@ -2706,6 +3092,7 @@ export default {
     "name": "Lal Chandra Vishwakarma",
     "vat_OfficeCode": "99299",
     "DESIG": "CTO",
+    "gst_Scode": "UP1377",
     "sector": "Varanasi Sector-1 , CTO"
   },
   "UP301": {
@@ -2713,6 +3100,7 @@ export default {
     "name": "Ramesh Kumar-II",
     "vat_OfficeCode": "99321",
     "DESIG": "CTO",
+    "gst_Scode": "UP301",
     "sector": "Chandauli Sector-2, CTO"
   },
   "UP304": {
@@ -2720,6 +3108,7 @@ export default {
     "name": "Arun Kumar Mishra",
     "vat_OfficeCode": "99322",
     "DESIG": "CTO",
+    "gst_Scode": "UP304",
     "sector": "Chandauli Sector-3, CTO"
   },
   "UP298": {
@@ -2727,6 +3116,7 @@ export default {
     "name": "Shashi Prakash",
     "vat_OfficeCode": "99320",
     "DESIG": "CTO",
+    "gst_Scode": "UP298",
     "sector": "Chandauli Sector-1, CTO"
   },
   "UP1310": {
@@ -2734,6 +3124,7 @@ export default {
     "name": "Bhanu Pratap Singh",
     "vat_OfficeCode": "99270",
     "DESIG": "CTO",
+    "gst_Scode": "UP1310",
     "sector": "Shamli Sector-3, CTO"
   },
   "UP1307": {
@@ -2741,6 +3132,7 @@ export default {
     "name": "Bhupender singh",
     "vat_OfficeCode": "99269",
     "DESIG": "CTO",
+    "gst_Scode": "UP1307",
     "sector": "Shamli Sector-2, CTO"
   },
   "UP1207": {
@@ -2748,6 +3140,7 @@ export default {
     "name": "Ajeet Kumar Singh-II",
     "vat_OfficeCode": "79262",
     "DESIG": "DC",
+    "gst_Scode": "UP1207",
     "sector": "Saharanpur Sector-9, DC"
   },
   "UP1303": {
@@ -2755,6 +3148,7 @@ export default {
     "name": "Bahadur Singh Khati",
     "vat_OfficeCode": "89268",
     "DESIG": "CTO",
+    "gst_Scode": "UP1303",
     "sector": "Shamli Sector-1, AC"
   },
   "UP1203": {
@@ -2762,6 +3156,7 @@ export default {
     "name": "Raj Kumar Handala",
     "vat_OfficeCode": "99261",
     "DESIG": "CTO",
+    "gst_Scode": "UP1203",
     "sector": "Saharanpur Sector-8, CTO"
   },
   "UP1200": {
@@ -2769,6 +3164,7 @@ export default {
     "name": "Indrapal",
     "vat_OfficeCode": "99260",
     "DESIG": "CTO",
+    "gst_Scode": "UP1200",
     "sector": "Saharanpur Sector-7, CTO"
   },
   "UP1182": {
@@ -2776,6 +3172,7 @@ export default {
     "name": "Alka Patel Ms",
     "vat_OfficeCode": "99265",
     "DESIG": "CTO",
+    "gst_Scode": "UP1182",
     "sector": "Saharanpur Sector-12, CTO"
   },
   "UP1223": {
@@ -2783,6 +3180,7 @@ export default {
     "name": "Dinesh Kumar",
     "vat_OfficeCode": "99266",
     "DESIG": "CTO",
+    "gst_Scode": "UP1223",
     "sector": "Sector-1 Devband , CTO"
   },
   "UP1179": {
@@ -2790,6 +3188,7 @@ export default {
     "name": "Arvind Kumar Singh",
     "vat_OfficeCode": "99264",
     "DESIG": "CTO",
+    "gst_Scode": "UP1179",
     "sector": "Saharanpur Sector-11, CTO"
   },
   "UP1176": {
@@ -2797,6 +3196,7 @@ export default {
     "name": "Mukesh Upadhyay",
     "vat_OfficeCode": "99263",
     "DESIG": "CTO",
+    "gst_Scode": "UP1176",
     "sector": "Saharanpur Sector-10, CTO"
   },
   "UP1197": {
@@ -2804,6 +3204,7 @@ export default {
     "name": "Anshu Raghav Ms",
     "vat_OfficeCode": "99259",
     "DESIG": "CTO",
+    "gst_Scode": "UP1197",
     "sector": "Saharanpur Sector-6, CTO"
   },
   "UP1194": {
@@ -2811,6 +3212,7 @@ export default {
     "name": "Raj Kumar Singh",
     "vat_OfficeCode": "99258",
     "DESIG": "CTO",
+    "gst_Scode": "UP1194",
     "sector": "Saharanpur Sector-5, CTO"
   },
   "UP1188": {
@@ -2818,6 +3220,7 @@ export default {
     "name": "Tilak Chand",
     "vat_OfficeCode": "99256",
     "DESIG": "CTO",
+    "gst_Scode": "UP1188",
     "sector": "Saharanpur Sector-3, CTO"
   },
   "UP1191": {
@@ -2825,6 +3228,7 @@ export default {
     "name": "Ravindra Kumar Srivastava",
     "vat_OfficeCode": "99257",
     "DESIG": "CTO",
+    "gst_Scode": "UP1191",
     "sector": "Saharanpur Sector-4 , CTO"
   },
   "UP1173": {
@@ -2832,6 +3236,7 @@ export default {
     "name": "Somkar Singh",
     "vat_OfficeCode": "99254",
     "DESIG": "CTO",
+    "gst_Scode": "UP1173",
     "sector": "Saharanpur Sector-1, CTO"
   },
   "UP1274": {
@@ -2839,6 +3244,7 @@ export default {
     "name": "Kalpana Singhal Smt.",
     "vat_OfficeCode": "99280",
     "DESIG": "CTO",
+    "gst_Scode": "UP1274",
     "sector": "Sector-2, Khatauli , CTO"
   },
   "UP1079": {
@@ -2846,6 +3252,7 @@ export default {
     "name": "Sanju Rani Verma Ms",
     "vat_OfficeCode": "99277",
     "DESIG": "CTO",
+    "gst_Scode": "UP1079",
     "sector": "Muzaffar Nagar Sector-7, CTO"
   },
   "UP1076": {
@@ -2853,6 +3260,7 @@ export default {
     "name": "Jay Prakash",
     "vat_OfficeCode": "99276",
     "DESIG": "CTO",
+    "gst_Scode": "UP1076",
     "sector": "Muzaffar Nagar Sector-6, CTO"
   },
   "UP1073": {
@@ -2860,6 +3268,7 @@ export default {
     "name": "Raj Kanwar",
     "vat_OfficeCode": "99275",
     "DESIG": "CTO",
+    "gst_Scode": "UP1073",
     "sector": "Muzaffar Nagar Sector-5, CTO"
   },
   "UP1067": {
@@ -2867,6 +3276,7 @@ export default {
     "name": "Girraj Kishore",
     "vat_OfficeCode": "99273",
     "DESIG": "CTO",
+    "gst_Scode": "UP1067",
     "sector": "Muzaffar Nagar Sector-3, CTO"
   },
   "UP1064": {
@@ -2874,6 +3284,7 @@ export default {
     "name": "Vipin Kumar",
     "vat_OfficeCode": "99272",
     "DESIG": "CTO",
+    "gst_Scode": "UP1064",
     "sector": "Muzaffar Nagar Sector-2, CTO"
   },
   "UP1061": {
@@ -2881,6 +3292,7 @@ export default {
     "name": "Pradeep Kumar",
     "vat_OfficeCode": "99271",
     "DESIG": "CTO",
+    "gst_Scode": "UP1061",
     "sector": "Muzaffar Nagar Sector-1, CTO"
   },
   "UP1237": {
@@ -2888,6 +3300,7 @@ export default {
     "name": "Gaurav Arya",
     "vat_OfficeCode": "99226",
     "DESIG": "CTO",
+    "gst_Scode": "UP1237",
     "sector": "Sector-1, Chandausi, CTO"
   },
   "UP1170": {
@@ -2895,6 +3308,7 @@ export default {
     "name": "Richa Kakkar Ms.",
     "vat_OfficeCode": "99225",
     "DESIG": "CTO",
+    "gst_Scode": "UP1170",
     "sector": "Rampur Sector-3, CTO"
   },
   "UP1167": {
@@ -2902,6 +3316,7 @@ export default {
     "name": "Abha Devi Smt.",
     "vat_OfficeCode": "99224",
     "DESIG": "CTO",
+    "gst_Scode": "UP1167",
     "sector": "Rampur Sector-2, CTO"
   },
   "UP1164": {
@@ -2909,6 +3324,7 @@ export default {
     "name": "Shivani Ms",
     "vat_OfficeCode": "99223",
     "DESIG": "CTO",
+    "gst_Scode": "UP1164",
     "sector": "Rampur Sector-1, CTO"
   },
   "UP1058": {
@@ -2916,6 +3332,7 @@ export default {
     "name": "Krishna Kumar",
     "vat_OfficeCode": "99215",
     "DESIG": "CTO",
+    "gst_Scode": "UP1058",
     "sector": "Moradabad Sector-9, CTO"
   },
   "UP1055": {
@@ -2923,6 +3340,7 @@ export default {
     "name": "Ravindra Kumar",
     "vat_OfficeCode": "99214",
     "DESIG": "CTO",
+    "gst_Scode": "UP1055",
     "sector": "Moradabad Sector-8, CTO"
   },
   "UP1052": {
@@ -2930,6 +3348,7 @@ export default {
     "name": "Priya Raghuvanshi Ms",
     "vat_OfficeCode": "99216",
     "DESIG": "CTO",
+    "gst_Scode": "UP1052",
     "sector": "Moradabad Sector-10, CTO"
   },
   "UP1049": {
@@ -2937,6 +3356,7 @@ export default {
     "name": "Mohan Lal Sharma",
     "vat_OfficeCode": "99213",
     "DESIG": "CTO",
+    "gst_Scode": "UP1049",
     "sector": "Moradabad &nbsp;Sector-7, CTO"
   },
   "UP1046": {
@@ -2944,6 +3364,7 @@ export default {
     "name": "Anil Kumar",
     "vat_OfficeCode": "99212",
     "DESIG": "CTO",
+    "gst_Scode": "UP1046",
     "sector": "Moradabad &nbsp;Sector-6, CTO"
   },
   "UP1234": {
@@ -2951,6 +3372,7 @@ export default {
     "name": "Prem Bahadur Johri",
     "vat_OfficeCode": "99221",
     "DESIG": "CTO",
+    "gst_Scode": "UP1234",
     "sector": "Sector-1 Sambhal, CTO"
   },
   "UP1043": {
@@ -2958,6 +3380,7 @@ export default {
     "name": "Vindhyayvasni Verma Ms.",
     "vat_OfficeCode": "99211",
     "DESIG": "CTO",
+    "gst_Scode": "UP1043",
     "sector": "Moradabad &nbsp;Sector-5, CTO"
   },
   "UP1040": {
@@ -2965,6 +3388,7 @@ export default {
     "name": "Bhuwan Chandra",
     "vat_OfficeCode": "99210",
     "DESIG": "CTO",
+    "gst_Scode": "UP1040",
     "sector": "Moradabad &nbsp;Sector-4, CTO"
   },
   "UP1031": {
@@ -2972,6 +3396,7 @@ export default {
     "name": "Suresh Chandra Sharma",
     "vat_OfficeCode": "99207",
     "DESIG": "CTO",
+    "gst_Scode": "UP1031",
     "sector": "Moradabad &nbsp;Sector-1, CTO"
   },
   "UP1034": {
@@ -2979,6 +3404,7 @@ export default {
     "name": "Pallavi Saxena",
     "vat_OfficeCode": "99208",
     "DESIG": "CTO",
+    "gst_Scode": "UP1034",
     "sector": "Moradabad &nbsp;Sector-2, CTO"
   },
   "UP1037": {
@@ -2986,6 +3412,7 @@ export default {
     "name": "Ram Autar Singh",
     "vat_OfficeCode": "99209",
     "DESIG": "CTO",
+    "gst_Scode": "UP1037",
     "sector": "Moradabad &nbsp;Sector-3, CTO"
   },
   "UP710": {
@@ -2993,6 +3420,7 @@ export default {
     "name": "Anurag Jaiswal",
     "vat_OfficeCode": "99218",
     "DESIG": "CTO",
+    "gst_Scode": "UP710",
     "sector": "Jyotibaphule Nagar ,Sector-1 Amroha, CTO"
   },
   "UP633": {
@@ -3000,6 +3428,7 @@ export default {
     "name": "Ashwani Kumar Singh-II",
     "vat_OfficeCode": "99219",
     "DESIG": "CTO",
+    "gst_Scode": "UP633",
     "sector": "Hasanpur Sector-1, CTO"
   },
   "UP1239": {
@@ -3007,6 +3436,7 @@ export default {
     "name": "Devendra Kumar Pathak",
     "vat_OfficeCode": "89233",
     "DESIG": "CTO",
+    "gst_Scode": "UP1239",
     "sector": "Sector-1, Dhampur , AC"
   },
   "UP1249": {
@@ -3014,6 +3444,7 @@ export default {
     "name": "Ashok Singh",
     "vat_OfficeCode": "99234",
     "DESIG": "CTO",
+    "gst_Scode": "UP1249",
     "sector": "Sector-2 Â&nbsp;Dhampur , CTO"
   },
   "UP1088": {
@@ -3021,6 +3452,7 @@ export default {
     "name": "Atul Gupta",
     "vat_OfficeCode": "99235",
     "DESIG": "CTO",
+    "gst_Scode": "UP1088",
     "sector": "Nazibabad , Sector-1Â&nbsp;, CTO"
   },
   "UP310": {
@@ -3028,6 +3460,7 @@ export default {
     "name": "Devendera Kumar Sharma",
     "vat_OfficeCode": "99232",
     "DESIG": "CTO",
+    "gst_Scode": "UP310",
     "sector": "Chandpur, Sector-2, CTO"
   },
   "UP284": {
@@ -3035,6 +3468,7 @@ export default {
     "name": "Shailendra Kumar Varshney",
     "vat_OfficeCode": "79230",
     "DESIG": "DC",
+    "gst_Scode": "UP284",
     "sector": "Bijnor, Sector-2, DC"
   },
   "UP307": {
@@ -3042,6 +3476,7 @@ export default {
     "name": "Dharam Pal Arya",
     "vat_OfficeCode": "99231",
     "DESIG": "CTO",
+    "gst_Scode": "UP307",
     "sector": "Chandpur, Sector-1, CTO"
   },
   "UP280": {
@@ -3049,6 +3484,7 @@ export default {
     "name": "Tevendra Singh",
     "vat_OfficeCode": "99229",
     "DESIG": "CTO",
+    "gst_Scode": "UP280",
     "sector": "Bijnor, Sector-1, CTO"
   },
   "UP681": {
@@ -3056,6 +3492,7 @@ export default {
     "name": "Surendra Kumar Kaithal",
     "vat_OfficeCode": "79331",
     "DESIG": "DC",
+    "gst_Scode": "UP681",
     "sector": "Jaunpur Sector-5, DC"
   },
   "UP1413": {
@@ -3063,6 +3500,7 @@ export default {
     "name": "Ravi Ranjan",
     "vat_OfficeCode": "99319",
     "DESIG": "CTO",
+    "gst_Scode": "UP1413",
     "sector": "Varanasi Sector-21, CTO"
   },
   "UP1404": {
@@ -3070,6 +3508,7 @@ export default {
     "name": "Rajeshwar Mishra",
     "vat_OfficeCode": "99317",
     "DESIG": "CTO",
+    "gst_Scode": "UP1404",
     "sector": "Varanasi Sector-19, CTO"
   },
   "UP1410": {
@@ -3077,6 +3516,7 @@ export default {
     "name": "Kameshwar Singh",
     "vat_OfficeCode": "99318",
     "DESIG": "CTO",
+    "gst_Scode": "UP1410",
     "sector": "Varanasi Sector-20, CTO"
   },
   "UP1401": {
@@ -3084,6 +3524,7 @@ export default {
     "name": "Shailendra Kumar Singh-II",
     "vat_OfficeCode": "99316",
     "DESIG": "CTO",
+    "gst_Scode": "UP1401",
     "sector": "Varanasi Sector-18, CTO"
   },
   "UP677": {
@@ -3091,6 +3532,7 @@ export default {
     "name": "Jyoti Swaroop Pandey",
     "vat_OfficeCode": "99330",
     "DESIG": "CTO",
+    "gst_Scode": "UP677",
     "sector": "Jaunpur Sector-4, CTO"
   },
   "UP671": {
@@ -3098,6 +3540,7 @@ export default {
     "name": "Anjali Ms",
     "vat_OfficeCode": "99328",
     "DESIG": "CTO",
+    "gst_Scode": "UP671",
     "sector": "Jaunpur Sector-2, CTO"
   },
   "UP1353": {
@@ -3105,6 +3548,7 @@ export default {
     "name": "Vijay Kumar Pandey",
     "vat_OfficeCode": "99352",
     "DESIG": "CTO",
+    "gst_Scode": "UP1353",
     "sector": "Sonbhadra Sector-4, CTO"
   },
   "UP674": {
@@ -3112,6 +3556,7 @@ export default {
     "name": "Dinesh Gupta",
     "vat_OfficeCode": "99329",
     "DESIG": "CTO",
+    "gst_Scode": "UP674",
     "sector": "Jaunpur Sector-3, CTO"
   },
   "UP668": {
@@ -3119,6 +3564,7 @@ export default {
     "name": "Gangesh Kumar Dwivedi",
     "vat_OfficeCode": "99327",
     "DESIG": "CTO",
+    "gst_Scode": "UP668",
     "sector": "Jaunpur Sector-1, CTO"
   },
   "UP1356": {
@@ -3126,6 +3572,7 @@ export default {
     "name": "Tara Chandra Upadhyay",
     "vat_OfficeCode": "99353",
     "DESIG": "CTO",
+    "gst_Scode": "UP1356",
     "sector": "Sonbhadra Sector-5, CTO"
   },
   "UP1350": {
@@ -3133,6 +3580,7 @@ export default {
     "name": "Aniket Tripathi",
     "vat_OfficeCode": "99351",
     "DESIG": "CTO",
+    "gst_Scode": "UP1350",
     "sector": "Sonbhadra Sector-3, CTO"
   },
   "UP1347": {
@@ -3140,6 +3588,7 @@ export default {
     "name": "Siddhnath Tiwari",
     "vat_OfficeCode": "99350",
     "DESIG": "CTO",
+    "gst_Scode": "UP1347",
     "sector": "Sonbhadra Sector-2, CTO"
   },
   "UP1344": {
@@ -3147,6 +3596,7 @@ export default {
     "name": "Bihari Lal",
     "vat_OfficeCode": "99349",
     "DESIG": "CTO",
+    "gst_Scode": "UP1344",
     "sector": "Sonbhadra Sector-1, CTO"
   },
   "UP1025": {
@@ -3154,6 +3604,7 @@ export default {
     "name": "Dileep Kumar Pandey",
     "vat_OfficeCode": "99347",
     "DESIG": "CTO",
+    "gst_Scode": "UP1025",
     "sector": "Mirzapur Sector-3, CTO"
   },
   "UP1028": {
@@ -3161,6 +3612,7 @@ export default {
     "name": "Raju Agarwal",
     "vat_OfficeCode": "99348",
     "DESIG": "CTO",
+    "gst_Scode": "UP1028",
     "sector": "Mirzapur Sector-4, CTO"
   },
   "UP1022": {
@@ -3168,6 +3620,7 @@ export default {
     "name": "Vinay Kumar Srivastava",
     "vat_OfficeCode": "99346",
     "DESIG": "CTO",
+    "gst_Scode": "UP1022",
     "sector": "Mirzapur Sector-2, CTO"
   },
   "UP1019": {
@@ -3175,6 +3628,7 @@ export default {
     "name": "Arvind Kumar",
     "vat_OfficeCode": "99345",
     "DESIG": "CTO",
+    "gst_Scode": "UP1019",
     "sector": "Mirzapur Sector-1, CTO"
   },
   "UP271": {
@@ -3182,6 +3636,7 @@ export default {
     "name": "Pratul Kumar Gaur",
     "vat_OfficeCode": "99355",
     "DESIG": "CTO",
+    "gst_Scode": "UP271",
     "sector": "Bhadohi Sector-2, CTO"
   },
   "UP268": {
@@ -3189,6 +3644,7 @@ export default {
     "name": "Ajay Kumar Singh Kushwaha",
     "vat_OfficeCode": "99354",
     "DESIG": "CTO",
+    "gst_Scode": "UP268",
     "sector": "Bhadohi Sector-1, CTO"
   },
   "UP971": {
@@ -3196,6 +3652,7 @@ export default {
     "name": "Pramod Kumar Singh",
     "vat_OfficeCode": "99343",
     "DESIG": "CTO",
+    "gst_Scode": "UP971",
     "sector": "Mau Sector-2 , CTO"
   },
   "UP968": {
@@ -3203,6 +3660,7 @@ export default {
     "name": "Dinesh Kumar Bharti",
     "vat_OfficeCode": "99342",
     "DESIG": "CTO",
+    "gst_Scode": "UP968",
     "sector": "Mau Sector-1, CTO"
   },
   "UP192": {
@@ -3210,6 +3668,7 @@ export default {
     "name": "Riyazuddin Ansari",
     "vat_OfficeCode": "99340",
     "DESIG": "CTO",
+    "gst_Scode": "UP192",
     "sector": "Balia Sector-3, CTO"
   },
   "UP189": {
@@ -3217,6 +3676,7 @@ export default {
     "name": "Suresh Prasad",
     "vat_OfficeCode": "99339",
     "DESIG": "CTO",
+    "gst_Scode": "UP189",
     "sector": "Balia Sector-2, CTO"
   },
   "UP156": {
@@ -3224,6 +3684,7 @@ export default {
     "name": "Mool Chandra Sharma",
     "vat_OfficeCode": "99335",
     "DESIG": "CTO",
+    "gst_Scode": "UP156",
     "sector": "Azamgarh Sector-3, CTO"
   },
   "UP1243": {
@@ -3231,6 +3692,7 @@ export default {
     "name": "Yashwant Singh",
     "vat_OfficeCode": "99279",
     "DESIG": "CTO",
+    "gst_Scode": "UP1243",
     "sector": "Sector-1, Khatauli , CTO"
   },
   "UP186": {
@@ -3238,6 +3700,7 @@ export default {
     "name": "Rafatullah",
     "vat_OfficeCode": "99338",
     "DESIG": "CTO",
+    "gst_Scode": "UP186",
     "sector": "Balia Sector-1, CTO"
   },
   "UP159": {
@@ -3245,6 +3708,7 @@ export default {
     "name": "Vanika Singh Ms",
     "vat_OfficeCode": "99336",
     "DESIG": "CTO",
+    "gst_Scode": "UP159",
     "sector": "Azamgarh Sector-4, CTO"
   },
   "UP162": {
@@ -3252,6 +3716,7 @@ export default {
     "name": "Amit Singh",
     "vat_OfficeCode": "99337",
     "DESIG": "CTO",
+    "gst_Scode": "UP162",
     "sector": "Azamgarh Sector-5, CTO"
   },
   "UP152": {
@@ -3259,6 +3724,7 @@ export default {
     "name": "Abhishek Kumar Srivastava-II",
     "vat_OfficeCode": "89334",
     "DESIG": "CTO",
+    "gst_Scode": "UP152",
     "sector": "Azamgarh Sector-2, AC"
   },
   "UP1437": {
@@ -3266,6 +3732,7 @@ export default {
     "name": "Chandan Kumar",
     "vat_OfficeCode": "99313",
     "DESIG": "CTO",
+    "gst_Scode": "UP1437",
     "sector": "Varanasi, Sector-15, CTO"
   },
   "UP1395": {
@@ -3273,6 +3740,7 @@ export default {
     "name": "Ashok Kumar Nirmal",
     "vat_OfficeCode": "99314",
     "DESIG": "CTO",
+    "gst_Scode": "UP1395",
     "sector": "Varanasi Sector-16, CTO"
   },
   "UP1398": {
@@ -3280,6 +3748,7 @@ export default {
     "name": "Nootan Singh Ms.",
     "vat_OfficeCode": "99315",
     "DESIG": "CTO",
+    "gst_Scode": "UP1398",
     "sector": "Varanasi Sector-17, CTO"
   },
   "UP1392": {
@@ -3287,6 +3756,7 @@ export default {
     "name": "Ramendra Kumar Srivastava",
     "vat_OfficeCode": "99312",
     "DESIG": "CTO",
+    "gst_Scode": "UP1392",
     "sector": "Varanasi Sector-14, CTO"
   },
   "UP1389": {
@@ -3294,6 +3764,7 @@ export default {
     "name": "Arvind Kumar Upadhyay",
     "vat_OfficeCode": "99311",
     "DESIG": "CTO",
+    "gst_Scode": "UP1389",
     "sector": "Varanasi Sector-13, CTO"
   },
   "UP1386": {
@@ -3301,6 +3772,7 @@ export default {
     "name": "Rudra Pratap Singh",
     "vat_OfficeCode": "99310",
     "DESIG": "CTO",
+    "gst_Scode": "UP1386",
     "sector": "Varanasi Sector-12, CTO"
   },
   "UP555": {
@@ -3308,6 +3780,7 @@ export default {
     "name": "Imteyaz Ahmad",
     "vat_OfficeCode": "99325",
     "DESIG": "CTO",
+    "gst_Scode": "UP555",
     "sector": "Ghazipur Sector-3, CTO"
   },
   "UP1380": {
@@ -3315,6 +3788,7 @@ export default {
     "name": "Kiran",
     "vat_OfficeCode": "99308",
     "DESIG": "CTO",
+    "gst_Scode": "UP1380",
     "sector": "Varanasi Sector-10, CTO"
   },
   "UP549": {
@@ -3322,6 +3796,7 @@ export default {
     "name": "Deepak Singh",
     "vat_OfficeCode": "99323",
     "DESIG": "CTO",
+    "gst_Scode": "UP549",
     "sector": "Ghazipur Sector-1, CTO"
   },
   "UP1434": {
@@ -3329,6 +3804,7 @@ export default {
     "name": "Ram Vikal Ram",
     "vat_OfficeCode": "99307",
     "DESIG": "CTO",
+    "gst_Scode": "UP1434",
     "sector": "Varanasi Sector-9, CTO"
   },
   "UP1428": {
@@ -3336,6 +3812,7 @@ export default {
     "name": "Deependra Sonkar",
     "vat_OfficeCode": "99305",
     "DESIG": "CTO",
+    "gst_Scode": "UP1428",
     "sector": "Varanasi Sector-7, CTO"
   },
   "UP1430": {
@@ -3343,6 +3820,7 @@ export default {
     "name": "Rajeev Kumar-VI",
     "vat_OfficeCode": "89306",
     "DESIG": "CTO",
+    "gst_Scode": "UP1430",
     "sector": "Varanasi Sector-8, AC"
   },
   "UP773": {
@@ -3350,6 +3828,7 @@ export default {
     "name": "Deepika Kamal",
     "vat_OfficeCode": "99158",
     "DESIG": "CTO",
+    "gst_Scode": "UP773",
     "sector": "Kanpur Sector-23, CTO"
   },
   "UP764": {
@@ -3357,6 +3836,7 @@ export default {
     "name": "Satya Prakash Umrao",
     "vat_OfficeCode": "99155",
     "DESIG": "CTO",
+    "gst_Scode": "UP764",
     "sector": "Kanpur Sector-20, CTO"
   },
   "UP758": {
@@ -3364,6 +3844,7 @@ export default {
     "name": "Ayush Dubey",
     "vat_OfficeCode": "99154",
     "DESIG": "CTO",
+    "gst_Scode": "UP758",
     "sector": "Kanpur Sector-19, CTO"
   },
   "UP752": {
@@ -3371,6 +3852,7 @@ export default {
     "name": "Vandana Mishra Smt.",
     "vat_OfficeCode": "99152",
     "DESIG": "CTO",
+    "gst_Scode": "UP752",
     "sector": "Kanpur Sector-17, CTO"
   },
   "UP755": {
@@ -3378,6 +3860,7 @@ export default {
     "name": "Kuldip",
     "vat_OfficeCode": "99153",
     "DESIG": "CTO",
+    "gst_Scode": "UP755",
     "sector": "Kanpur Sector-18, CTO"
   },
   "UP749": {
@@ -3385,6 +3868,7 @@ export default {
     "name": "Digvijai Nath Shukla",
     "vat_OfficeCode": "99151",
     "DESIG": "CTO",
+    "gst_Scode": "UP749",
     "sector": "Kanpur Sector-16, CTO"
   },
   "UP746": {
@@ -3392,6 +3876,7 @@ export default {
     "name": "Rashid Wali Khan",
     "vat_OfficeCode": "99150",
     "DESIG": "CTO",
+    "gst_Scode": "UP746",
     "sector": "Kanpur Sector-15, CTO"
   },
   "UP815": {
@@ -3399,6 +3884,7 @@ export default {
     "name": "Anuradha Ms",
     "vat_OfficeCode": "99144",
     "DESIG": "CTO",
+    "gst_Scode": "UP815",
     "sector": "Kanpur Sector-9, CTO"
   },
   "UP743": {
@@ -3406,6 +3892,7 @@ export default {
     "name": "Praveen Kumar Pandey",
     "vat_OfficeCode": "99149",
     "DESIG": "CTO",
+    "gst_Scode": "UP743",
     "sector": "Kanpur Sector-14, CTO"
   },
   "UP812": {
@@ -3413,6 +3900,7 @@ export default {
     "name": "Gyanendra Kumar Bajpai",
     "vat_OfficeCode": "99143",
     "DESIG": "CTO",
+    "gst_Scode": "UP812",
     "sector": "Kanpur Sector-8, CTO"
   },
   "UP809": {
@@ -3420,6 +3908,7 @@ export default {
     "name": "Vipin Chandra Sharma",
     "vat_OfficeCode": "99142",
     "DESIG": "CTO",
+    "gst_Scode": "UP809",
     "sector": "Kanpur Sector-7, CTO"
   },
   "UP740": {
@@ -3427,6 +3916,7 @@ export default {
     "name": "Balak Ram",
     "vat_OfficeCode": "99148",
     "DESIG": "CTO",
+    "gst_Scode": "UP740",
     "sector": "Kanpur Sector-13, CTO"
   },
   "UP736": {
@@ -3434,6 +3924,7 @@ export default {
     "name": "Shailesh Singh",
     "vat_OfficeCode": "89147",
     "DESIG": "CTO",
+    "gst_Scode": "UP736",
     "sector": "Kanpur Sector-12, AC"
   },
   "UP734": {
@@ -3441,6 +3932,7 @@ export default {
     "name": "Meenakshii Shukla Smt",
     "vat_OfficeCode": "99146",
     "DESIG": "CTO",
+    "gst_Scode": "UP734",
     "sector": "Kanpur Sector-11, CTO"
   },
   "UP731": {
@@ -3448,6 +3940,7 @@ export default {
     "name": "Anubha Gulati Ms",
     "vat_OfficeCode": "99145",
     "DESIG": "CTO",
+    "gst_Scode": "UP731",
     "sector": "Kanpur Sector-10, CTO"
   },
   "UP729": {
@@ -3455,6 +3948,7 @@ export default {
     "name": "Afsar Hussain",
     "vat_OfficeCode": "79136",
     "DESIG": "DC",
+    "gst_Scode": "UP729",
     "sector": "Kanpur Sector-1, DC"
   },
   "UP725": {
@@ -3462,6 +3956,7 @@ export default {
     "name": "Mukesh Kumar Gupta",
     "vat_OfficeCode": "99168",
     "DESIG": "CTO",
+    "gst_Scode": "UP725",
     "sector": "Kanpur Dehat, CTO"
   },
   "UP1371": {
@@ -3469,6 +3964,7 @@ export default {
     "name": "Raghvendra Pratap Singh",
     "vat_OfficeCode": "99166",
     "DESIG": "CTO",
+    "gst_Scode": "UP1371",
     "sector": "Unnao Â&nbsp;Sector-1, CTO"
   },
   "UP800": {
@@ -3476,6 +3972,7 @@ export default {
     "name": "Abhishek Kumar Dubey",
     "vat_OfficeCode": "99139",
     "DESIG": "CTO",
+    "gst_Scode": "UP800",
     "sector": "Kanpur Sector-4, CTO"
   },
   "UP761": {
@@ -3483,6 +3980,7 @@ export default {
     "name": "Yogesh Kumar Shakyawar",
     "vat_OfficeCode": "99137",
     "DESIG": "CTO",
+    "gst_Scode": "UP761",
     "sector": "Kanpur Sector-2, CTO"
   },
   "UP853": {
@@ -3490,6 +3988,7 @@ export default {
     "name": "Chhaye Vajhe Ms.",
     "vat_OfficeCode": "99125",
     "DESIG": "CTO",
+    "gst_Scode": "UP853",
     "sector": "Lalitpur, Sector-2, CTO"
   },
   "UP850": {
@@ -3497,6 +3996,7 @@ export default {
     "name": "Pradeep Singh",
     "vat_OfficeCode": "99124",
     "DESIG": "CTO",
+    "gst_Scode": "UP850",
     "sector": "Lalitpur, Sector-1 , CTO"
   },
   "UP707": {
@@ -3504,6 +4004,7 @@ export default {
     "name": "Sharad Chandra Mishra",
     "vat_OfficeCode": "99123",
     "DESIG": "CTO",
+    "gst_Scode": "UP707",
     "sector": "Jhansi Sector-8, CTO"
   },
   "UP704": {
@@ -3511,6 +4012,7 @@ export default {
     "name": "Suresh Kumar Singh",
     "vat_OfficeCode": "99122",
     "DESIG": "CTO",
+    "gst_Scode": "UP704",
     "sector": "Jhansi Sector-7, CTO"
   },
   "UP701": {
@@ -3518,6 +4020,7 @@ export default {
     "name": "Mohd Zakir",
     "vat_OfficeCode": "99121",
     "DESIG": "CTO",
+    "gst_Scode": "UP701",
     "sector": "Jhansi Sector-6, CTO"
   },
   "UP698": {
@@ -3525,6 +4028,7 @@ export default {
     "name": "Suresh Singh Bhadauria",
     "vat_OfficeCode": "99120",
     "DESIG": "CTO",
+    "gst_Scode": "UP698",
     "sector": "Jhansi Sector-5, CTO"
   },
   "UP695": {
@@ -3532,6 +4036,7 @@ export default {
     "name": "Bhanu Pratap Singh",
     "vat_OfficeCode": "99119",
     "DESIG": "CTO",
+    "gst_Scode": "UP695",
     "sector": "Jhansi Sector-4, CTO"
   },
   "UP692": {
@@ -3539,6 +4044,7 @@ export default {
     "name": "Anil Kumar Mathur",
     "vat_OfficeCode": "99118",
     "DESIG": "CTO",
+    "gst_Scode": "UP692",
     "sector": "Jhansi Sector-3, CTO"
   },
   "UP665": {
@@ -3546,6 +4052,7 @@ export default {
     "name": "Afzal Husain",
     "vat_OfficeCode": "99128",
     "DESIG": "CTO",
+    "gst_Scode": "UP665",
     "sector": "Jalaun, Sector-3 Orai , CTO"
   },
   "UP686": {
@@ -3553,6 +4060,7 @@ export default {
     "name": "Dinesh Kumar Pandey",
     "vat_OfficeCode": "99116",
     "DESIG": "CTO",
+    "gst_Scode": "UP686",
     "sector": "Jhansi Sector-1, CTO"
   },
   "UP689": {
@@ -3560,6 +4068,7 @@ export default {
     "name": "Dharampal Singh",
     "vat_OfficeCode": "99117",
     "DESIG": "CTO",
+    "gst_Scode": "UP689",
     "sector": "Jhansi Sector-2, CTO"
   },
   "UP662": {
@@ -3567,6 +4076,7 @@ export default {
     "name": "Avinash Mishra",
     "vat_OfficeCode": "99127",
     "DESIG": "CTO",
+    "gst_Scode": "UP662",
     "sector": "Jalaun, Sector-2 Orai , CTO"
   },
   "UP659": {
@@ -3574,6 +4084,7 @@ export default {
     "name": "Man Singh",
     "vat_OfficeCode": "99126",
     "DESIG": "CTO",
+    "gst_Scode": "UP659",
     "sector": "Jalaun, Sector-1 Orai , CTO"
   },
   "UP931": {
@@ -3581,6 +4092,7 @@ export default {
     "name": "Vijay Dwivedi",
     "vat_OfficeCode": "99135",
     "DESIG": "CTO",
+    "gst_Scode": "UP931",
     "sector": "Mahoba , CTO"
   },
   "UP821": {
@@ -3588,6 +4100,7 @@ export default {
     "name": "Manoj Kumar",
     "vat_OfficeCode": "99132",
     "DESIG": "CTO",
+    "gst_Scode": "UP821",
     "sector": "Karvi Sector-2 , CTO"
   },
   "UP615": {
@@ -3595,6 +4108,7 @@ export default {
     "name": "Vikas Mishra",
     "vat_OfficeCode": "99133",
     "DESIG": "CTO",
+    "gst_Scode": "UP615",
     "sector": "Hamirpur Sector-1 , CTO"
   },
   "UP200": {
@@ -3602,6 +4116,7 @@ export default {
     "name": "Gopal Krishna Chaurasia",
     "vat_OfficeCode": "99129",
     "DESIG": "CTO",
+    "gst_Scode": "UP200",
     "sector": "Banda Sector-1, CTO"
   },
   "UP203": {
@@ -3609,6 +4124,7 @@ export default {
     "name": "Jagdish Prasad",
     "vat_OfficeCode": "99130",
     "DESIG": "CTO",
+    "gst_Scode": "UP203",
     "sector": "Banda Sector-2, CTO"
   },
   "UP938": {
@@ -3616,6 +4132,7 @@ export default {
     "name": "Manavendra Singh",
     "vat_OfficeCode": "99086",
     "DESIG": "CTO",
+    "gst_Scode": "UP938",
     "sector": "Mahraj Ganj Â&nbsp;,Sector -2, CTO"
   },
   "UP582": {
@@ -3623,6 +4140,7 @@ export default {
     "name": "Ram Murat Prasad",
     "vat_OfficeCode": "99061",
     "DESIG": "CTO",
+    "gst_Scode": "UP582",
     "sector": "Gorakhpur Sector-1, CTO"
   },
   "UP831": {
@@ -3630,6 +4148,7 @@ export default {
     "name": "Ramesh Chandra",
     "vat_OfficeCode": "99088",
     "DESIG": "CTO",
+    "gst_Scode": "UP831",
     "sector": "Kushi Nagar ,Sector-1, CTO"
   },
   "UP835": {
@@ -3637,6 +4156,7 @@ export default {
     "name": "Dileep Kumar",
     "vat_OfficeCode": "99087",
     "DESIG": "CTO",
+    "gst_Scode": "UP835",
     "sector": "Kushi Nagar Â&nbsp;,Sector-2, CTO"
   },
   "UP606": {
@@ -3644,6 +4164,7 @@ export default {
     "name": "Pramod Kumar Sharma",
     "vat_OfficeCode": "99068",
     "DESIG": "CTO",
+    "gst_Scode": "UP606",
     "sector": "Gorakhpur Sector-8, CTO"
   },
   "UP609": {
@@ -3651,6 +4172,7 @@ export default {
     "name": "Vishal Kumar Gupta",
     "vat_OfficeCode": "99069",
     "DESIG": "CTO",
+    "gst_Scode": "UP609",
     "sector": "Gorakhpur Sector-9, CTO"
   },
   "UP603": {
@@ -3658,6 +4180,7 @@ export default {
     "name": "Tej Bahadur Singh",
     "vat_OfficeCode": "99067",
     "DESIG": "CTO",
+    "gst_Scode": "UP603",
     "sector": "Gorakhpur Sector-7 , CTO"
   },
   "UP585": {
@@ -3665,6 +4188,7 @@ export default {
     "name": "Shailendra Kumar Pandey",
     "vat_OfficeCode": "99070",
     "DESIG": "CTO",
+    "gst_Scode": "UP585",
     "sector": "Gorakhpur Sector-10, CTO"
   },
   "UP576": {
@@ -3672,6 +4196,7 @@ export default {
     "name": "Swatantra Singh",
     "vat_OfficeCode": "99071",
     "DESIG": "CTO",
+    "gst_Scode": "UP576",
     "sector": "Gorakhpur Sector -11, CTO"
   },
   "UP418": {
@@ -3679,6 +4204,7 @@ export default {
     "name": "Sudhir Kumar-II",
     "vat_OfficeCode": "99081",
     "DESIG": "CTO",
+    "gst_Scode": "UP418",
     "sector": "Deoria Sector-1, CTO"
   },
   "UP415": {
@@ -3686,6 +4212,7 @@ export default {
     "name": "Chakrwarti Narain Mishra",
     "vat_OfficeCode": "99084",
     "DESIG": "CTO",
+    "gst_Scode": "UP415",
     "sector": "Deoria Sector -4, CTO"
   },
   "UP412": {
@@ -3693,6 +4220,7 @@ export default {
     "name": "Rudresh Kumar Chaubey",
     "vat_OfficeCode": "99083",
     "DESIG": "CTO",
+    "gst_Scode": "UP412",
     "sector": "Deoria Sector -3, CTO"
   },
   "UP1209": {
@@ -3700,6 +4228,7 @@ export default {
     "name": "Ashwani Kumar",
     "vat_OfficeCode": "99079",
     "DESIG": "CTO",
+    "gst_Scode": "UP1209",
     "sector": "Sant Kabir Nagar Sector-1 , CTO"
   },
   "UP1212": {
@@ -3707,6 +4236,7 @@ export default {
     "name": "Yogendra Kumar Gond",
     "vat_OfficeCode": "99080",
     "DESIG": "CTO",
+    "gst_Scode": "UP1212",
     "sector": "Sant Kabir Nagar Sector-2, CTO"
   },
   "UP600": {
@@ -3714,6 +4244,7 @@ export default {
     "name": "Virendra Kumar Bharti",
     "vat_OfficeCode": "99066",
     "DESIG": "CTO",
+    "gst_Scode": "UP600",
     "sector": "Gorakhpur Sector-6, CTO"
   },
   "UP597": {
@@ -3721,6 +4252,7 @@ export default {
     "name": "Mahesh Chandra",
     "vat_OfficeCode": "99065",
     "DESIG": "CTO",
+    "gst_Scode": "UP597",
     "sector": "Gorakhpur Sector-5, CTO"
   },
   "UP594": {
@@ -3728,6 +4260,7 @@ export default {
     "name": "Dinesh Kumar Pandey",
     "vat_OfficeCode": "99064",
     "DESIG": "CTO",
+    "gst_Scode": "UP594",
     "sector": "Gorakhpur Sector-4, CTO"
   },
   "UP591": {
@@ -3735,6 +4268,7 @@ export default {
     "name": "Nisidh Kumar",
     "vat_OfficeCode": "99063",
     "DESIG": "CTO",
+    "gst_Scode": "UP591",
     "sector": "Gorakhpur Sector-3, CTO"
   },
   "UP588": {
@@ -3742,6 +4276,7 @@ export default {
     "name": "Balchand",
     "vat_OfficeCode": "99062",
     "DESIG": "CTO",
+    "gst_Scode": "UP588",
     "sector": "Gorakhpur Sector-2, CTO"
   },
   "UP265": {
@@ -3749,6 +4284,7 @@ export default {
     "name": "Makkhan Lal",
     "vat_OfficeCode": "99076",
     "DESIG": "CTO",
+    "gst_Scode": "UP265",
     "sector": "Basti Sector-4, CTO"
   },
   "UP262": {
@@ -3756,6 +4292,7 @@ export default {
     "name": "Uday Pratap Singh",
     "vat_OfficeCode": "99075",
     "DESIG": "CTO",
+    "gst_Scode": "UP262",
     "sector": "Basti Sector-3, CTO"
   },
   "UP259": {
@@ -3763,6 +4300,7 @@ export default {
     "name": "Amit Kumar Upadhyay",
     "vat_OfficeCode": "99074",
     "DESIG": "CTO",
+    "gst_Scode": "UP259",
     "sector": "Basti Sector-2, CTO"
   },
   "UP522": {
@@ -3770,6 +4308,7 @@ export default {
     "name": "Devesh Kumar Singh-II",
     "vat_OfficeCode": "99456",
     "DESIG": "CTO",
+    "gst_Scode": "UP522",
     "sector": "Ghaziabad Sector-19,CTO"
   },
   "UP256": {
@@ -3777,6 +4316,7 @@ export default {
     "name": "Era Yadav Smt",
     "vat_OfficeCode": "99073",
     "DESIG": "CTO",
+    "gst_Scode": "UP256",
     "sector": "Basti Sector-1, CTO"
   },
   "UP519": {
@@ -3784,6 +4324,7 @@ export default {
     "name": "Sushma Ms",
     "vat_OfficeCode": "99374",
     "DESIG": "CTO",
+    "gst_Scode": "UP519",
     "sector": "Ghaziabad Sector-18, CTO"
   },
   "UP516": {
@@ -3791,6 +4332,7 @@ export default {
     "name": "Om Pal Singh",
     "vat_OfficeCode": "99373",
     "DESIG": "CTO",
+    "gst_Scode": "UP516",
     "sector": "Ghaziabad Sector-17 , CTO"
   },
   "UP507": {
@@ -3798,6 +4340,7 @@ export default {
     "name": "Suneel Kumar",
     "vat_OfficeCode": "99370",
     "DESIG": "CTO",
+    "gst_Scode": "UP507",
     "sector": "Ghaziabad Sector-14, CTO"
   },
   "UP504": {
@@ -3805,6 +4348,7 @@ export default {
     "name": "Birendra Nath Mishra",
     "vat_OfficeCode": "99369",
     "DESIG": "CTO",
+    "gst_Scode": "UP504",
     "sector": "Ghaziabad Sector-13 , CTO"
   },
   "UP1329": {
@@ -3812,6 +4356,7 @@ export default {
     "name": "Dev Karan Singh",
     "vat_OfficeCode": "99387",
     "DESIG": "CTO",
+    "gst_Scode": "UP1329",
     "sector": "Sikandarbad, CTO"
   },
   "UP1231": {
@@ -3819,6 +4364,7 @@ export default {
     "name": "Niraj Jain",
     "vat_OfficeCode": "99384",
     "DESIG": "CTO",
+    "gst_Scode": "UP1231",
     "sector": "Sector-1 Khurja, CTO"
   },
   "UP612": {
@@ -3826,6 +4372,7 @@ export default {
     "name": "Dev Krishna Sharma",
     "vat_OfficeCode": "99388",
     "DESIG": "CTO",
+    "gst_Scode": "UP612",
     "sector": "Gulawati, CTO"
   },
   "UP406": {
@@ -3833,6 +4380,7 @@ export default {
     "name": "Pankaj Kumar Kharwar",
     "vat_OfficeCode": "99386",
     "DESIG": "CTO",
+    "gst_Scode": "UP406",
     "sector": "Debai , CTO"
   },
   "UP295": {
@@ -3840,6 +4388,7 @@ export default {
     "name": "Sanjay Kumar Gupta",
     "vat_OfficeCode": "99383",
     "DESIG": "CTO",
+    "gst_Scode": "UP295",
     "sector": "Bulandshahar Sector-4 , CTO"
   },
   "UP289": {
@@ -3847,6 +4396,7 @@ export default {
     "name": "Kamlesh Kumari Smt.",
     "vat_OfficeCode": "99381",
     "DESIG": "CTO",
+    "gst_Scode": "UP289",
     "sector": "Bulandshahar Sector-2, CTO"
   },
   "UP292": {
@@ -3854,6 +4404,7 @@ export default {
     "name": "Prem Narain Jatav",
     "vat_OfficeCode": "99382",
     "DESIG": "CTO",
+    "gst_Scode": "UP292",
     "sector": "Bulandshahar Sector-3, CTO"
   },
   "UP1289": {
@@ -3861,6 +4412,7 @@ export default {
     "name": "Archna Smt",
     "vat_OfficeCode": "99379",
     "DESIG": "CTO",
+    "gst_Scode": "UP1289",
     "sector": "Sector-4 Hapur, CTO"
   },
   "UP286": {
@@ -3868,6 +4420,7 @@ export default {
     "name": "Rachna Singh Ms.",
     "vat_OfficeCode": "99380",
     "DESIG": "CTO",
+    "gst_Scode": "UP286",
     "sector": "Bulandshahar Sector-1, CTO"
   },
   "UP1280": {
@@ -3875,6 +4428,7 @@ export default {
     "name": "Alok Sharma",
     "vat_OfficeCode": "99378",
     "DESIG": "CTO",
+    "gst_Scode": "UP1280",
     "sector": "Sector-3 Hapur , CTO"
   },
   "UP1261": {
@@ -3882,6 +4436,7 @@ export default {
     "name": "Sandeep Saxena",
     "vat_OfficeCode": "99377",
     "DESIG": "CTO",
+    "gst_Scode": "UP1261",
     "sector": "Sector-2 Hapur , CTO"
   },
   "UP1226": {
@@ -3889,6 +4444,7 @@ export default {
     "name": "Sarita Rani Smt",
     "vat_OfficeCode": "99376",
     "DESIG": "CTO",
+    "gst_Scode": "UP1226",
     "sector": "Sector-1 Hapur , CTO"
   },
   "UP543": {
@@ -3896,6 +4452,7 @@ export default {
     "name": "Reena Gautam Ms",
     "vat_OfficeCode": "99364",
     "DESIG": "CTO",
+    "gst_Scode": "UP543",
     "sector": "Ghaziabad Sector-8, CTO"
   },
   "UP529": {
@@ -3903,6 +4460,7 @@ export default {
     "name": "Vinay Prakash Gautam",
     "vat_OfficeCode": "79359",
     "DESIG": "DC",
+    "gst_Scode": "UP529",
     "sector": "Ghaziabad Sector-3, DC"
   },
   "UP494": {
@@ -3910,6 +4468,7 @@ export default {
     "name": "Gunjan Chaudhary Ms.",
     "vat_OfficeCode": "89366",
     "DESIG": "CTO",
+    "gst_Scode": "UP494",
     "sector": "Ghaziabad Sector-10 , AC"
   },
   "UP501": {
@@ -3917,6 +4476,7 @@ export default {
     "name": "Vikash Chandra Singh",
     "vat_OfficeCode": "99368",
     "DESIG": "CTO",
+    "gst_Scode": "UP501",
     "sector": "Ghaziabad Sector-12, CTO"
   },
   "UP540": {
@@ -3924,6 +4484,7 @@ export default {
     "name": "Mukesh Kumar Rastogi",
     "vat_OfficeCode": "99363",
     "DESIG": "CTO",
+    "gst_Scode": "UP540",
     "sector": "Ghaziabad Sector-7 , CTO"
   },
   "UP534": {
@@ -3931,6 +4492,7 @@ export default {
     "name": "Raghvendra Vikram Singh",
     "vat_OfficeCode": "99361",
     "DESIG": "CTO",
+    "gst_Scode": "UP534",
     "sector": "Ghaziabad Sector-5 , CTO"
   },
   "UP531": {
@@ -3938,6 +4500,7 @@ export default {
     "name": "Chinmay Mishra",
     "vat_OfficeCode": "99360",
     "DESIG": "CTO",
+    "gst_Scode": "UP531",
     "sector": "Ghaziabad Sector-4 , CTO"
   },
   "UP492": {
@@ -3945,6 +4508,7 @@ export default {
     "name": "Amit Srivastava",
     "vat_OfficeCode": "99357",
     "DESIG": "CTO",
+    "gst_Scode": "UP492",
     "sector": "Ghaziabad Sector-1, CTO"
   },
   "UP525": {
@@ -3952,6 +4516,7 @@ export default {
     "name": "Priy Darshi",
     "vat_OfficeCode": "99358",
     "DESIG": "CTO",
+    "gst_Scode": "UP525",
     "sector": "Ghaziabad Sector-2, CTO"
   },
   "UP1286": {
@@ -3959,6 +4524,7 @@ export default {
     "name": "Aashish Chaudhary",
     "vat_OfficeCode": "99253",
     "DESIG": "CTO",
+    "gst_Scode": "UP1286",
     "sector": "Sector-3,Gautambudha Nagar , CTO"
   },
   "UP1277": {
@@ -3966,6 +4532,7 @@ export default {
     "name": "Krishna Mohan Sharma",
     "vat_OfficeCode": "99252",
     "DESIG": "CTO",
+    "gst_Scode": "UP1277",
     "sector": "Sector-2,Gautambudha Nagar , CTO"
   },
   "UP1246": {
@@ -3973,6 +4540,7 @@ export default {
     "name": "Vikram Singh",
     "vat_OfficeCode": "99251",
     "DESIG": "CTO",
+    "gst_Scode": "UP1246",
     "sector": "Sector-1,Gautambudha Nagar, CTO"
   },
   "UP1110": {
@@ -3980,6 +4548,7 @@ export default {
     "name": "Shivani Singh Ms",
     "vat_OfficeCode": "99250",
     "DESIG": "CTO",
+    "gst_Scode": "UP1110",
     "sector": "Noida Sector-14, CTO"
   },
   "UP1107": {
@@ -3987,6 +4556,7 @@ export default {
     "name": "Rama Mishra Smt",
     "vat_OfficeCode": "99249",
     "DESIG": "CTO",
+    "gst_Scode": "UP1107",
     "sector": "Noida Sector-13, CTO"
   },
   "UP1104": {
@@ -3994,6 +4564,7 @@ export default {
     "name": "Mamta Ms",
     "vat_OfficeCode": "99248",
     "DESIG": "CTO",
+    "gst_Scode": "UP1104",
     "sector": "Noida Sector-12, CTO"
   },
   "UP564": {
@@ -4001,6 +4572,7 @@ export default {
     "name": "Tarannum Begum Quaraishi Ms",
     "vat_OfficeCode": "99426",
     "DESIG": "CTO",
+    "gst_Scode": "UP564",
     "sector": "Gonda ,Sector-2, CTO"
   },
   "UP1101": {
@@ -4008,6 +4580,7 @@ export default {
     "name": "Suman Saraswat Smt.",
     "vat_OfficeCode": "99247",
     "DESIG": "CTO",
+    "gst_Scode": "UP1101",
     "sector": "Noida Sector-11, CTO"
   },
   "UP1098": {
@@ -4015,6 +4588,7 @@ export default {
     "name": "Shriram Sharma",
     "vat_OfficeCode": "99246",
     "DESIG": "CTO",
+    "gst_Scode": "UP1098",
     "sector": "Noida Sector-10, CTO"
   },
   "UP1128": {
@@ -4022,6 +4596,7 @@ export default {
     "name": "Pankaj Tiwari",
     "vat_OfficeCode": "99243",
     "DESIG": "CTO",
+    "gst_Scode": "UP1128",
     "sector": "Noida Sector-7, CTO"
   },
   "UP1131": {
@@ -4029,6 +4604,7 @@ export default {
     "name": "Abhishek Kumar Mishra-II",
     "vat_OfficeCode": "99244",
     "DESIG": "CTO",
+    "gst_Scode": "UP1131",
     "sector": "Noida Sector-8, CTO"
   },
   "UP1125": {
@@ -4036,6 +4612,7 @@ export default {
     "name": "Shweta Baghel Smt",
     "vat_OfficeCode": "99242",
     "DESIG": "CTO",
+    "gst_Scode": "UP1125",
     "sector": "Noida Sector-6, CTO"
   },
   "UP1122": {
@@ -4043,6 +4620,7 @@ export default {
     "name": "Sudhir Kumar Sharma",
     "vat_OfficeCode": "99241",
     "DESIG": "CTO",
+    "gst_Scode": "UP1122",
     "sector": "Noida Sector-5, CTO"
   },
   "UP1119": {
@@ -4050,6 +4628,7 @@ export default {
     "name": "Niharika Yadav Smt.",
     "vat_OfficeCode": "99240",
     "DESIG": "CTO",
+    "gst_Scode": "UP1119",
     "sector": "Noida Sector-4, CTO"
   },
   "UP1116": {
@@ -4057,6 +4636,7 @@ export default {
     "name": "Nisha Sharma Smt.",
     "vat_OfficeCode": "99239",
     "DESIG": "CTO",
+    "gst_Scode": "UP1116",
     "sector": "Noida Sector-3, CTO"
   },
   "UP1095": {
@@ -4064,6 +4644,7 @@ export default {
     "name": "Nidhi Dixit Ms.",
     "vat_OfficeCode": "99237",
     "DESIG": "CTO",
+    "gst_Scode": "UP1095",
     "sector": "Noida Sector-1, CTO"
   },
   "UP1319": {
@@ -4071,6 +4652,7 @@ export default {
     "name": "Yogendra Kumar-II",
     "vat_OfficeCode": "99435",
     "DESIG": "CTO",
+    "gst_Scode": "UP1319",
     "sector": "Shravsti Â&nbsp;Â&nbsp;, CTO"
   },
   "UP1269": {
@@ -4078,6 +4660,7 @@ export default {
     "name": "Sapana Ms",
     "vat_OfficeCode": "99433",
     "DESIG": "CTO",
+    "gst_Scode": "UP1269",
     "sector": "Sector-2, Balrampur, CTO"
   },
   "UP1221": {
@@ -4085,6 +4668,7 @@ export default {
     "name": "Ashok Kumar Srivastava",
     "vat_OfficeCode": "99432",
     "DESIG": "CTO",
+    "gst_Scode": "UP1221",
     "sector": "Sector-1 Balrampur, CTO"
   },
   "UP570": {
@@ -4092,6 +4676,7 @@ export default {
     "name": "Yogendra Kumar-I",
     "vat_OfficeCode": "99428",
     "DESIG": "CTO",
+    "gst_Scode": "UP570",
     "sector": "Gonda ,Sector-4, CTO"
   },
   "UP1084": {
@@ -4099,6 +4684,7 @@ export default {
     "name": "Hasan Jamal Ansari",
     "vat_OfficeCode": "89434",
     "DESIG": "CTO",
+    "gst_Scode": "UP1084",
     "sector": "Nanpara , AC"
   },
   "UP561": {
@@ -4106,6 +4692,7 @@ export default {
     "name": "Abhishek Nigam",
     "vat_OfficeCode": "99425",
     "DESIG": "CTO",
+    "gst_Scode": "UP561",
     "sector": "Gonda ,Sector-1, CTO"
   },
   "UP183": {
@@ -4113,6 +4700,7 @@ export default {
     "name": "Shailendra Kumar-III",
     "vat_OfficeCode": "99431",
     "DESIG": "CTO",
+    "gst_Scode": "UP183",
     "sector": "Bahraich ,Sector-3, CTO"
   },
   "UP180": {
@@ -4120,6 +4708,7 @@ export default {
     "name": "Virendra Bahadur",
     "vat_OfficeCode": "99430",
     "DESIG": "CTO",
+    "gst_Scode": "UP180",
     "sector": "Bahraich ,Sector-2, CTO"
   },
   "UP452": {
@@ -4127,6 +4716,7 @@ export default {
     "name": "Manisha Shukla Ms.",
     "vat_OfficeCode": "79414",
     "DESIG": "DC",
+    "gst_Scode": "UP452",
     "sector": "Ayodhya Sector-5, DC"
   },
   "UP177": {
@@ -4134,6 +4724,7 @@ export default {
     "name": "Syed.Ahmed Abbas",
     "vat_OfficeCode": "99429",
     "DESIG": "CTO",
+    "gst_Scode": "UP177",
     "sector": "Bahraich ,Sector-1, CTO"
   },
   "UP445": {
@@ -4141,6 +4732,7 @@ export default {
     "name": "Uma Shankar Tiwari",
     "vat_OfficeCode": "99412",
     "DESIG": "CTO",
+    "gst_Scode": "UP445",
     "sector": "Ayodhya Sector-3, CTO"
   },
   "UP448": {
@@ -4148,6 +4740,7 @@ export default {
     "name": "Akhilesh Dwivedi",
     "vat_OfficeCode": "99413",
     "DESIG": "CTO",
+    "gst_Scode": "UP448",
     "sector": "Ayodhya Sector-4, CTO"
   },
   "UP215": {
@@ -4155,6 +4748,7 @@ export default {
     "name": "Ram Swaroop",
     "vat_OfficeCode": "99424",
     "DESIG": "CTO",
+    "gst_Scode": "UP215",
     "sector": "Barabanki Sector-4, CTO"
   },
   "UP212": {
@@ -4162,6 +4756,7 @@ export default {
     "name": "Swastik Singh Ms.",
     "vat_OfficeCode": "99423",
     "DESIG": "CTO",
+    "gst_Scode": "UP212",
     "sector": "Barabanki Sector-3 , CTO"
   },
   "UP206": {
@@ -4169,6 +4764,7 @@ export default {
     "name": "Prakhar Pratap Singh",
     "vat_OfficeCode": "99421",
     "DESIG": "CTO",
+    "gst_Scode": "UP206",
     "sector": "Barabanki Sector-1, CTO"
   },
   "UP1365": {
@@ -4176,6 +4772,7 @@ export default {
     "name": "Ram Shanker",
     "vat_OfficeCode": "99419",
     "DESIG": "CTO",
+    "gst_Scode": "UP1365",
     "sector": "Sultanpur Sector-3, CTO"
   },
   "UP944": {
@@ -4183,6 +4780,7 @@ export default {
     "name": "Sunil Kumar Upadhyay",
     "vat_OfficeCode": "99401",
     "DESIG": "CTO",
+    "gst_Scode": "UP944",
     "sector": "Mainpuri Sector-2, CTO"
   },
   "UP1362": {
@@ -4190,6 +4788,7 @@ export default {
     "name": "Jeet Lal Yadav",
     "vat_OfficeCode": "99418",
     "DESIG": "CTO",
+    "gst_Scode": "UP1362",
     "sector": "Sultanpur Sector-2, CTO"
   },
   "UP439": {
@@ -4197,6 +4796,7 @@ export default {
     "name": "Binod Kumar Pandey",
     "vat_OfficeCode": "99410",
     "DESIG": "CTO",
+    "gst_Scode": "UP439",
     "sector": "Ayodhya Sector-1, CTO"
   },
   "UP313": {
@@ -4204,6 +4804,7 @@ export default {
     "name": "Birendra Bahadur Singh",
     "vat_OfficeCode": "99457",
     "DESIG": "CTO",
+    "gst_Scode": "UP313",
     "sector": "Chatrapati Sahuji Maharaj,Sector-1 CTO"
   },
   "UP1316": {
@@ -4211,6 +4812,7 @@ export default {
     "name": "Ateev Mohan",
     "vat_OfficeCode": "99409",
     "DESIG": "CTO",
+    "gst_Scode": "UP1316",
     "sector": "Shikohabad Sector-2, CTO"
   },
   "UP143": {
@@ -4218,6 +4820,7 @@ export default {
     "name": "Ravi Prakash Tiwari",
     "vat_OfficeCode": "89415",
     "DESIG": "CTO",
+    "gst_Scode": "UP143",
     "sector": "Ambedkar Nagar Â&nbsp;, Sector-1, AC"
   },
   "UP1313": {
@@ -4225,6 +4828,7 @@ export default {
     "name": "Updesh Kumar Raizada",
     "vat_OfficeCode": "99408",
     "DESIG": "CTO",
+    "gst_Scode": "UP1313",
     "sector": "Shikohabad Sector-1 , CTO"
   },
   "UP941": {
@@ -4232,6 +4836,7 @@ export default {
     "name": "Bhanwar Singh Yadav",
     "vat_OfficeCode": "99400",
     "DESIG": "CTO",
+    "gst_Scode": "UP941",
     "sector": "Mainpuri Sector-1, CTO"
   },
   "UP485": {
@@ -4239,6 +4844,7 @@ export default {
     "name": "Prabhaker Srivastava",
     "vat_OfficeCode": "99407",
     "DESIG": "CTO",
+    "gst_Scode": "UP485",
     "sector": "Firozabad Sector-5, CTO"
   },
   "UP482": {
@@ -4246,6 +4852,7 @@ export default {
     "name": "Arvindra Dixit",
     "vat_OfficeCode": "99406",
     "DESIG": "CTO",
+    "gst_Scode": "UP482",
     "sector": "Firozabad Sector-4, CTO"
   },
   "UP479": {
@@ -4253,6 +4860,7 @@ export default {
     "name": "Arun Kumar Yadav",
     "vat_OfficeCode": "99405",
     "DESIG": "CTO",
+    "gst_Scode": "UP479",
     "sector": "Firozabad Sector-3, CTO"
   },
   "UP473": {
@@ -4260,6 +4868,7 @@ export default {
     "name": "Meenakshi Gupta-I Smt.",
     "vat_OfficeCode": "99403",
     "DESIG": "CTO",
+    "gst_Scode": "UP473",
     "sector": "Firozabad Sector-1, CTO"
   },
   "UP1218": {
@@ -4267,6 +4876,7 @@ export default {
     "name": "Jaswant Singh",
     "vat_OfficeCode": "99396",
     "DESIG": "CTO",
+    "gst_Scode": "UP1218",
     "sector": "Sector-1 Auraiya, CTO"
   },
   "UP1255": {
@@ -4274,6 +4884,7 @@ export default {
     "name": "Sudha Mishra Smt.",
     "vat_OfficeCode": "99397",
     "DESIG": "CTO",
+    "gst_Scode": "UP1255",
     "sector": "Sector-2 Auraiya, CTO"
   },
   "UP277": {
@@ -4281,6 +4892,7 @@ export default {
     "name": "Deepak Kumar Gupta",
     "vat_OfficeCode": "99392",
     "DESIG": "CTO",
+    "gst_Scode": "UP277",
     "sector": "Bharthna , CTO"
   },
   "UP720": {
@@ -4288,6 +4900,7 @@ export default {
     "name": "Ram Narayan",
     "vat_OfficeCode": "79399",
     "DESIG": "DC",
+    "gst_Scode": "UP720",
     "sector": "Kannauj Sector-2, DC"
   },
   "UP716": {
@@ -4295,6 +4908,7 @@ export default {
     "name": "Abhaya Kumar Saxena",
     "vat_OfficeCode": "99398",
     "DESIG": "CTO",
+    "gst_Scode": "UP716",
     "sector": "Kannauj Sector-1, CTO"
   },
   "UP461": {
@@ -4302,6 +4916,7 @@ export default {
     "name": "Ravindra Kumar Saxena",
     "vat_OfficeCode": "99395",
     "DESIG": "CTO",
+    "gst_Scode": "UP461",
     "sector": "Fatehgarh Sector-3, CTO"
   },
   "UP458": {
@@ -4309,6 +4924,7 @@ export default {
     "name": "Devendra Kumar Sharma",
     "vat_OfficeCode": "99394",
     "DESIG": "CTO",
+    "gst_Scode": "UP458",
     "sector": "Fatehgarh Sector-2, CTO"
   },
   "UP455": {
@@ -4316,6 +4932,7 @@ export default {
     "name": "Pravesh Kumar Saxena",
     "vat_OfficeCode": "99393",
     "DESIG": "CTO",
+    "gst_Scode": "UP455",
     "sector": "Fatehgarh Sector-1, CTO"
   },
   "UP436": {
@@ -4323,6 +4940,7 @@ export default {
     "name": "Chandra Prakash",
     "vat_OfficeCode": "99391",
     "DESIG": "CTO",
+    "gst_Scode": "UP436",
     "sector": "Etawah Sector-3, CTO"
   },
   "UP433": {
@@ -4330,6 +4948,7 @@ export default {
     "name": "Malikhan Singh",
     "vat_OfficeCode": "99390",
     "DESIG": "CTO",
+    "gst_Scode": "UP433",
     "sector": "Etawah Sector-2, CTO"
   },
   "UP430": {
@@ -4337,6 +4956,7 @@ export default {
     "name": "Rajesh Kumar Jain",
     "vat_OfficeCode": "99389",
     "DESIG": "CTO",
+    "gst_Scode": "UP430",
     "sector": "Etawah Sector-1, CTO"
   },
   "UP1301": {
@@ -4344,6 +4964,7 @@ export default {
     "name": "Sanjeev Kumar Saxena",
     "vat_OfficeCode": "99037",
     "DESIG": "CTO",
+    "gst_Scode": "UP1301",
     "sector": "Shahjahanpur Sector-4 , CTO"
   },
   "UP1298": {
@@ -4351,6 +4972,7 @@ export default {
     "name": "Rajeev Kumar Mishra",
     "vat_OfficeCode": "99036",
     "DESIG": "CTO",
+    "gst_Scode": "UP1298",
     "sector": "Shahjahanpur Sector-3 , CTO"
   },
   "UP1295": {
@@ -4358,6 +4980,7 @@ export default {
     "name": "Lalit Tiwari",
     "vat_OfficeCode": "99035",
     "DESIG": "CTO",
+    "gst_Scode": "UP1295",
     "sector": "Shahjahanpur Sector-2, CTO"
   },
   "UP1146": {
@@ -4365,6 +4988,7 @@ export default {
     "name": "Gyan Prakash Gupta",
     "vat_OfficeCode": "99040",
     "DESIG": "CTO",
+    "gst_Scode": "UP1146",
     "sector": "Pilibhit Sector-3, CTO"
   },
   "UP1143": {
@@ -4372,6 +4996,7 @@ export default {
     "name": "Anand Prakash Srivastava",
     "vat_OfficeCode": "99039",
     "DESIG": "CTO",
+    "gst_Scode": "UP1143",
     "sector": "Pilibhit Sector-2, CTO"
   },
   "UP1140": {
@@ -4379,6 +5004,7 @@ export default {
     "name": "Sanjay Kumar",
     "vat_OfficeCode": "99038",
     "DESIG": "CTO",
+    "gst_Scode": "UP1140",
     "sector": "Pilibhit Sector-1, CTO"
   },
   "UP244": {
@@ -4386,6 +5012,7 @@ export default {
     "name": "Nitin Kumar Bajpai",
     "vat_OfficeCode": "99028",
     "DESIG": "CTO",
+    "gst_Scode": "UP244",
     "sector": "Bareilly Sector-8, CTO"
   },
   "UP223": {
@@ -4393,6 +5020,7 @@ export default {
     "name": "Sanjeev Kumar Gupta",
     "vat_OfficeCode": "99030",
     "DESIG": "CTO",
+    "gst_Scode": "UP223",
     "sector": "Bareilly Sector-10, CTO"
   },
   "UP241": {
@@ -4400,6 +5028,7 @@ export default {
     "name": "Bhanu Pratap",
     "vat_OfficeCode": "99027",
     "DESIG": "CTO",
+    "gst_Scode": "UP241",
     "sector": "Bareilly Sector-7, CTO"
   },
   "UP235": {
@@ -4407,6 +5036,7 @@ export default {
     "name": "Hiralal Pal",
     "vat_OfficeCode": "99025",
     "DESIG": "CTO",
+    "gst_Scode": "UP235",
     "sector": "Bareilly Sector-5, CTO"
   },
   "UP238": {
@@ -4414,6 +5044,7 @@ export default {
     "name": "Sudha Rani",
     "vat_OfficeCode": "99026",
     "DESIG": "CTO",
+    "gst_Scode": "UP238",
     "sector": "Bareilly Sector-6, CTO"
   },
   "UP226": {
@@ -4421,6 +5052,7 @@ export default {
     "name": "Saurabh Kumar",
     "vat_OfficeCode": "99022",
     "DESIG": "CTO",
+    "gst_Scode": "UP226",
     "sector": "Bareilly Sector-2, CTO"
   },
   "UP220": {
@@ -4428,6 +5060,7 @@ export default {
     "name": "Rakesh Kanchan",
     "vat_OfficeCode": "99021",
     "DESIG": "CTO",
+    "gst_Scode": "UP220",
     "sector": "Bareilly Sector-1, CTO"
   },
   "UP229": {
@@ -4435,6 +5068,7 @@ export default {
     "name": "Rajesh Kumar Saxena",
     "vat_OfficeCode": "99023",
     "DESIG": "CTO",
+    "gst_Scode": "UP229",
     "sector": "Bareilly Sector-3, CTO"
   },
   "UP232": {
@@ -4442,6 +5076,7 @@ export default {
     "name": "Sarvesh Kumar Sagar",
     "vat_OfficeCode": "99024",
     "DESIG": "CTO",
+    "gst_Scode": "UP232",
     "sector": "Bareilly Sector-4, CTO"
   },
   "UP166": {
@@ -4449,6 +5084,7 @@ export default {
     "name": "Kanchan Kumar Gupta",
     "vat_OfficeCode": "79031",
     "DESIG": "DC",
+    "gst_Scode": "UP166",
     "sector": "Badaun Sector-1, DC"
   },
   "UP168": {
@@ -4456,6 +5092,7 @@ export default {
     "name": "Narendra Kumar",
     "vat_OfficeCode": "99032",
     "DESIG": "CTO",
+    "gst_Scode": "UP168",
     "sector": "Badaun Sector-2, CTO"
   },
   "UP115": {
@@ -4463,6 +5100,7 @@ export default {
     "name": "Niraj Singh",
     "vat_OfficeCode": "79053",
     "DESIG": "DC",
+    "gst_Scode": "UP115",
     "sector": "Prayagraj &nbsp;Sector-13, DC"
   },
   "UP171": {
@@ -4470,6 +5108,7 @@ export default {
     "name": "Raj Bahadur Sharma",
     "vat_OfficeCode": "99033",
     "DESIG": "CTO",
+    "gst_Scode": "UP171",
     "sector": "Badaun Sector-3, CTO"
   },
   "UP470": {
@@ -4477,6 +5116,7 @@ export default {
     "name": "Geeta Devi Verma",
     "vat_OfficeCode": "99059",
     "DESIG": "CTO",
+    "gst_Scode": "UP470",
     "sector": "Fatehpur Sector-3, CTO"
   },
   "UP467": {
@@ -4484,6 +5124,7 @@ export default {
     "name": "Subhash Chandra",
     "vat_OfficeCode": "99058",
     "DESIG": "CTO",
+    "gst_Scode": "UP467",
     "sector": "Fatehpur Sector-2, CTO"
   },
   "UP464": {
@@ -4491,6 +5132,7 @@ export default {
     "name": "Devendra Nath Shukla",
     "vat_OfficeCode": "99057",
     "DESIG": "CTO",
+    "gst_Scode": "UP464",
     "sector": "Fatehpur Sector-1, CTO"
   },
   "UP117": {
@@ -4498,6 +5140,7 @@ export default {
     "name": "Ashutosh Kumar Singh",
     "vat_OfficeCode": "99054",
     "DESIG": "CTO",
+    "gst_Scode": "UP117",
     "sector": "Prayagraj &nbsp;Sector-14, CTO"
   },
   "UP140": {
@@ -4505,6 +5148,7 @@ export default {
     "name": "Mohammad Zishan",
     "vat_OfficeCode": "89049",
     "DESIG": "CTO",
+    "gst_Scode": "UP140",
     "sector": "Prayagraj &nbsp;Sector-9, AC"
   },
   "UP141": {
@@ -4512,6 +5156,7 @@ export default {
     "name": "Kamlesh Singh",
     "vat_OfficeCode": "99049",
     "DESIG": "CTO",
+    "gst_Scode": "UP141",
     "sector": "Prayagraj &nbsp;Sector-9, CTO"
   },
   "UP108": {
@@ -4519,6 +5164,7 @@ export default {
     "name": "Satya Prakash Verma",
     "vat_OfficeCode": "99051",
     "DESIG": "CTO",
+    "gst_Scode": "UP108",
     "sector": "Prayagraj &nbsp;Sector-11, CTO"
   },
   "UP105": {
@@ -4526,6 +5172,7 @@ export default {
     "name": "Shiv Kant Singh Yadav",
     "vat_OfficeCode": "99050",
     "DESIG": "CTO",
+    "gst_Scode": "UP105",
     "sector": "Prayagraj &nbsp;Sector-10, CTO"
   },
   "UP1152": {
@@ -4533,6 +5180,7 @@ export default {
     "name": "Sandeep Kumar",
     "vat_OfficeCode": "99056",
     "DESIG": "CTO",
+    "gst_Scode": "UP1152",
     "sector": "PratapgarhÃ¾ Sector-2, CTO"
   },
   "UP1149": {
@@ -4540,6 +5188,7 @@ export default {
     "name": "Divya Tripathi Ms.",
     "vat_OfficeCode": "99055",
     "DESIG": "CTO",
+    "gst_Scode": "UP1149",
     "sector": "PratapgarhÃ¾ Sector-1, CTO"
   },
   "UP138": {
@@ -4547,6 +5196,7 @@ export default {
     "name": "Mahendra Singh Yadav",
     "vat_OfficeCode": "99048",
     "DESIG": "CTO",
+    "gst_Scode": "UP138",
     "sector": "Prayagraj &nbsp;Sector-8, CTO"
   },
   "UP126": {
@@ -4554,6 +5204,7 @@ export default {
     "name": "Devendra Kumar",
     "vat_OfficeCode": "99044",
     "DESIG": "CTO",
+    "gst_Scode": "UP126",
     "sector": "Prayagraj &nbsp;Sector-4, CTO"
   },
   "UP123": {
@@ -4561,6 +5212,7 @@ export default {
     "name": "Ajeet Kumar Singh-IV",
     "vat_OfficeCode": "99043",
     "DESIG": "CTO",
+    "gst_Scode": "UP123",
     "sector": "Prayagraj &nbsp;Sector-3, CTO"
   },
   "UP102": {
@@ -4568,6 +5220,7 @@ export default {
     "name": "Mohammad Raunaq Alvi",
     "vat_OfficeCode": "99041",
     "DESIG": "CTO",
+    "gst_Scode": "UP102",
     "sector": "Prayagraj &nbsp;Sector-1, CTO"
   },
   "UP962": {
@@ -4575,6 +5228,7 @@ export default {
     "name": "Kartar Singh",
     "vat_OfficeCode": "99110",
     "DESIG": "CTO",
+    "gst_Scode": "UP962",
     "sector": "Mathura Sector-5, CTO"
   },
   "UP956": {
@@ -4582,6 +5236,7 @@ export default {
     "name": "Manju Sharma Smt.",
     "vat_OfficeCode": "99108",
     "DESIG": "CTO",
+    "gst_Scode": "UP956",
     "sector": "Mathura Sector-3, CTO"
   },
   "UP953": {
@@ -4589,6 +5244,7 @@ export default {
     "name": "Kamini Agarwal Smt",
     "vat_OfficeCode": "99107",
     "DESIG": "CTO",
+    "gst_Scode": "UP953",
     "sector": "Mathura Sector-2, CTO"
   },
   "UP926": {
@@ -4596,6 +5252,7 @@ export default {
     "name": "Ravindra Pal Singh Kauntey",
     "vat_OfficeCode": "79114",
     "DESIG": "DC",
+    "gst_Scode": "UP926",
     "sector": "Mahamaya Nagar Sector-2, DC"
   },
   "UP928": {
@@ -4603,6 +5260,7 @@ export default {
     "name": "Ashok Kumar Pandey",
     "vat_OfficeCode": "99115",
     "DESIG": "CTO",
+    "gst_Scode": "UP928",
     "sector": "Mahamaya Nagar Sector-3, CTO"
   },
   "UP950": {
@@ -4610,6 +5268,7 @@ export default {
     "name": "Shikha Shah Ms.",
     "vat_OfficeCode": "99106",
     "DESIG": "CTO",
+    "gst_Scode": "UP950",
     "sector": "Mathura Sector-1, CTO"
   },
   "UP922": {
@@ -4617,6 +5276,7 @@ export default {
     "name": "Shyam Vir Singh",
     "vat_OfficeCode": "99113",
     "DESIG": "CTO",
+    "gst_Scode": "UP922",
     "sector": "Mahamaya Nagar Sector-1, CTO"
   },
   "UP829": {
@@ -4624,6 +5284,7 @@ export default {
     "name": "Dinesh Kumar Gupta",
     "vat_OfficeCode": "99112",
     "DESIG": "CTO",
+    "gst_Scode": "UP829",
     "sector": "Kosikalan, CTO"
   },
   "UP098": {
@@ -4631,6 +5292,7 @@ export default {
     "name": "Shiv Narayan",
     "vat_OfficeCode": "99097",
     "DESIG": "CTO",
+    "gst_Scode": "UP098",
     "sector": "Aligarh Sector-9, CTO"
   },
   "UP1228": {
@@ -4638,6 +5300,7 @@ export default {
     "name": "Krishna Kant Chauhan",
     "vat_OfficeCode": "99104",
     "DESIG": "CTO",
+    "gst_Scode": "UP1228",
     "sector": "Sector-1 Kashiram Nagar, CTO"
   },
   "UP1263": {
@@ -4645,6 +5308,7 @@ export default {
     "name": "Suneel Kumar Sharma",
     "vat_OfficeCode": "99105",
     "DESIG": "CTO",
+    "gst_Scode": "UP1263",
     "sector": "Sector-2 Kashiram Nagar, CTO"
   },
   "UP095": {
@@ -4652,6 +5316,7 @@ export default {
     "name": "Jai Singh Yadav-II",
     "vat_OfficeCode": "99096",
     "DESIG": "CTO",
+    "gst_Scode": "UP095",
     "sector": "Aligarh Sector-8, CTO"
   },
   "UP092": {
@@ -4659,6 +5324,7 @@ export default {
     "name": "Manoj Kumar Saxena",
     "vat_OfficeCode": "99095",
     "DESIG": "CTO",
+    "gst_Scode": "UP092",
     "sector": "Aligarh Sector-7, CTO"
   },
   "UP074": {
@@ -4666,6 +5332,7 @@ export default {
     "name": "Ranveer Singh",
     "vat_OfficeCode": "99100",
     "DESIG": "CTO",
+    "gst_Scode": "UP074",
     "sector": "Aligarh Sector-12 , CTO"
   },
   "UP071": {
@@ -4673,6 +5340,7 @@ export default {
     "name": "Padam Singh",
     "vat_OfficeCode": "99099",
     "DESIG": "CTO",
+    "gst_Scode": "UP071",
     "sector": "Aligarh Sector-11, CTO"
   },
   "UP089": {
@@ -4680,6 +5348,7 @@ export default {
     "name": "Ram Avtar Sharma",
     "vat_OfficeCode": "99094",
     "DESIG": "CTO",
+    "gst_Scode": "UP089",
     "sector": "Aligarh Sector-6, CTO"
   },
   "UP421": {
@@ -4687,6 +5356,7 @@ export default {
     "name": "Arun Kumar Agarwal",
     "vat_OfficeCode": "99101",
     "DESIG": "CTO",
+    "gst_Scode": "UP421",
     "sector": "Etah , Sector-1, CTO"
   },
   "UP427": {
@@ -4694,6 +5364,7 @@ export default {
     "name": "Peeyush Kumar",
     "vat_OfficeCode": "99103",
     "DESIG": "CTO",
+    "gst_Scode": "UP427",
     "sector": "Etah , Sector-3 , CTO"
   },
   "UP083": {
@@ -4701,6 +5372,7 @@ export default {
     "name": "Renu Bala Agarwal Smt.",
     "vat_OfficeCode": "99092",
     "DESIG": "CTO",
+    "gst_Scode": "UP083",
     "sector": "Aligarh Sector-4, CTO"
   },
   "UP086": {
@@ -4708,6 +5380,7 @@ export default {
     "name": "Gopal Krishna Saraswat",
     "vat_OfficeCode": "99093",
     "DESIG": "CTO",
+    "gst_Scode": "UP086",
     "sector": "Aligarh Sector-5, CTO"
   },
   "UP077": {
@@ -4715,6 +5388,7 @@ export default {
     "name": "Bhumika Sharma Ms.",
     "vat_OfficeCode": "99090",
     "DESIG": "CTO",
+    "gst_Scode": "UP077",
     "sector": "Aligarh Sector-2, CTO"
   },
   "UP065": {
@@ -4722,6 +5396,7 @@ export default {
     "name": "Sunil Kumar Singh",
     "vat_OfficeCode": "99089",
     "DESIG": "CTO",
+    "gst_Scode": "UP065",
     "sector": "Aligarh Sector-1, CTO"
   },
   "UP040": {
@@ -4729,6 +5404,7 @@ export default {
     "name": "Pramod Kumar Mishra",
     "vat_OfficeCode": "99020",
     "DESIG": "CTO",
+    "gst_Scode": "UP040",
     "sector": "Agra Sector-20 , CTO"
   },
   "UP022": {
@@ -4736,6 +5412,7 @@ export default {
     "name": "Rajesh Kumar Sagar",
     "vat_OfficeCode": "99015",
     "DESIG": "CTO",
+    "gst_Scode": "UP022",
     "sector": "Agra Sector-15, CTO"
   },
   "UP034": {
@@ -4743,6 +5420,7 @@ export default {
     "name": "Sanjeev Upadhyay",
     "vat_OfficeCode": "99019",
     "DESIG": "CTO",
+    "gst_Scode": "UP034",
     "sector": "Agra Sector-19, CTO"
   },
   "UP030": {
@@ -4750,6 +5428,7 @@ export default {
     "name": "Novil Kumar",
     "vat_OfficeCode": "99018",
     "DESIG": "CTO",
+    "gst_Scode": "UP030",
     "sector": "Agra Sector-18, CTO"
   },
   "UP025": {
@@ -4757,6 +5436,7 @@ export default {
     "name": "Anand Kumar Sankhwar",
     "vat_OfficeCode": "99016",
     "DESIG": "CTO",
+    "gst_Scode": "UP025",
     "sector": "Agra Sector-16, CTO"
   },
   "UP013": {
@@ -4764,6 +5444,7 @@ export default {
     "name": "Rohine Raman Varshney",
     "vat_OfficeCode": "99012",
     "DESIG": "CTO",
+    "gst_Scode": "UP013",
     "sector": "Agra Sector-12, CTO"
   },
   "UP016": {
@@ -4771,6 +5452,7 @@ export default {
     "name": "Ashish Doharey",
     "vat_OfficeCode": "99013",
     "DESIG": "CTO",
+    "gst_Scode": "UP016",
     "sector": "Agra Sector-13, CTO"
   },
   "UP019": {
@@ -4778,6 +5460,7 @@ export default {
     "name": "Rajesh Kumar",
     "vat_OfficeCode": "99014",
     "DESIG": "CTO",
+    "gst_Scode": "UP019",
     "sector": "Agra Sector-14, CTO"
   },
   "UP010": {
@@ -4785,6 +5468,7 @@ export default {
     "name": "Priyanka Sharma Ms",
     "vat_OfficeCode": "99011",
     "DESIG": "CTO",
+    "gst_Scode": "UP010",
     "sector": "Agra Sector-11, CTO"
   },
   "UP061": {
@@ -4792,6 +5476,7 @@ export default {
     "name": "Anshu Arya Ms",
     "vat_OfficeCode": "99009",
     "DESIG": "CTO",
+    "gst_Scode": "UP061",
     "sector": "Agra Sector-9, CTO"
   },
   "UP058": {
@@ -4799,6 +5484,7 @@ export default {
     "name": "Suresh Kumar Yadav",
     "vat_OfficeCode": "99008",
     "DESIG": "CTO",
+    "gst_Scode": "UP058",
     "sector": "Agra Sector-8, CTO"
   },
   "UP055": {
@@ -4806,6 +5492,7 @@ export default {
     "name": "Manoj Kumar Singh",
     "vat_OfficeCode": "99007",
     "DESIG": "CTO",
+    "gst_Scode": "UP055",
     "sector": "Agra Sector-7, CTO"
   },
   "UP052": {
@@ -4813,6 +5500,7 @@ export default {
     "name": "Amir Chandra",
     "vat_OfficeCode": "99006",
     "DESIG": "CTO",
+    "gst_Scode": "UP052",
     "sector": "Agra Sector-6, CTO"
   },
   "UP049": {
@@ -4820,6 +5508,7 @@ export default {
     "name": "Ajay Yadav",
     "vat_OfficeCode": "99005",
     "DESIG": "CTO",
+    "gst_Scode": "UP049",
     "sector": "Agra Sector-5, CTO"
   },
   "UP046": {
@@ -4827,6 +5516,7 @@ export default {
     "name": "Amit Kumar",
     "vat_OfficeCode": "99004",
     "DESIG": "CTO",
+    "gst_Scode": "UP046",
     "sector": "Agra Sector-4 , CTO"
   },
   "UP043": {
@@ -4834,6 +5524,7 @@ export default {
     "name": "Prerna Dwivedi Ms",
     "vat_OfficeCode": "99003",
     "DESIG": "CTO",
+    "gst_Scode": "UP043",
     "sector": "Agra Sector-3, CTO"
   },
   "UP037": {
@@ -4841,6 +5532,7 @@ export default {
     "name": "Purnima Sharma Smt",
     "vat_OfficeCode": "99002",
     "DESIG": "CTO",
+    "gst_Scode": "UP037",
     "sector": "Agra Sector-2 , CTO"
   },
   "UP004": {
@@ -4848,6 +5540,7 @@ export default {
     "name": "Subandhu Pandey",
     "vat_OfficeCode": "99001",
     "DESIG": "CTO",
+    "gst_Scode": "UP004",
     "sector": "Agra Sector-1, CTO"
   },
   "UP007": {
@@ -4855,6 +5548,7 @@ export default {
     "name": "Monika Pathak Ms",
     "vat_OfficeCode": "99010",
     "DESIG": "CTO",
+    "gst_Scode": "UP007",
     "sector": "Agra Sector-10, CTO"
   },
   "UP008": {
@@ -4862,6 +5556,7 @@ export default {
     "name": "Pankaj Maurya",
     "vat_OfficeCode": "79010",
     "DESIG": "DC",
+    "gst_Scode": "UP008",
     "sector": "Agra Sector-10, DC"
   },
   "UP005": {
@@ -4869,6 +5564,7 @@ export default {
     "name": "Shiv Kumar",
     "vat_OfficeCode": "79001",
     "DESIG": "DC",
+    "gst_Scode": "UP005",
     "sector": "Agra Sector-1, DC"
   },
   "UP038": {
@@ -4876,6 +5572,7 @@ export default {
     "name": "Arun Kumar Srivastava-I",
     "vat_OfficeCode": "79002",
     "DESIG": "DC",
+    "gst_Scode": "UP038",
     "sector": "Agra Sector-2 , DC"
   },
   "UP044": {
@@ -4883,6 +5580,7 @@ export default {
     "name": "Bhaskarendu Dutt Shukla",
     "vat_OfficeCode": "79003",
     "DESIG": "DC",
+    "gst_Scode": "UP044",
     "sector": "Agra Sector-3, DC"
   },
   "UP047": {
@@ -4890,6 +5588,7 @@ export default {
     "name": "Jitendra Kumar-V",
     "vat_OfficeCode": "79004",
     "DESIG": "DC",
+    "gst_Scode": "UP047",
     "sector": "Agra Sector-4 , DC"
   },
   "UP050": {
@@ -4897,6 +5596,7 @@ export default {
     "name": "Kaushal Kumar Pandey",
     "vat_OfficeCode": "79005",
     "DESIG": "DC",
+    "gst_Scode": "UP050",
     "sector": "Agra Sector-5, DC"
   },
   "UP056": {
@@ -4904,6 +5604,7 @@ export default {
     "name": "Bipin Kumar Dr.",
     "vat_OfficeCode": "79007",
     "DESIG": "DC",
+    "gst_Scode": "UP056",
     "sector": "Agra Sector-7, DC"
   },
   "UP059": {
@@ -4911,6 +5612,7 @@ export default {
     "name": "Anita Garbyal Smt.",
     "vat_OfficeCode": "79008",
     "DESIG": "DC",
+    "gst_Scode": "UP059",
     "sector": "Agra Sector-8, DC"
   },
   "UP011": {
@@ -4918,6 +5620,7 @@ export default {
     "name": "Arun Singh",
     "vat_OfficeCode": "79011",
     "DESIG": "DC",
+    "gst_Scode": "UP011",
     "sector": "Agra Sector-11, DC"
   },
   "UP017": {
@@ -4925,6 +5628,7 @@ export default {
     "name": "Krishna Prakash",
     "vat_OfficeCode": "79013",
     "DESIG": "DC",
+    "gst_Scode": "UP017",
     "sector": "Agra Sector-13, DC"
   },
   "UP014": {
@@ -4932,6 +5636,7 @@ export default {
     "name": "Devendra Pratap Srivastava",
     "vat_OfficeCode": "79012",
     "DESIG": "DC",
+    "gst_Scode": "UP014",
     "sector": "Agra Sector-12, DC"
   },
   "UP026": {
@@ -4939,6 +5644,7 @@ export default {
     "name": "Prem Chandra Dubey",
     "vat_OfficeCode": "79016",
     "DESIG": "DC",
+    "gst_Scode": "UP026",
     "sector": "Agra Sector-16, DC"
   },
   "UP028": {
@@ -4946,6 +5652,7 @@ export default {
     "name": "Vijay Kumar Choudhary",
     "vat_OfficeCode": "79017",
     "DESIG": "DC",
+    "gst_Scode": "UP028",
     "sector": "Agra Sector-17, DC"
   },
   "UP031": {
@@ -4953,6 +5660,7 @@ export default {
     "name": "Ambika Singh Smt.",
     "vat_OfficeCode": "79018",
     "DESIG": "DC",
+    "gst_Scode": "UP031",
     "sector": "Agra Sector-18, DC"
   },
   "UP035": {
@@ -4960,6 +5668,7 @@ export default {
     "name": "Sanjay Kumar Singh-I",
     "vat_OfficeCode": "79019",
     "DESIG": "DC",
+    "gst_Scode": "UP035",
     "sector": "Agra Sector-19, DC"
   },
   "UP041": {
@@ -4967,6 +5676,7 @@ export default {
     "name": "Sushil Kumar Singh-I",
     "vat_OfficeCode": "79020",
     "DESIG": "DC",
+    "gst_Scode": "UP041",
     "sector": "Agra Sector-20 , DC"
   },
   "UP066": {
@@ -4974,6 +5684,7 @@ export default {
     "name": "Ram Kinker Singh",
     "vat_OfficeCode": "79089",
     "DESIG": "DC",
+    "gst_Scode": "UP066",
     "sector": "Aligarh Sector-1, DC"
   },
   "UP078": {
@@ -4981,6 +5692,7 @@ export default {
     "name": "Kailash Nath Saroj-II",
     "vat_OfficeCode": "79090",
     "DESIG": "DC",
+    "gst_Scode": "UP078",
     "sector": "Aligarh Sector-2, DC"
   },
   "UP087": {
@@ -4988,6 +5700,7 @@ export default {
     "name": "Raees Ahmad",
     "vat_OfficeCode": "79093",
     "DESIG": "DC",
+    "gst_Scode": "UP087",
     "sector": "Aligarh Sector-5, DC"
   },
   "UP428": {
@@ -4995,6 +5708,7 @@ export default {
     "name": "Abhishek Pratap Singh Chauhan",
     "vat_OfficeCode": "79103",
     "DESIG": "DC",
+    "gst_Scode": "UP428",
     "sector": "Etah , Sector-3 , DC"
   },
   "UP069": {
@@ -5002,6 +5716,7 @@ export default {
     "name": "Mamta Rathor Smt.",
     "vat_OfficeCode": "79098",
     "DESIG": "DC",
+    "gst_Scode": "UP069",
     "sector": "Aligarh Sector-10, DC"
   },
   "UP072": {
@@ -5009,6 +5724,7 @@ export default {
     "name": "Manish Gupta",
     "vat_OfficeCode": "79099",
     "DESIG": "DC",
+    "gst_Scode": "UP072",
     "sector": "Aligarh Sector-11, DC"
   },
   "UP1264": {
@@ -5016,6 +5732,7 @@ export default {
     "name": "Chandra Shekhar-II",
     "vat_OfficeCode": "79105",
     "DESIG": "DC",
+    "gst_Scode": "UP1264",
     "sector": "Sector-2 Kashiram Nagar, DC"
   },
   "UP099": {
@@ -5023,6 +5740,7 @@ export default {
     "name": "Bamdeoram Tripathi",
     "vat_OfficeCode": "79097",
     "DESIG": "DC",
+    "gst_Scode": "UP099",
     "sector": "Aligarh Sector-9, DC"
   },
   "UP830": {
@@ -5030,6 +5748,7 @@ export default {
     "name": "Prabhat Kumar Pathak",
     "vat_OfficeCode": "79112",
     "DESIG": "DC",
+    "gst_Scode": "UP830",
     "sector": "Kosikalan, DC"
   },
   "UP923": {
@@ -5037,6 +5756,7 @@ export default {
     "name": "Raj Kumar Singh-III",
     "vat_OfficeCode": "79113",
     "DESIG": "DC",
+    "gst_Scode": "UP923",
     "sector": "Mahamaya Nagar Sector-1, DC"
   },
   "UP951": {
@@ -5044,6 +5764,7 @@ export default {
     "name": "Jai Sen",
     "vat_OfficeCode": "79106",
     "DESIG": "DC",
+    "gst_Scode": "UP951",
     "sector": "Mathura Sector-1, DC"
   },
   "UP957": {
@@ -5051,6 +5772,7 @@ export default {
     "name": "Virendra Kumar-I",
     "vat_OfficeCode": "79108",
     "DESIG": "DC",
+    "gst_Scode": "UP957",
     "sector": "Mathura Sector-3, DC"
   },
   "UP960": {
@@ -5058,6 +5780,7 @@ export default {
     "name": "Shiv Ashrey Singh",
     "vat_OfficeCode": "79109",
     "DESIG": "DC",
+    "gst_Scode": "UP960",
     "sector": "Mathura Sector-4, DC"
   },
   "UP963": {
@@ -5065,6 +5788,7 @@ export default {
     "name": "Alpana Verma Ms.",
     "vat_OfficeCode": "79110",
     "DESIG": "DC",
+    "gst_Scode": "UP963",
     "sector": "Mathura Sector-5, DC"
   },
   "UP103": {
@@ -5072,6 +5796,7 @@ export default {
     "name": "Rajendra Prasad-V",
     "vat_OfficeCode": "79041",
     "DESIG": "DC",
+    "gst_Scode": "UP103",
     "sector": "Prayagraj &nbsp;Sector-1, DC"
   },
   "UP124": {
@@ -5079,6 +5804,7 @@ export default {
     "name": "Arvind Narayan Saxena",
     "vat_OfficeCode": "79043",
     "DESIG": "DC",
+    "gst_Scode": "UP124",
     "sector": "Prayagraj &nbsp;Sector-3, DC"
   },
   "UP121": {
@@ -5086,6 +5812,7 @@ export default {
     "name": "Vijay Kumar Pandey",
     "vat_OfficeCode": "79042",
     "DESIG": "DC",
+    "gst_Scode": "UP121",
     "sector": "Prayagraj &nbsp;Sector-2, DC"
   },
   "UP127": {
@@ -5093,6 +5820,7 @@ export default {
     "name": "Babbu Yadav",
     "vat_OfficeCode": "79044",
     "DESIG": "DC",
+    "gst_Scode": "UP127",
     "sector": "Prayagraj &nbsp;Sector-4, DC"
   },
   "UP130": {
@@ -5100,6 +5828,7 @@ export default {
     "name": "Jai Singh Yadav-II",
     "vat_OfficeCode": "79045",
     "DESIG": "DC",
+    "gst_Scode": "UP130",
     "sector": "Prayagraj &nbsp;Sector-5, DC"
   },
   "UP139": {
@@ -5107,6 +5836,7 @@ export default {
     "name": "Anju Upadhyay Ms.",
     "vat_OfficeCode": "79048",
     "DESIG": "DC",
+    "gst_Scode": "UP139",
     "sector": "Prayagraj &nbsp;Sector-8, DC"
   },
   "UP136": {
@@ -5114,6 +5844,7 @@ export default {
     "name": "Sanjay Kumar-V",
     "vat_OfficeCode": "79047",
     "DESIG": "DC",
+    "gst_Scode": "UP136",
     "sector": "Prayagraj &nbsp;Sector-7, DC"
   },
   "UP1150": {
@@ -5121,6 +5852,7 @@ export default {
     "name": "Ram Bhawan",
     "vat_OfficeCode": "79055",
     "DESIG": "DC",
+    "gst_Scode": "UP1150",
     "sector": "PratapgarhÃ¾ Sector-1, DC"
   },
   "UP106": {
@@ -5128,6 +5860,7 @@ export default {
     "name": "Atul Kumar Porwal",
     "vat_OfficeCode": "79050",
     "DESIG": "DC",
+    "gst_Scode": "UP106",
     "sector": "Prayagraj &nbsp;Sector-10, DC"
   },
   "UP109": {
@@ -5135,6 +5868,7 @@ export default {
     "name": "Pratibha",
     "vat_OfficeCode": "79051",
     "DESIG": "DC",
+    "gst_Scode": "UP109",
     "sector": "Prayagraj &nbsp;Sector-11, DC"
   },
   "UP118": {
@@ -5142,6 +5876,7 @@ export default {
     "name": "Mahendra Pratap Singh Yadav",
     "vat_OfficeCode": "79054",
     "DESIG": "DC",
+    "gst_Scode": "UP118",
     "sector": "Prayagraj &nbsp;Sector-14, DC"
   },
   "UP112": {
@@ -5149,6 +5884,7 @@ export default {
     "name": "Ram Prakash (Pandey)",
     "vat_OfficeCode": "79052",
     "DESIG": "DC",
+    "gst_Scode": "UP112",
     "sector": "Prayagraj &nbsp;Sector-12, DC"
   },
   "UP465": {
@@ -5156,6 +5892,7 @@ export default {
     "name": "Machal Singh Verma",
     "vat_OfficeCode": "79057",
     "DESIG": "DC",
+    "gst_Scode": "UP465",
     "sector": "Fatehpur Sector-1, DC"
   },
   "UP169": {
@@ -5163,6 +5900,7 @@ export default {
     "name": "Ram Narain Rai",
     "vat_OfficeCode": "79032",
     "DESIG": "DC",
+    "gst_Scode": "UP169",
     "sector": "Badaun Sector-2, DC"
   },
   "UP827": {
@@ -5170,6 +5908,7 @@ export default {
     "name": "Rajesh Kumar Maurya-II",
     "vat_OfficeCode": "79060",
     "DESIG": "DC",
+    "gst_Scode": "UP827",
     "sector": "Kaushambi , DC"
   },
   "UP233": {
@@ -5177,6 +5916,7 @@ export default {
     "name": "Jitendra Kumar-I",
     "vat_OfficeCode": "79024",
     "DESIG": "DC",
+    "gst_Scode": "UP233",
     "sector": "Bareilly Sector-4, DC"
   },
   "UP230": {
@@ -5184,6 +5924,7 @@ export default {
     "name": "Ashish Kumar Pandey",
     "vat_OfficeCode": "79023",
     "DESIG": "DC",
+    "gst_Scode": "UP230",
     "sector": "Bareilly Sector-3, DC"
   },
   "UP221": {
@@ -5191,6 +5932,7 @@ export default {
     "name": "Roshan Lal",
     "vat_OfficeCode": "79021",
     "DESIG": "DC",
+    "gst_Scode": "UP221",
     "sector": "Bareilly Sector-1, DC"
   },
   "UP227": {
@@ -5198,6 +5940,7 @@ export default {
     "name": "Ravindra Kumar Dwivedi",
     "vat_OfficeCode": "79022",
     "DESIG": "DC",
+    "gst_Scode": "UP227",
     "sector": "Bareilly Sector-2, DC"
   },
   "UP239": {
@@ -5205,6 +5948,7 @@ export default {
     "name": "Vegraj Singh-I",
     "vat_OfficeCode": "79026",
     "DESIG": "DC",
+    "gst_Scode": "UP239",
     "sector": "Bareilly Sector-6, DC"
   },
   "UP236": {
@@ -5212,6 +5956,7 @@ export default {
     "name": "Deepak Kumar Singh-I",
     "vat_OfficeCode": "79025",
     "DESIG": "DC",
+    "gst_Scode": "UP236",
     "sector": "Bareilly Sector-5, DC"
   },
   "UP242": {
@@ -5219,6 +5964,7 @@ export default {
     "name": "Yogesh Kumar Maurya",
     "vat_OfficeCode": "79027",
     "DESIG": "DC",
+    "gst_Scode": "UP242",
     "sector": "Bareilly Sector-7, DC"
   },
   "UP224": {
@@ -5226,6 +5972,7 @@ export default {
     "name": "Jyotsana Singh Kushwaha Ms.",
     "vat_OfficeCode": "79030",
     "DESIG": "DC",
+    "gst_Scode": "UP224",
     "sector": "Bareilly Sector-10, DC"
   },
   "UP245": {
@@ -5233,6 +5980,7 @@ export default {
     "name": "Neeraj Prakash",
     "vat_OfficeCode": "79028",
     "DESIG": "DC",
+    "gst_Scode": "UP245",
     "sector": "Bareilly Sector-8, DC"
   },
   "UP1141": {
@@ -5240,6 +5988,7 @@ export default {
     "name": "Sanjeev Kumar Omar",
     "vat_OfficeCode": "79038",
     "DESIG": "DC",
+    "gst_Scode": "UP1141",
     "sector": "Pilibhit Sector-1, DC"
   },
   "UP1147": {
@@ -5247,6 +5996,7 @@ export default {
     "name": "Himmat Singh-II",
     "vat_OfficeCode": "79040",
     "DESIG": "DC",
+    "gst_Scode": "UP1147",
     "sector": "Pilibhit Sector-3, DC"
   },
   "UP1293": {
@@ -5254,6 +6004,7 @@ export default {
     "name": "Neelesh Kumar Singh",
     "vat_OfficeCode": "79034",
     "DESIG": "DC",
+    "gst_Scode": "UP1293",
     "sector": "Shahjahanpur Sector-1, DC"
   },
   "UP1296": {
@@ -5261,6 +6012,7 @@ export default {
     "name": "Shyama Kant Yadav",
     "vat_OfficeCode": "79035",
     "DESIG": "DC",
+    "gst_Scode": "UP1296",
     "sector": "Shahjahanpur Sector-2, DC"
   },
   "UP1299": {
@@ -5268,6 +6020,7 @@ export default {
     "name": "Alok Kumar Srivastava Dr.",
     "vat_OfficeCode": "79036",
     "DESIG": "DC",
+    "gst_Scode": "UP1299",
     "sector": "Shahjahanpur Sector-3 , DC"
   },
   "UP1302": {
@@ -5275,6 +6028,7 @@ export default {
     "name": "Pravesh Tomar",
     "vat_OfficeCode": "79037",
     "DESIG": "DC",
+    "gst_Scode": "UP1302",
     "sector": "Shahjahanpur Sector-4 , DC"
   },
   "UP431": {
@@ -5282,6 +6036,7 @@ export default {
     "name": "Lajja Pandey Smt",
     "vat_OfficeCode": "79389",
     "DESIG": "DC",
+    "gst_Scode": "UP431",
     "sector": "Etawah Sector-1, DC"
   },
   "UP462": {
@@ -5289,6 +6044,7 @@ export default {
     "name": "Hemwant Kumar Gautam",
     "vat_OfficeCode": "79395",
     "DESIG": "DC",
+    "gst_Scode": "UP462",
     "sector": "Fatehgarh Sector-3, DC"
   },
   "UP717": {
@@ -5296,6 +6052,7 @@ export default {
     "name": "Arun Kumar Gautam",
     "vat_OfficeCode": "79398",
     "DESIG": "DC",
+    "gst_Scode": "UP717",
     "sector": "Kannauj Sector-1, DC"
   },
   "UP1256": {
@@ -5303,6 +6060,7 @@ export default {
     "name": "Devnath Yadav Dr.",
     "vat_OfficeCode": "79397",
     "DESIG": "DC",
+    "gst_Scode": "UP1256",
     "sector": "Sector-2 Auraiya, DC"
   },
   "UP1219": {
@@ -5310,6 +6068,7 @@ export default {
     "name": "Pradeep Kumar-III",
     "vat_OfficeCode": "79396",
     "DESIG": "DC",
+    "gst_Scode": "UP1219",
     "sector": "Sector-1 Auraiya, DC"
   },
   "UP474": {
@@ -5317,6 +6076,7 @@ export default {
     "name": "Vinod Kumar-II",
     "vat_OfficeCode": "79403",
     "DESIG": "DC",
+    "gst_Scode": "UP474",
     "sector": "Firozabad Sector-1, DC"
   },
   "UP483": {
@@ -5324,6 +6084,7 @@ export default {
     "name": "Zafeer Ahmad",
     "vat_OfficeCode": "79406",
     "DESIG": "DC",
+    "gst_Scode": "UP483",
     "sector": "Firozabad Sector-4, DC"
   },
   "UP942": {
@@ -5331,6 +6092,7 @@ export default {
     "name": "Manoj Kumar Yadav-I",
     "vat_OfficeCode": "79400",
     "DESIG": "DC",
+    "gst_Scode": "UP942",
     "sector": "Mainpuri Sector-1, DC"
   },
   "UP948": {
@@ -5338,6 +6100,7 @@ export default {
     "name": "Amit Pathak",
     "vat_OfficeCode": "79402",
     "DESIG": "DC",
+    "gst_Scode": "UP948",
     "sector": "Mainpuri Sector-3, DC"
   },
   "UP145": {
@@ -5345,6 +6108,7 @@ export default {
     "name": "Ram Sewak Prasad",
     "vat_OfficeCode": "79415",
     "DESIG": "DC",
+    "gst_Scode": "UP145",
     "sector": "Ambedkar Nagar Â&nbsp;, Sector-1, DC"
   },
   "UP314": {
@@ -5352,6 +6116,7 @@ export default {
     "name": "Anurag Chaudhary",
     "vat_OfficeCode": "79457",
     "DESIG": "DC",
+    "gst_Scode": "UP314",
     "sector": "Chatrapati Sahuji Maharaj,Sector-1 DC"
   },
   "UP148": {
@@ -5359,6 +6124,7 @@ export default {
     "name": "Vijay Pal",
     "vat_OfficeCode": "79416",
     "DESIG": "DC",
+    "gst_Scode": "UP148",
     "sector": "Ambedkar Nagar Â&nbsp;, Sector-2, DC"
   },
   "UP440": {
@@ -5366,6 +6132,7 @@ export default {
     "name": "Daya Shanker-II Dr.",
     "vat_OfficeCode": "79410",
     "DESIG": "DC",
+    "gst_Scode": "UP440",
     "sector": "Ayodhya Sector-1, DC"
   },
   "UP1360": {
@@ -5373,6 +6140,7 @@ export default {
     "name": "Mohammad Nazim",
     "vat_OfficeCode": "79417",
     "DESIG": "DC",
+    "gst_Scode": "UP1360",
     "sector": "Sultanpur Â&nbsp;Sector-1, DC"
   },
   "UP1366": {
@@ -5380,6 +6148,7 @@ export default {
     "name": "Shailendra Tripathi",
     "vat_OfficeCode": "79419",
     "DESIG": "DC",
+    "gst_Scode": "UP1366",
     "sector": "Sultanpur Sector-3, DC"
   },
   "UP207": {
@@ -5387,6 +6156,7 @@ export default {
     "name": "Deepak Singh",
     "vat_OfficeCode": "79421",
     "DESIG": "DC",
+    "gst_Scode": "UP207",
     "sector": "Barabanki Sector-1, DC"
   },
   "UP210": {
@@ -5394,6 +6164,7 @@ export default {
     "name": "Prerna Singh",
     "vat_OfficeCode": "79422",
     "DESIG": "DC",
+    "gst_Scode": "UP210",
     "sector": "Barabanki Sector-2, DC"
   },
   "UP213": {
@@ -5401,6 +6172,7 @@ export default {
     "name": "Anil Kumar Kannojia (Dr.)",
     "vat_OfficeCode": "79423",
     "DESIG": "DC",
+    "gst_Scode": "UP213",
     "sector": "Barabanki Sector-3 , DC"
   },
   "UP216": {
@@ -5408,6 +6180,7 @@ export default {
     "name": "Vikash Kumar Seth",
     "vat_OfficeCode": "79424",
     "DESIG": "DC",
+    "gst_Scode": "UP216",
     "sector": "Barabanki Sector-4, DC"
   },
   "UP449": {
@@ -5415,6 +6188,7 @@ export default {
     "name": "Sanjeev Kumar Arya",
     "vat_OfficeCode": "79413",
     "DESIG": "DC",
+    "gst_Scode": "UP449",
     "sector": "Ayodhya Sector-4, DC"
   },
   "UP178": {
@@ -5422,6 +6196,7 @@ export default {
     "name": "Chandrakesh Kumar Gautam",
     "vat_OfficeCode": "79429",
     "DESIG": "DC",
+    "gst_Scode": "UP178",
     "sector": "Bahraich ,Sector-1, DC"
   },
   "UP181": {
@@ -5429,6 +6204,7 @@ export default {
     "name": "Govind Srivastava",
     "vat_OfficeCode": "79430",
     "DESIG": "DC",
+    "gst_Scode": "UP181",
     "sector": "Bahraich ,Sector-2, DC"
   },
   "UP184": {
@@ -5436,6 +6212,7 @@ export default {
     "name": "Yogesh Dwivedi",
     "vat_OfficeCode": "79431",
     "DESIG": "DC",
+    "gst_Scode": "UP184",
     "sector": "Bahraich ,Sector-3, DC"
   },
   "UP198": {
@@ -5443,6 +6220,7 @@ export default {
     "name": "Hrishikesh Yadav",
     "vat_OfficeCode": "79433",
     "DESIG": "DC",
+    "gst_Scode": "UP198",
     "sector": "Balrampur Sector-2, DC"
   },
   "UP562": {
@@ -5450,6 +6228,7 @@ export default {
     "name": "Rama Shankar Yadav",
     "vat_OfficeCode": "79425",
     "DESIG": "DC",
+    "gst_Scode": "UP562",
     "sector": "Gonda ,Sector-1, DC"
   },
   "UP1117": {
@@ -5457,6 +6236,7 @@ export default {
     "name": "Rajeev Singh-I",
     "vat_OfficeCode": "79239",
     "DESIG": "DC",
+    "gst_Scode": "UP1117",
     "sector": "Noida Sector-3, DC"
   },
   "UP1123": {
@@ -5464,6 +6244,7 @@ export default {
     "name": "Rohit Malaviya",
     "vat_OfficeCode": "79241",
     "DESIG": "DC",
+    "gst_Scode": "UP1123",
     "sector": "Noida Sector-5, DC"
   },
   "UP1126": {
@@ -5471,6 +6252,7 @@ export default {
     "name": "Abhishek Kumar Chaturvedi",
     "vat_OfficeCode": "79242",
     "DESIG": "DC",
+    "gst_Scode": "UP1126",
     "sector": "Noida Sector-6, DC"
   },
   "UP1129": {
@@ -5478,6 +6260,7 @@ export default {
     "name": "Rajesh Kumar Tandon",
     "vat_OfficeCode": "79243",
     "DESIG": "DC",
+    "gst_Scode": "UP1129",
     "sector": "Noida Sector-7, DC"
   },
   "UP1099": {
@@ -5485,6 +6268,7 @@ export default {
     "name": "Rajesh Kumar Pandey-II",
     "vat_OfficeCode": "79246",
     "DESIG": "DC",
+    "gst_Scode": "UP1099",
     "sector": "Noida Sector-10, DC"
   },
   "UP1105": {
@@ -5492,6 +6276,7 @@ export default {
     "name": "Ved Prakash Singh-III",
     "vat_OfficeCode": "79248",
     "DESIG": "DC",
+    "gst_Scode": "UP1105",
     "sector": "Noida Sector-12, DC"
   },
   "UP1108": {
@@ -5499,6 +6284,7 @@ export default {
     "name": "Surendra Pratap Singh-II",
     "vat_OfficeCode": "79249",
     "DESIG": "DC",
+    "gst_Scode": "UP1108",
     "sector": "Noida Sector-13, DC"
   },
   "UP1111": {
@@ -5506,6 +6292,7 @@ export default {
     "name": "Prabhas Kumar",
     "vat_OfficeCode": "79250",
     "DESIG": "DC",
+    "gst_Scode": "UP1111",
     "sector": "Noida Sector-14, DC"
   },
   "UP1135": {
@@ -5513,6 +6300,7 @@ export default {
     "name": "Himanshu Verma",
     "vat_OfficeCode": "79245",
     "DESIG": "DC",
+    "gst_Scode": "UP1135",
     "sector": "Noida Sector-9, DC"
   },
   "UP1247": {
@@ -5520,6 +6308,7 @@ export default {
     "name": "Surabhi Gangwar Smt.",
     "vat_OfficeCode": "79251",
     "DESIG": "DC",
+    "gst_Scode": "UP1247",
     "sector": "Sector-1,Gautambudha Nagar, DC"
   },
   "UP1278": {
@@ -5527,6 +6316,7 @@ export default {
     "name": "Amit Dwivedi",
     "vat_OfficeCode": "79252",
     "DESIG": "DC",
+    "gst_Scode": "UP1278",
     "sector": "Sector-2,Gautambudha Nagar , DC"
   },
   "UP1287": {
@@ -5534,6 +6324,7 @@ export default {
     "name": "Vishal Pundeer",
     "vat_OfficeCode": "79253",
     "DESIG": "DC",
+    "gst_Scode": "UP1287",
     "sector": "Sector-3,Gautambudha Nagar , DC"
   },
   "UP532": {
@@ -5541,6 +6332,7 @@ export default {
     "name": "Ishwar Chandra Sharma",
     "vat_OfficeCode": "79360",
     "DESIG": "DC",
+    "gst_Scode": "UP532",
     "sector": "Ghaziabad Sector-4 , DC"
   },
   "UP535": {
@@ -5548,6 +6340,7 @@ export default {
     "name": "Abhishek Singh",
     "vat_OfficeCode": "79361",
     "DESIG": "DC",
+    "gst_Scode": "UP535",
     "sector": "Ghaziabad Sector-5 , DC"
   },
   "UP541": {
@@ -5555,6 +6348,7 @@ export default {
     "name": "Brijesh Kumar Singh",
     "vat_OfficeCode": "79363",
     "DESIG": "DC",
+    "gst_Scode": "UP541",
     "sector": "Ghaziabad Sector-7 , DC"
   },
   "UP538": {
@@ -5562,6 +6356,7 @@ export default {
     "name": "Anil Dixit",
     "vat_OfficeCode": "79362",
     "DESIG": "DC",
+    "gst_Scode": "UP538",
     "sector": "Ghaziabad Sector-6, DC"
   },
   "UP502": {
@@ -5569,6 +6364,7 @@ export default {
     "name": "Devendra Singh-I Dr.",
     "vat_OfficeCode": "79368",
     "DESIG": "DC",
+    "gst_Scode": "UP502",
     "sector": "Ghaziabad Sector-12, DC"
   },
   "UP544": {
@@ -5576,6 +6372,7 @@ export default {
     "name": "Sunil Kumar Gupta",
     "vat_OfficeCode": "79364",
     "DESIG": "DC",
+    "gst_Scode": "UP544",
     "sector": "Ghaziabad Sector-8, DC"
   },
   "UP547": {
@@ -5583,6 +6380,7 @@ export default {
     "name": "Shikha Gupta-I Dr.",
     "vat_OfficeCode": "79365",
     "DESIG": "DC",
+    "gst_Scode": "UP547",
     "sector": "Ghaziabad Sector-9 , DC"
   },
   "UP1227": {
@@ -5590,6 +6388,7 @@ export default {
     "name": "Lal Chandra",
     "vat_OfficeCode": "79376",
     "DESIG": "DC",
+    "gst_Scode": "UP1227",
     "sector": "Sector-1 Hapur , DC"
   },
   "UP287": {
@@ -5597,6 +6396,7 @@ export default {
     "name": "Amaresh Kumar Tripathi",
     "vat_OfficeCode": "79380",
     "DESIG": "DC",
+    "gst_Scode": "UP287",
     "sector": "Bulandshahar Sector-1, DC"
   },
   "UP1290": {
@@ -5604,6 +6404,7 @@ export default {
     "name": "Sanjeev Pathak",
     "vat_OfficeCode": "79379",
     "DESIG": "DC",
+    "gst_Scode": "UP1290",
     "sector": "Sector-4 Hapur, DC"
   },
   "UP293": {
@@ -5611,6 +6412,7 @@ export default {
     "name": "Ramashrey Prasad",
     "vat_OfficeCode": "79382",
     "DESIG": "DC",
+    "gst_Scode": "UP293",
     "sector": "Bulandshahar Sector-3, DC"
   },
   "UP296": {
@@ -5618,6 +6420,7 @@ export default {
     "name": "Suresh Kumar Verma",
     "vat_OfficeCode": "79383",
     "DESIG": "DC",
+    "gst_Scode": "UP296",
     "sector": "Bulandshahar Sector-4 , DC"
   },
   "UP1267": {
@@ -5625,6 +6428,7 @@ export default {
     "name": "Dr. Jitendra Kumar-IV",
     "vat_OfficeCode": "79385",
     "DESIG": "DC",
+    "gst_Scode": "UP1267",
     "sector": "Sector-2 Khurja , DC"
   },
   "UP1330": {
@@ -5632,6 +6436,7 @@ export default {
     "name": "Kailash Nath Saroj-I",
     "vat_OfficeCode": "79387",
     "DESIG": "DC",
+    "gst_Scode": "UP1330",
     "sector": "Sikandarbad, DC"
   },
   "UP505": {
@@ -5639,6 +6444,7 @@ export default {
     "name": "Sapna Gupta",
     "vat_OfficeCode": "79369",
     "DESIG": "DC",
+    "gst_Scode": "UP505",
     "sector": "Ghaziabad Sector-13 , DC"
   },
   "UP508": {
@@ -5646,6 +6452,7 @@ export default {
     "name": "Sanjeev Kumar Singh-II",
     "vat_OfficeCode": "79370",
     "DESIG": "DC",
+    "gst_Scode": "UP508",
     "sector": "Ghaziabad Sector-14, DC"
   },
   "UP511": {
@@ -5653,6 +6460,7 @@ export default {
     "name": "Shweta Tomer",
     "vat_OfficeCode": "79371",
     "DESIG": "DC",
+    "gst_Scode": "UP511",
     "sector": "Ghaziabad Sector-15 , DC"
   },
   "UP514": {
@@ -5660,6 +6468,7 @@ export default {
     "name": "Mukesh Kumar Singh",
     "vat_OfficeCode": "79372",
     "DESIG": "DC",
+    "gst_Scode": "UP514",
     "sector": "Ghaziabad Sector-16, DC"
   },
   "UP517": {
@@ -5667,6 +6476,7 @@ export default {
     "name": "Jay Prakash Maurya",
     "vat_OfficeCode": "79373",
     "DESIG": "DC",
+    "gst_Scode": "UP517",
     "sector": "Ghaziabad Sector-17 , DC"
   },
   "UP520": {
@@ -5674,6 +6484,7 @@ export default {
     "name": "Purnima",
     "vat_OfficeCode": "79374",
     "DESIG": "DC",
+    "gst_Scode": "UP520",
     "sector": "Ghaziabad Sector-18, DC"
   },
   "UP257": {
@@ -5681,6 +6492,7 @@ export default {
     "name": "Prabhakar Saroj",
     "vat_OfficeCode": "79073",
     "DESIG": "DC",
+    "gst_Scode": "UP257",
     "sector": "Basti Sector-1, DC"
   },
   "UP260": {
@@ -5688,6 +6500,7 @@ export default {
     "name": "Upendra Yadav",
     "vat_OfficeCode": "79074",
     "DESIG": "DC",
+    "gst_Scode": "UP260",
     "sector": "Basti Sector-2, DC"
   },
   "UP589": {
@@ -5695,6 +6508,7 @@ export default {
     "name": "Daya Shanker-I",
     "vat_OfficeCode": "79062",
     "DESIG": "DC",
+    "gst_Scode": "UP589",
     "sector": "Gorakhpur Sector-2, DC"
   },
   "UP592": {
@@ -5702,6 +6516,7 @@ export default {
     "name": "Kuldeep Ratan Singh",
     "vat_OfficeCode": "79063",
     "DESIG": "DC",
+    "gst_Scode": "UP592",
     "sector": "Gorakhpur Sector-3, DC"
   },
   "UP595": {
@@ -5709,6 +6524,7 @@ export default {
     "name": "Mritunjay Kumar Rai",
     "vat_OfficeCode": "79064",
     "DESIG": "DC",
+    "gst_Scode": "UP595",
     "sector": "Gorakhpur Sector-4, DC"
   },
   "UP598": {
@@ -5716,6 +6532,7 @@ export default {
     "name": "Santosh Kumar Verma-II",
     "vat_OfficeCode": "79065",
     "DESIG": "DC",
+    "gst_Scode": "UP598",
     "sector": "Gorakhpur Sector-5, DC"
   },
   "UP601": {
@@ -5723,6 +6540,7 @@ export default {
     "name": "Ravi Prakash-II",
     "vat_OfficeCode": "79066",
     "DESIG": "DC",
+    "gst_Scode": "UP601",
     "sector": "Gorakhpur Sector-6, DC"
   },
   "UP1213": {
@@ -5730,6 +6548,7 @@ export default {
     "name": "Vinay Kumar Gupta-I",
     "vat_OfficeCode": "79080",
     "DESIG": "DC",
+    "gst_Scode": "UP1213",
     "sector": "Sant Kabir Nagar Sector-2, DC"
   },
   "UP1210": {
@@ -5737,6 +6556,7 @@ export default {
     "name": "Gulam Rabbani",
     "vat_OfficeCode": "79079",
     "DESIG": "DC",
+    "gst_Scode": "UP1210",
     "sector": "Sant Kabir Nagar Sector-1 , DC"
   },
   "UP413": {
@@ -5744,6 +6564,7 @@ export default {
     "name": "Rajesh Pratap Singh",
     "vat_OfficeCode": "79083",
     "DESIG": "DC",
+    "gst_Scode": "UP413",
     "sector": "Deoria Sector -3, DC"
   },
   "UP419": {
@@ -5751,6 +6572,7 @@ export default {
     "name": "Pankaj Lal",
     "vat_OfficeCode": "79081",
     "DESIG": "DC",
+    "gst_Scode": "UP419",
     "sector": "Deoria Sector-1, DC"
   },
   "UP580": {
@@ -5758,6 +6580,7 @@ export default {
     "name": "Ram Singh-II",
     "vat_OfficeCode": "79072",
     "DESIG": "DC",
+    "gst_Scode": "UP580",
     "sector": "Gorakhpur Sector -12, DC"
   },
   "UP586": {
@@ -5765,6 +6588,7 @@ export default {
     "name": "Udit Narain Singh",
     "vat_OfficeCode": "79070",
     "DESIG": "DC",
+    "gst_Scode": "UP586",
     "sector": "Gorakhpur Sector-10, DC"
   },
   "UP610": {
@@ -5772,6 +6596,7 @@ export default {
     "name": "Vivek Kumar Mishra-II",
     "vat_OfficeCode": "79069",
     "DESIG": "DC",
+    "gst_Scode": "UP610",
     "sector": "Gorakhpur Sector-9, DC"
   },
   "UP836": {
@@ -5779,6 +6604,7 @@ export default {
     "name": "Rajesh Kumar",
     "vat_OfficeCode": "79087",
     "DESIG": "DC",
+    "gst_Scode": "UP836",
     "sector": "Kushi Nagar Â&nbsp;,Sector-2, DC"
   },
   "UP936": {
@@ -5786,6 +6612,7 @@ export default {
     "name": "Rajendra Prasad Chaurasia",
     "vat_OfficeCode": "79085",
     "DESIG": "DC",
+    "gst_Scode": "UP936",
     "sector": "Mahraj Ganj Â&nbsp;,Sector -1, DC"
   },
   "UP616": {
@@ -5793,6 +6620,7 @@ export default {
     "name": "Manav Kumar Vikas",
     "vat_OfficeCode": "79133",
     "DESIG": "DC",
+    "gst_Scode": "UP616",
     "sector": "Hamirpur Sector-1 , DC"
   },
   "UP819": {
@@ -5800,6 +6628,7 @@ export default {
     "name": "Vijay Kumar Soni",
     "vat_OfficeCode": "79131",
     "DESIG": "DC",
+    "gst_Scode": "UP819",
     "sector": "Karvi Sector-1, DC"
   },
   "UP932": {
@@ -5807,6 +6636,7 @@ export default {
     "name": "Neeraj Sengar",
     "vat_OfficeCode": "79135",
     "DESIG": "DC",
+    "gst_Scode": "UP932",
     "sector": "Mahoba , DC"
   },
   "UP666": {
@@ -5814,6 +6644,7 @@ export default {
     "name": "Pramod Kumar Vishwakarma",
     "vat_OfficeCode": "79128",
     "DESIG": "DC",
+    "gst_Scode": "UP666",
     "sector": "Jalaun, Sector-3 Orai , DC"
   },
   "UP696": {
@@ -5821,6 +6652,7 @@ export default {
     "name": "Shiv Sahai",
     "vat_OfficeCode": "79119",
     "DESIG": "DC",
+    "gst_Scode": "UP696",
     "sector": "Jhansi Sector-4, DC"
   },
   "UP699": {
@@ -5828,6 +6660,7 @@ export default {
     "name": "Ajay Kumar Verma-I",
     "vat_OfficeCode": "79120",
     "DESIG": "DC",
+    "gst_Scode": "UP699",
     "sector": "Jhansi Sector-5, DC"
   },
   "UP702": {
@@ -5835,6 +6668,7 @@ export default {
     "name": "Udai Pratap",
     "vat_OfficeCode": "79121",
     "DESIG": "DC",
+    "gst_Scode": "UP702",
     "sector": "Jhansi Sector-6, DC"
   },
   "UP705": {
@@ -5842,6 +6676,7 @@ export default {
     "name": "Ajeet Kumar Singh-I",
     "vat_OfficeCode": "79122",
     "DESIG": "DC",
+    "gst_Scode": "UP705",
     "sector": "Jhansi Sector-7, DC"
   },
   "UP708": {
@@ -5849,6 +6684,7 @@ export default {
     "name": "Krishna Veer Yadav",
     "vat_OfficeCode": "79123",
     "DESIG": "DC",
+    "gst_Scode": "UP708",
     "sector": "Jhansi Sector-8, DC"
   },
   "UP851": {
@@ -5856,6 +6692,7 @@ export default {
     "name": "Dinesh Kumar-IV",
     "vat_OfficeCode": "79124",
     "DESIG": "DC",
+    "gst_Scode": "UP851",
     "sector": "Lalitpur, Sector-1 , DC"
   },
   "UP762": {
@@ -5863,6 +6700,7 @@ export default {
     "name": "Anand Kumar Rai",
     "vat_OfficeCode": "79137",
     "DESIG": "DC",
+    "gst_Scode": "UP762",
     "sector": "Kanpur Sector-2, DC"
   },
   "UP795": {
@@ -5870,6 +6708,7 @@ export default {
     "name": "Anil Kumar Singh-II",
     "vat_OfficeCode": "79138",
     "DESIG": "DC",
+    "gst_Scode": "UP795",
     "sector": "Kanpur Sector-3, DC"
   },
   "UP804": {
@@ -5877,6 +6716,7 @@ export default {
     "name": "Kavindra Singh Yadav",
     "vat_OfficeCode": "79140",
     "DESIG": "DC",
+    "gst_Scode": "UP804",
     "sector": "Kanpur Sector-5, DC"
   },
   "UP807": {
@@ -5884,6 +6724,7 @@ export default {
     "name": "Anant Ram Dr.",
     "vat_OfficeCode": "79141",
     "DESIG": "DC",
+    "gst_Scode": "UP807",
     "sector": "Kanpur Sector-6, DC"
   },
   "UP801": {
@@ -5891,6 +6732,7 @@ export default {
     "name": "Puneet Agnihotri",
     "vat_OfficeCode": "79139",
     "DESIG": "DC",
+    "gst_Scode": "UP801",
     "sector": "Kanpur Sector-4, DC"
   },
   "UP1372": {
@@ -5898,6 +6740,7 @@ export default {
     "name": "Jaya Purwar Ms",
     "vat_OfficeCode": "79166",
     "DESIG": "DC",
+    "gst_Scode": "UP1372",
     "sector": "Unnao Â&nbsp;Sector-1, DC"
   },
   "UP1375": {
@@ -5905,6 +6748,7 @@ export default {
     "name": "Savita Singh Ms.",
     "vat_OfficeCode": "79167",
     "DESIG": "DC",
+    "gst_Scode": "UP1375",
     "sector": "Unnao Sector-2,, DC"
   },
   "UP732": {
@@ -5912,6 +6756,7 @@ export default {
     "name": "Vijay Kumar Sharma-I",
     "vat_OfficeCode": "79145",
     "DESIG": "DC",
+    "gst_Scode": "UP732",
     "sector": "Kanpur Sector-10, DC"
   },
   "UP735": {
@@ -5919,6 +6764,7 @@ export default {
     "name": "Devesh Kumar Singh-I",
     "vat_OfficeCode": "79146",
     "DESIG": "DC",
+    "gst_Scode": "UP735",
     "sector": "Kanpur Sector-11, DC"
   },
   "UP738": {
@@ -5926,6 +6772,7 @@ export default {
     "name": "Gyan Prakash Singh",
     "vat_OfficeCode": "79147",
     "DESIG": "DC",
+    "gst_Scode": "UP738",
     "sector": "Kanpur Sector-12, DC"
   },
   "UP741": {
@@ -5933,6 +6780,7 @@ export default {
     "name": "Garima Malviya Ms.",
     "vat_OfficeCode": "79148",
     "DESIG": "DC",
+    "gst_Scode": "UP741",
     "sector": "Kanpur Sector-13, DC"
   },
   "UP810": {
@@ -5940,6 +6788,7 @@ export default {
     "name": "Ashok Kumar Singh-II",
     "vat_OfficeCode": "79142",
     "DESIG": "DC",
+    "gst_Scode": "UP810",
     "sector": "Kanpur Sector-7, DC"
   },
   "UP813": {
@@ -5947,6 +6796,7 @@ export default {
     "name": "Brijesh Mishra",
     "vat_OfficeCode": "79143",
     "DESIG": "DC",
+    "gst_Scode": "UP813",
     "sector": "Kanpur Sector-8, DC"
   },
   "UP744": {
@@ -5954,6 +6804,7 @@ export default {
     "name": "Abhay Kumar Mishra",
     "vat_OfficeCode": "79149",
     "DESIG": "DC",
+    "gst_Scode": "UP744",
     "sector": "Kanpur Sector-14, DC"
   },
   "UP816": {
@@ -5961,6 +6812,7 @@ export default {
     "name": "Shivika Singh",
     "vat_OfficeCode": "79144",
     "DESIG": "DC",
+    "gst_Scode": "UP816",
     "sector": "Kanpur Sector-9, DC"
   },
   "UP747": {
@@ -5968,6 +6820,7 @@ export default {
     "name": "Ghanshyam Gupta",
     "vat_OfficeCode": "79150",
     "DESIG": "DC",
+    "gst_Scode": "UP747",
     "sector": "Kanpur Sector-15, DC"
   },
   "UP750": {
@@ -5975,6 +6828,7 @@ export default {
     "name": "Hemlata Jaiswal",
     "vat_OfficeCode": "79151",
     "DESIG": "DC",
+    "gst_Scode": "UP750",
     "sector": "Kanpur Sector-16, DC"
   },
   "UP756": {
@@ -5982,6 +6836,7 @@ export default {
     "name": "Pushpesh Singh",
     "vat_OfficeCode": "79153",
     "DESIG": "DC",
+    "gst_Scode": "UP756",
     "sector": "Kanpur Sector-18, DC"
   },
   "UP759": {
@@ -5989,6 +6844,7 @@ export default {
     "name": "Shubhi Tewari Smt.",
     "vat_OfficeCode": "79154",
     "DESIG": "DC",
+    "gst_Scode": "UP759",
     "sector": "Kanpur Sector-19, DC"
   },
   "UP768": {
@@ -5996,6 +6852,7 @@ export default {
     "name": "Animesh Kumar Singh",
     "vat_OfficeCode": "79156",
     "DESIG": "DC",
+    "gst_Scode": "UP768",
     "sector": "Kanpur Sector-21, DC"
   },
   "UP771": {
@@ -6003,6 +6860,7 @@ export default {
     "name": "Ramendra Ratnakar Singh",
     "vat_OfficeCode": "79157",
     "DESIG": "DC",
+    "gst_Scode": "UP771",
     "sector": "Kanpur Sector-22, DC"
   },
   "UP774": {
@@ -6010,6 +6868,7 @@ export default {
     "name": "Manoj Kumar Tripathi",
     "vat_OfficeCode": "79158",
     "DESIG": "DC",
+    "gst_Scode": "UP774",
     "sector": "Kanpur Sector-23, DC"
   },
   "UP1435": {
@@ -6017,6 +6876,7 @@ export default {
     "name": "Ramesh Chandra-I",
     "vat_OfficeCode": "79307",
     "DESIG": "DC",
+    "gst_Scode": "UP1435",
     "sector": "Varanasi Sector-9, DC"
   },
   "UP550": {
@@ -6024,6 +6884,7 @@ export default {
     "name": "Sunil Kumar-II",
     "vat_OfficeCode": "79323",
     "DESIG": "DC",
+    "gst_Scode": "UP550",
     "sector": "Ghazipur Sector-1, DC"
   },
   "UP1390": {
@@ -6031,6 +6892,7 @@ export default {
     "name": "Raj Kumar Kureel",
     "vat_OfficeCode": "79311",
     "DESIG": "DC",
+    "gst_Scode": "UP1390",
     "sector": "Varanasi Sector-13, DC"
   },
   "UP1438": {
@@ -6038,6 +6900,7 @@ export default {
     "name": "Madhulika Singh",
     "vat_OfficeCode": "79313",
     "DESIG": "DC",
+    "gst_Scode": "UP1438",
     "sector": "Varanasi, Sector-15, DC"
   },
   "UP163": {
@@ -6045,6 +6908,7 @@ export default {
     "name": "Vijay Kumar",
     "vat_OfficeCode": "79337",
     "DESIG": "DC",
+    "gst_Scode": "UP163",
     "sector": "Azamgarh Sector-5, DC"
   },
   "UP190": {
@@ -6052,6 +6916,7 @@ export default {
     "name": "Surendra Bahadur",
     "vat_OfficeCode": "79339",
     "DESIG": "DC",
+    "gst_Scode": "UP190",
     "sector": "Balia Sector-2, DC"
   },
   "UP193": {
@@ -6059,6 +6924,7 @@ export default {
     "name": "Bajrangi Yadav",
     "vat_OfficeCode": "79340",
     "DESIG": "DC",
+    "gst_Scode": "UP193",
     "sector": "Balia Sector-3, DC"
   },
   "UP969": {
@@ -6066,6 +6932,7 @@ export default {
     "name": "Vikas Sagar",
     "vat_OfficeCode": "79342",
     "DESIG": "DC",
+    "gst_Scode": "UP969",
     "sector": "Mau Sector-1, DC"
   },
   "UP972": {
@@ -6073,6 +6940,7 @@ export default {
     "name": "Ramesh Kumar Yadav",
     "vat_OfficeCode": "79343",
     "DESIG": "DC",
+    "gst_Scode": "UP972",
     "sector": "Mau Sector-2 , DC"
   },
   "UP269": {
@@ -6080,6 +6948,7 @@ export default {
     "name": "Sanjay Kumar Singh-IV",
     "vat_OfficeCode": "79354",
     "DESIG": "DC",
+    "gst_Scode": "UP269",
     "sector": "Bhadohi Sector-1, DC"
   },
   "UP272": {
@@ -6087,6 +6956,7 @@ export default {
     "name": "Mahesh Chandra-II",
     "vat_OfficeCode": "79355",
     "DESIG": "DC",
+    "gst_Scode": "UP272",
     "sector": "Bhadohi Sector-2, DC"
   },
   "UP1023": {
@@ -6094,6 +6964,7 @@ export default {
     "name": "Durgesh Yadav",
     "vat_OfficeCode": "79346",
     "DESIG": "DC",
+    "gst_Scode": "UP1023",
     "sector": "Mirzapur Sector-2, DC"
   },
   "UP1345": {
@@ -6101,6 +6972,7 @@ export default {
     "name": "Ritesh Mishra",
     "vat_OfficeCode": "79349",
     "DESIG": "DC",
+    "gst_Scode": "UP1345",
     "sector": "Sonbhadra Sector-1, DC"
   },
   "UP1348": {
@@ -6108,6 +6980,7 @@ export default {
     "name": "Kaushal Kishore Verma",
     "vat_OfficeCode": "79350",
     "DESIG": "DC",
+    "gst_Scode": "UP1348",
     "sector": "Sonbhadra Sector-2, DC"
   },
   "UP1351": {
@@ -6115,6 +6988,7 @@ export default {
     "name": "Durga Prasad Singh",
     "vat_OfficeCode": "79351",
     "DESIG": "DC",
+    "gst_Scode": "UP1351",
     "sector": "Sonbhadra Sector-3, DC"
   },
   "UP669": {
@@ -6122,6 +6996,7 @@ export default {
     "name": "Kamlesh Kumar Pandey",
     "vat_OfficeCode": "79327",
     "DESIG": "DC",
+    "gst_Scode": "UP669",
     "sector": "Jaunpur Sector-1, DC"
   },
   "UP672": {
@@ -6129,6 +7004,7 @@ export default {
     "name": "Ashok Kumar Singh-VIII",
     "vat_OfficeCode": "79328",
     "DESIG": "DC",
+    "gst_Scode": "UP672",
     "sector": "Jaunpur Sector-2, DC"
   },
   "UP1411": {
@@ -6136,6 +7012,7 @@ export default {
     "name": "Sadhna Singh Smt.",
     "vat_OfficeCode": "79318",
     "DESIG": "DC",
+    "gst_Scode": "UP1411",
     "sector": "Varanasi Sector-20, DC"
   },
   "UP281": {
@@ -6143,6 +7020,7 @@ export default {
     "name": "Sanjay Singh-III",
     "vat_OfficeCode": "79229",
     "DESIG": "DC",
+    "gst_Scode": "UP281",
     "sector": "Bijnor, Sector-1, DC"
   },
   "UP308": {
@@ -6150,6 +7028,7 @@ export default {
     "name": "Shiv Prakash Tewari",
     "vat_OfficeCode": "79231",
     "DESIG": "DC",
+    "gst_Scode": "UP308",
     "sector": "Chandpur, Sector-1, DC"
   },
   "UP1089": {
@@ -6157,6 +7036,7 @@ export default {
     "name": "Shailendra Singh",
     "vat_OfficeCode": "79235",
     "DESIG": "DC",
+    "gst_Scode": "UP1089",
     "sector": "Nazibabad , Sector-1Â&nbsp;, DC"
   },
   "UP1092": {
@@ -6164,6 +7044,7 @@ export default {
     "name": "Rakshpal Singh",
     "vat_OfficeCode": "79236",
     "DESIG": "DC",
+    "gst_Scode": "UP1092",
     "sector": "Nazibabad , Sector-2, DC"
   },
   "UP1250": {
@@ -6171,6 +7052,7 @@ export default {
     "name": "Sujeet Yadav",
     "vat_OfficeCode": "79234",
     "DESIG": "DC",
+    "gst_Scode": "UP1250",
     "sector": "Sector-2 Â&nbsp;Dhampur , DC"
   },
   "UP1241": {
@@ -6178,6 +7060,7 @@ export default {
     "name": "Jayesh Kumar Singh",
     "vat_OfficeCode": "79233",
     "DESIG": "DC",
+    "gst_Scode": "UP1241",
     "sector": "Sector-1, Dhampur , DC"
   },
   "UP711": {
@@ -6185,6 +7068,7 @@ export default {
     "name": "Mahesh Chandra-III",
     "vat_OfficeCode": "79218",
     "DESIG": "DC",
+    "gst_Scode": "UP711",
     "sector": "Jyotibaphule Nagar ,Sector-1 Amroha, DC"
   },
   "UP714": {
@@ -6192,6 +7076,7 @@ export default {
     "name": "Rajesh Kumar Maurya-I",
     "vat_OfficeCode": "79217",
     "DESIG": "DC",
+    "gst_Scode": "UP714",
     "sector": "Jyotibaphule Nagar Â&nbsp;,Sector-2 Amroha , DC"
   },
   "UP1038": {
@@ -6199,6 +7084,7 @@ export default {
     "name": "Gaurav Agarwal",
     "vat_OfficeCode": "79209",
     "DESIG": "DC",
+    "gst_Scode": "UP1038",
     "sector": "Moradabad &nbsp;Sector-3, DC"
   },
   "UP1035": {
@@ -6206,6 +7092,7 @@ export default {
     "name": "Prakash Chandra Chaurasia",
     "vat_OfficeCode": "79208",
     "DESIG": "DC",
+    "gst_Scode": "UP1035",
     "sector": "Moradabad &nbsp;Sector-2, DC"
   },
   "UP637": {
@@ -6213,6 +7100,7 @@ export default {
     "name": "Rajesh Kumar Seth",
     "vat_OfficeCode": "79220",
     "DESIG": "DC",
+    "gst_Scode": "UP637",
     "sector": "Hasanpur Sector-2, DC"
   },
   "UP1032": {
@@ -6220,6 +7108,7 @@ export default {
     "name": "Mukesh Anand Pandey",
     "vat_OfficeCode": "79207",
     "DESIG": "DC",
+    "gst_Scode": "UP1032",
     "sector": "Moradabad &nbsp;Sector-1, DC"
   },
   "UP1041": {
@@ -6227,6 +7116,7 @@ export default {
     "name": "Namita Lamba Ms.",
     "vat_OfficeCode": "79210",
     "DESIG": "DC",
+    "gst_Scode": "UP1041",
     "sector": "Moradabad &nbsp;Sector-4, DC"
   },
   "UP1044": {
@@ -6234,6 +7124,7 @@ export default {
     "name": "Vineet Kumar Singh",
     "vat_OfficeCode": "79211",
     "DESIG": "DC",
+    "gst_Scode": "UP1044",
     "sector": "Moradabad &nbsp;Sector-5, DC"
   },
   "UP1235": {
@@ -6241,6 +7132,7 @@ export default {
     "name": "Lallan Prasad Yadav",
     "vat_OfficeCode": "79221",
     "DESIG": "DC",
+    "gst_Scode": "UP1235",
     "sector": "Sector-1 Sambhal, DC"
   },
   "UP1253": {
@@ -6248,6 +7140,7 @@ export default {
     "name": "Akhilesh Kumar Dubey-I",
     "vat_OfficeCode": "79222",
     "DESIG": "DC",
+    "gst_Scode": "UP1253",
     "sector": "Sector-2 Â&nbsp;Sambhal, DC"
   },
   "UP1047": {
@@ -6255,6 +7148,7 @@ export default {
     "name": "Gaurav Singh Chauhan",
     "vat_OfficeCode": "79212",
     "DESIG": "DC",
+    "gst_Scode": "UP1047",
     "sector": "Moradabad &nbsp;Sector-6, DC"
   },
   "UP1050": {
@@ -6262,6 +7156,7 @@ export default {
     "name": "Anoop Kumar Pandey",
     "vat_OfficeCode": "79213",
     "DESIG": "DC",
+    "gst_Scode": "UP1050",
     "sector": "Moradabad &nbsp;Sector-7, DC"
   },
   "UP1053": {
@@ -6269,6 +7164,7 @@ export default {
     "name": "Radhey Shyam",
     "vat_OfficeCode": "79216",
     "DESIG": "DC",
+    "gst_Scode": "UP1053",
     "sector": "Moradabad Sector-10, DC"
   },
   "UP1056": {
@@ -6276,6 +7172,7 @@ export default {
     "name": "Ranjeet Kumar",
     "vat_OfficeCode": "79214",
     "DESIG": "DC",
+    "gst_Scode": "UP1056",
     "sector": "Moradabad Sector-8, DC"
   },
   "UP1059": {
@@ -6283,6 +7180,7 @@ export default {
     "name": "Santosh Kumar Pandey-I",
     "vat_OfficeCode": "79215",
     "DESIG": "DC",
+    "gst_Scode": "UP1059",
     "sector": "Moradabad Sector-9, DC"
   },
   "UP1165": {
@@ -6290,6 +7188,7 @@ export default {
     "name": "Sandesh Kumar Jain",
     "vat_OfficeCode": "79223",
     "DESIG": "DC",
+    "gst_Scode": "UP1165",
     "sector": "Rampur Sector-1, DC"
   },
   "UP1168": {
@@ -6297,6 +7196,7 @@ export default {
     "name": "Rajeev Tyagi",
     "vat_OfficeCode": "79224",
     "DESIG": "DC",
+    "gst_Scode": "UP1168",
     "sector": "Rampur Sector-2, DC"
   },
   "UP1171": {
@@ -6304,6 +7204,7 @@ export default {
     "name": "Sarvesh Kumar Singh",
     "vat_OfficeCode": "79225",
     "DESIG": "DC",
+    "gst_Scode": "UP1171",
     "sector": "Rampur Sector-3, DC"
   },
   "UP1238": {
@@ -6311,6 +7212,7 @@ export default {
     "name": "Sharad Chandra",
     "vat_OfficeCode": "79226",
     "DESIG": "DC",
+    "gst_Scode": "UP1238",
     "sector": "Sector-1, Chandausi, DC"
   },
   "UP1062": {
@@ -6318,6 +7220,7 @@ export default {
     "name": "Ashok Kumar-VI",
     "vat_OfficeCode": "79271",
     "DESIG": "DC",
+    "gst_Scode": "UP1062",
     "sector": "Muzaffar Nagar Sector-1, DC"
   },
   "UP1284": {
@@ -6325,6 +7228,7 @@ export default {
     "name": "Hari Sahai Singh",
     "vat_OfficeCode": "79228",
     "DESIG": "DC",
+    "gst_Scode": "UP1284",
     "sector": "Sector-3, Chandausi, DC"
   },
   "UP1065": {
@@ -6332,6 +7236,7 @@ export default {
     "name": "Gauri Shanker",
     "vat_OfficeCode": "79272",
     "DESIG": "DC",
+    "gst_Scode": "UP1065",
     "sector": "Muzaffar Nagar Sector-2, DC"
   },
   "UP1068": {
@@ -6339,6 +7244,7 @@ export default {
     "name": "Abhay Singh-I",
     "vat_OfficeCode": "79273",
     "DESIG": "DC",
+    "gst_Scode": "UP1068",
     "sector": "Muzaffar Nagar Sector-3, DC"
   },
   "UP1074": {
@@ -6346,6 +7252,7 @@ export default {
     "name": "Chandra Bhushan Dungrakoti",
     "vat_OfficeCode": "79275",
     "DESIG": "DC",
+    "gst_Scode": "UP1074",
     "sector": "Muzaffar Nagar Sector-5, DC"
   },
   "UP1071": {
@@ -6353,6 +7260,7 @@ export default {
     "name": "Ayodhya Prasad",
     "vat_OfficeCode": "79274",
     "DESIG": "DC",
+    "gst_Scode": "UP1071",
     "sector": "Muzaffar Nagar Sector-4, DC"
   },
   "UP1077": {
@@ -6360,6 +7268,7 @@ export default {
     "name": "Brijesh Kumar",
     "vat_OfficeCode": "79276",
     "DESIG": "DC",
+    "gst_Scode": "UP1077",
     "sector": "Muzaffar Nagar Sector-6, DC"
   },
   "UP1080": {
@@ -6367,6 +7276,7 @@ export default {
     "name": "Ajitabh Roy",
     "vat_OfficeCode": "79277",
     "DESIG": "DC",
+    "gst_Scode": "UP1080",
     "sector": "Muzaffar Nagar Sector-7, DC"
   },
   "UP1275": {
@@ -6374,6 +7284,7 @@ export default {
     "name": "Jai Shankar Shahi",
     "vat_OfficeCode": "79280",
     "DESIG": "DC",
+    "gst_Scode": "UP1275",
     "sector": "Sector-2, Khatauli , DC"
   },
   "UP1083": {
@@ -6381,6 +7292,7 @@ export default {
     "name": "Narendra Kumar-VI",
     "vat_OfficeCode": "79278",
     "DESIG": "DC",
+    "gst_Scode": "UP1083",
     "sector": "Muzaffar Nagar Sector-8, DC"
   },
   "UP1186": {
@@ -6388,6 +7300,7 @@ export default {
     "name": "Vivek Kumar Upadhyay",
     "vat_OfficeCode": "79255",
     "DESIG": "DC",
+    "gst_Scode": "UP1186",
     "sector": "Saharanpur Sector-2, DC"
   },
   "UP1192": {
@@ -6395,6 +7308,7 @@ export default {
     "name": "Acche Lal Vishwakarma",
     "vat_OfficeCode": "79257",
     "DESIG": "DC",
+    "gst_Scode": "UP1192",
     "sector": "Saharanpur Sector-4 , DC"
   },
   "UP1195": {
@@ -6402,13 +7316,15 @@ export default {
     "name": "Vinod Kumar Tewari  [Dr.]",
     "vat_OfficeCode": "79258",
     "DESIG": "DC",
-    "sector": "Saharanpur Sector- 5, DC"
+    "gst_Scode": "UP1195",
+    "sector": "Saharanpur Sector-5, DC"
   },
   "UP1198": {
     "EmpID": "124581",
     "name": "Rajeev Kumar Shakya",
     "vat_OfficeCode": "79259",
     "DESIG": "DC",
+    "gst_Scode": "UP1198",
     "sector": "Saharanpur Sector-6, DC"
   },
   "UP1177": {
@@ -6416,6 +7332,7 @@ export default {
     "name": "Akhilesh Kumar Mishra",
     "vat_OfficeCode": "79263",
     "DESIG": "DC",
+    "gst_Scode": "UP1177",
     "sector": "Saharanpur Sector-10, DC"
   },
   "UP1180": {
@@ -6423,6 +7340,7 @@ export default {
     "name": "Gavendra Pratap Singh",
     "vat_OfficeCode": "79264",
     "DESIG": "Jt.Commissioner",
+    "gst_Scode": "UP1180",
     "sector": "Saharanpur Sector-11, DC"
   },
   "UP1183": {
@@ -6430,6 +7348,7 @@ export default {
     "name": "Jai Bahadur Singh",
     "vat_OfficeCode": "79265",
     "DESIG": "DC",
+    "gst_Scode": "UP1183",
     "sector": "Saharanpur Sector-12, DC"
   },
   "UP1305": {
@@ -6437,6 +7356,7 @@ export default {
     "name": "Lomesh Kumar",
     "vat_OfficeCode": "79268",
     "DESIG": "DC",
+    "gst_Scode": "UP1305",
     "sector": "Shamli Sector-1, DC"
   },
   "UP1308": {
@@ -6444,6 +7364,7 @@ export default {
     "name": "Siddharth Saurabh Bandhu",
     "vat_OfficeCode": "79269",
     "DESIG": "DC",
+    "gst_Scode": "UP1308",
     "sector": "Shamli Sector-2, DC"
   },
   "UP1311": {
@@ -6451,6 +7372,7 @@ export default {
     "name": "Dharmendra Kumar-I",
     "vat_OfficeCode": "79270",
     "DESIG": "DC",
+    "gst_Scode": "UP1311",
     "sector": "Shamli Sector-3, DC"
   },
   "UP299": {
@@ -6458,6 +7380,7 @@ export default {
     "name": "Ram Singh Yadav-I",
     "vat_OfficeCode": "79320",
     "DESIG": "DC",
+    "gst_Scode": "UP299",
     "sector": "Chandauli Sector-1, DC"
   },
   "UP302": {
@@ -6465,6 +7388,7 @@ export default {
     "name": "Vinod Kumar Sharma-I",
     "vat_OfficeCode": "79321",
     "DESIG": "DC",
+    "gst_Scode": "UP302",
     "sector": "Chandauli Sector-2, DC"
   },
   "UP1378": {
@@ -6472,6 +7396,7 @@ export default {
     "name": "Dinesh Pal",
     "vat_OfficeCode": "79299",
     "DESIG": "DC",
+    "gst_Scode": "UP1378",
     "sector": "Varanasi Sector-1 , DC"
   },
   "UP1408": {
@@ -6479,6 +7404,7 @@ export default {
     "name": "Ajay Kumar-II",
     "vat_OfficeCode": "79300",
     "DESIG": "DC",
+    "gst_Scode": "UP1408",
     "sector": "Varanasi Sector-2 , DC"
   },
   "UP1417": {
@@ -6486,6 +7412,7 @@ export default {
     "name": "Ratan Shankar Mishra",
     "vat_OfficeCode": "79301",
     "DESIG": "DC",
+    "gst_Scode": "UP1417",
     "sector": "Varanasi Sector-3 , DC"
   },
   "UP1420": {
@@ -6493,6 +7420,7 @@ export default {
     "name": "Anand Prakash Rai",
     "vat_OfficeCode": "79302",
     "DESIG": "DC",
+    "gst_Scode": "UP1420",
     "sector": "Varanasi Sector-4, DC"
   },
   "UP908": {
@@ -6500,6 +7428,7 @@ export default {
     "name": "Pankaj Kumar-III",
     "vat_OfficeCode": "79186",
     "DESIG": "DC",
+    "gst_Scode": "UP908",
     "sector": "Lucknow Sector-18, DC"
   },
   "UP917": {
@@ -6507,6 +7436,7 @@ export default {
     "name": "Satyendra Singh-II",
     "vat_OfficeCode": "79189",
     "DESIG": "DC",
+    "gst_Scode": "UP917",
     "sector": "Lucknow Sector-21, DC"
   },
   "UP911": {
@@ -6514,6 +7444,7 @@ export default {
     "name": "Ashok Kumar Tripathi",
     "vat_OfficeCode": "79187",
     "DESIG": "DC",
+    "gst_Scode": "UP911",
     "sector": "Lucknow Sector-19, DC"
   },
   "UP914": {
@@ -6521,6 +7452,7 @@ export default {
     "name": "Dhanendra Kumar Pandey",
     "vat_OfficeCode": "79188",
     "DESIG": "DC",
+    "gst_Scode": "UP914",
     "sector": "Lucknow Sector-20 , DC"
   },
   "UP920": {
@@ -6528,6 +7460,7 @@ export default {
     "name": "Subash Chandra Yadav",
     "vat_OfficeCode": "79190",
     "DESIG": "DC",
+    "gst_Scode": "UP920",
     "sector": "Lucknow Sector-22 , DC"
   },
   "UP839": {
@@ -6535,6 +7468,7 @@ export default {
     "name": "Surendra Nath Chaubey",
     "vat_OfficeCode": "79202",
     "DESIG": "DC",
+    "gst_Scode": "UP839",
     "sector": "Lakhimpur Kheri ,Sector-1, DC"
   },
   "UP845": {
@@ -6542,6 +7476,7 @@ export default {
     "name": "Charan Singh Varma",
     "vat_OfficeCode": "79204",
     "DESIG": "DC",
+    "gst_Scode": "UP845",
     "sector": "Lakhimpur Kheri ,Sector-3, DC"
   },
   "UP1138": {
@@ -6549,6 +7484,7 @@ export default {
     "name": "Brijendra Singh",
     "vat_OfficeCode": "79206",
     "DESIG": "DC",
+    "gst_Scode": "UP1138",
     "sector": "Pallia kalan, DC"
   },
   "UP1336": {
@@ -6556,6 +7492,7 @@ export default {
     "name": "Vimal Kumar-II",
     "vat_OfficeCode": "79199",
     "DESIG": "DC",
+    "gst_Scode": "UP1336",
     "sector": "Sitapur ,Sector-2, DC"
   },
   "UP1333": {
@@ -6563,6 +7500,7 @@ export default {
     "name": "Pratap Singh Yadav",
     "vat_OfficeCode": "79198",
     "DESIG": "DC",
+    "gst_Scode": "UP1333",
     "sector": "Sitapur ,Sector-1, DC"
   },
   "UP1339": {
@@ -6570,6 +7508,7 @@ export default {
     "name": "Bhupal Bahadur Singh",
     "vat_OfficeCode": "79200",
     "DESIG": "DC",
+    "gst_Scode": "UP1339",
     "sector": "Sitapur ,Sector-3, DC"
   },
   "UP1342": {
@@ -6577,6 +7516,7 @@ export default {
     "name": "Achche Lal Singh",
     "vat_OfficeCode": "79201",
     "DESIG": "DC",
+    "gst_Scode": "UP1342",
     "sector": "Sitapur ,Sector-4, DC"
   },
   "UP981": {
@@ -6584,6 +7524,7 @@ export default {
     "name": "Piyush Kant Srivastava",
     "vat_OfficeCode": "79281",
     "DESIG": "DC",
+    "gst_Scode": "UP981",
     "sector": "Meerut Sector-1, DC"
   },
   "UP996": {
@@ -6591,6 +7532,7 @@ export default {
     "name": "Deepak Kumar-II",
     "vat_OfficeCode": "79282",
     "DESIG": "DC",
+    "gst_Scode": "UP996",
     "sector": "Meerut Sector-2, DC"
   },
   "UP999": {
@@ -6598,6 +7540,7 @@ export default {
     "name": "Alok Kumar-I",
     "vat_OfficeCode": "79283",
     "DESIG": "DC",
+    "gst_Scode": "UP999",
     "sector": "Meerut Sector-3, DC"
   },
   "UP1002": {
@@ -6605,6 +7548,7 @@ export default {
     "name": "Divya Murti",
     "vat_OfficeCode": "79284",
     "DESIG": "DC",
+    "gst_Scode": "UP1002",
     "sector": "Meerut Sector-4, DC"
   },
   "UP1005": {
@@ -6612,6 +7556,7 @@ export default {
     "name": "Sachin Kumar-I",
     "vat_OfficeCode": "79285",
     "DESIG": "DC",
+    "gst_Scode": "UP1005",
     "sector": "Meerut Sector-5, DC"
   },
   "UP175": {
@@ -6619,6 +7564,7 @@ export default {
     "name": "Shyam Lal Ram",
     "vat_OfficeCode": "79298",
     "DESIG": "DC",
+    "gst_Scode": "UP175",
     "sector": "Baghpat , DC"
   },
   "UP1216": {
@@ -6626,6 +7572,7 @@ export default {
     "name": "Rakesh Kumar Gautam",
     "vat_OfficeCode": "79294",
     "DESIG": "DC",
+    "gst_Scode": "UP1216",
     "sector": "Sardhana, DC"
   },
   "UP1011": {
@@ -6633,6 +7580,7 @@ export default {
     "name": "Nripendra Singh Sengar",
     "vat_OfficeCode": "79287",
     "DESIG": "DC",
+    "gst_Scode": "UP1011",
     "sector": "Meerut Sector-7, DC"
   },
   "UP1008": {
@@ -6640,6 +7588,7 @@ export default {
     "name": "Sanjay Kumar Singh-III",
     "vat_OfficeCode": "79286",
     "DESIG": "DC",
+    "gst_Scode": "UP1008",
     "sector": "Meerut Sector-6, DC"
   },
   "UP987": {
@@ -6647,6 +7596,7 @@ export default {
     "name": "Arun Kumar Pandey",
     "vat_OfficeCode": "79291",
     "DESIG": "DC",
+    "gst_Scode": "UP987",
     "sector": "Meerut Sector-11, DC"
   },
   "UP984": {
@@ -6654,6 +7604,7 @@ export default {
     "name": "Ajay Pratap Singh",
     "vat_OfficeCode": "79290",
     "DESIG": "DC",
+    "gst_Scode": "UP984",
     "sector": "Meerut Sector-10, DC"
   },
   "UP993": {
@@ -6661,6 +7612,7 @@ export default {
     "name": "Sujata Singh",
     "vat_OfficeCode": "79293",
     "DESIG": "DC",
+    "gst_Scode": "UP993",
     "sector": "Meerut Sector-13, DC"
   },
   "UP990": {
@@ -6668,6 +7620,7 @@ export default {
     "name": "Poonam Singh-II",
     "vat_OfficeCode": "79292",
     "DESIG": "DC",
+    "gst_Scode": "UP990",
     "sector": "Meerut Sector-12, DC"
   },
   "UP1014": {
@@ -6675,6 +7628,7 @@ export default {
     "name": "Arun Kumar Singh-IV",
     "vat_OfficeCode": "79288",
     "DESIG": "DC",
+    "gst_Scode": "UP1014",
     "sector": "Meerut Sector-8, DC"
   },
   "UP1017": {
@@ -6682,6 +7636,7 @@ export default {
     "name": "Anmol Kapoor",
     "vat_OfficeCode": "79289",
     "DESIG": "DC",
+    "gst_Scode": "UP1017",
     "sector": "Meerut Sector-9, DC"
   },
   "UP872": {
@@ -6689,13 +7644,15 @@ export default {
     "name": "Poonam Gupta-II Ms.",
     "vat_OfficeCode": "79174",
     "DESIG": "DC",
-    "sector": "Lucknow Sector- 6, DC"
+    "gst_Scode": "UP872",
+    "sector": "Lucknow Sector- 6 , DC"
   },
   "UP869": {
     "EmpID": "112039",
     "name": "Akhilesh Kumar-I",
     "vat_OfficeCode": "79173",
     "DESIG": "DC",
+    "gst_Scode": "UP869",
     "sector": "Lucknow Sector- 5, DC"
   },
   "UP875": {
@@ -6703,13 +7660,15 @@ export default {
     "name": "Uttam Kumar Tewari",
     "vat_OfficeCode": "79175",
     "DESIG": "DC",
-    "sector": "Lucknow Sector- 7, DC"
+    "gst_Scode": "UP875",
+    "sector": "Lucknow Sector- 7 , DC"
   },
   "UP887": {
     "EmpID": "124670",
     "name": "Kunwar Rovins",
     "vat_OfficeCode": "79179",
     "DESIG": "DC",
+    "gst_Scode": "UP887",
     "sector": "Lucknow Sector-11, DC"
   },
   "UP884": {
@@ -6717,6 +7676,7 @@ export default {
     "name": "Satyendra Kumar Singh-I",
     "vat_OfficeCode": "79178",
     "DESIG": "DC",
+    "gst_Scode": "UP884",
     "sector": "Lucknow Sector-10, DC"
   },
   "UP881": {
@@ -6724,6 +7684,7 @@ export default {
     "name": "Suman Chaurasia Ms",
     "vat_OfficeCode": "79177",
     "DESIG": "DC",
+    "gst_Scode": "UP881",
     "sector": "Lucknow Sector- 9, DC"
   },
   "UP1159": {
@@ -6731,6 +7692,7 @@ export default {
     "name": "Poonam Singh-I Smt.",
     "vat_OfficeCode": "79196",
     "DESIG": "DC",
+    "gst_Scode": "UP1159",
     "sector": "Raibareilly Sector-2 , DC"
   },
   "UP893": {
@@ -6738,6 +7700,7 @@ export default {
     "name": "Shailendra Kumar Singh-I",
     "vat_OfficeCode": "79181",
     "DESIG": "DC",
+    "gst_Scode": "UP893",
     "sector": "Lucknow Sector-13 , DC"
   },
   "UP1156": {
@@ -6745,6 +7708,7 @@ export default {
     "name": "Krishna Murari Mishra-I",
     "vat_OfficeCode": "79195",
     "DESIG": "DC",
+    "gst_Scode": "UP1156",
     "sector": "Raibareilly Sector-1 , DC"
   },
   "UP899": {
@@ -6752,6 +7716,7 @@ export default {
     "name": "Bhupendra Kumar Singh",
     "vat_OfficeCode": "79183",
     "DESIG": "DC",
+    "gst_Scode": "UP899",
     "sector": "Lucknow Sector-15 , DC"
   },
   "UP902": {
@@ -6759,6 +7724,7 @@ export default {
     "name": "Kamla Prasad",
     "vat_OfficeCode": "79184",
     "DESIG": "DC",
+    "gst_Scode": "UP902",
     "sector": "Lucknow Sector-16, DC"
   },
   "UP777": {
@@ -6766,6 +7732,7 @@ export default {
     "name": "Munshi Chauhan",
     "vat_OfficeCode": "79159",
     "DESIG": "DC",
+    "gst_Scode": "UP777",
     "sector": "Kanpur Sector-24, DC"
   },
   "UP780": {
@@ -6773,6 +7740,7 @@ export default {
     "name": "Rakesh Singh",
     "vat_OfficeCode": "79160",
     "DESIG": "DC",
+    "gst_Scode": "UP780",
     "sector": "Kanpur Sector-25, DC"
   },
   "UP783": {
@@ -6780,6 +7748,7 @@ export default {
     "name": "Raj Kumar-IV",
     "vat_OfficeCode": "79161",
     "DESIG": "DC",
+    "gst_Scode": "UP783",
     "sector": "Kanpur Sector-26, DC"
   },
   "UP792": {
@@ -6787,6 +7756,7 @@ export default {
     "name": "Vijay Pal Singh-II",
     "vat_OfficeCode": "79164",
     "DESIG": "DC",
+    "gst_Scode": "UP792",
     "sector": "Kanpur Sector-29, DC"
   },
   "UP798": {
@@ -6794,6 +7764,7 @@ export default {
     "name": "Manoj Kumar Vishwakarma-I",
     "vat_OfficeCode": "79165",
     "DESIG": "DC",
+    "gst_Scode": "UP798",
     "sector": "Kanpur Sector-30, DC"
   },
   "UP863": {
@@ -6801,13 +7772,15 @@ export default {
     "name": "Neera Srivastava",
     "vat_OfficeCode": "79171",
     "DESIG": "DC",
-    "sector": "Lucknow Sector- 3, DC"
+    "gst_Scode": "UP863",
+    "sector": "Lucknow Sector- 3 , DC"
   },
   "UP860": {
     "EmpID": "123686",
     "name": "Chetram Verma",
     "vat_OfficeCode": "79170",
     "DESIG": "DC",
+    "gst_Scode": "UP860",
     "sector": "Lucknow Sector- 2, DC"
   },
   "UP866": {
@@ -6815,6 +7788,7 @@ export default {
     "name": "Rakhi Singh",
     "vat_OfficeCode": "79172",
     "DESIG": "DC",
+    "gst_Scode": "UP866",
     "sector": "Lucknow Sector- 4, DC"
   },
   "UP625": {
@@ -6822,6 +7796,7 @@ export default {
     "name": "Ashwani Kumar Mishra",
     "vat_OfficeCode": "79192",
     "DESIG": "DC",
+    "gst_Scode": "UP625",
     "sector": "Hardoi ,Sector-2, DC"
   },
   "UP631": {
@@ -6829,6 +7804,7 @@ export default {
     "name": "Sushil Kumar Gautam-II",
     "vat_OfficeCode": "79194",
     "DESIG": "DC",
+    "gst_Scode": "UP631",
     "sector": "Hardoi ,Sector-4, DC"
   },
   "UP857": {
@@ -6836,6 +7812,7 @@ export default {
     "name": "Shilpa Agarwal Ms",
     "vat_OfficeCode": "79169",
     "DESIG": "DC",
+    "gst_Scode": "UP857",
     "sector": "Lucknow Sector- 1, DC"
   },
   "UP329": {
@@ -6843,6 +7820,7 @@ export default {
     "name": "Shishir Prakash",
     "vat_OfficeCode": "69443",
     "DESIG": "Jt.Commissioner",
+    "gst_Scode": "UP329",
     "sector": "Corporate Circle, Lucknow I"
   },
   "UP330": {
@@ -6850,6 +7828,7 @@ export default {
     "name": "Rajesh Kumar Gupt",
     "vat_OfficeCode": "69444",
     "DESIG": "Jt.Commissioner",
+    "gst_Scode": "UP330",
     "sector": "Corporate Circle, Lucknow II"
   },
   "UP335": {
@@ -6857,6 +7836,7 @@ export default {
     "name": "Dharamveer Singh-II",
     "vat_OfficeCode": "69450",
     "DESIG": "Jt.Commissioner",
+    "gst_Scode": "UP335",
     "sector": "Corporate Circle, Varanasi I"
   },
   "UP334": {
@@ -6864,6 +7844,7 @@ export default {
     "name": "Surya Bhan Singh",
     "vat_OfficeCode": "69448",
     "DESIG": "Jt.Commissioner",
+    "gst_Scode": "UP334",
     "sector": "Corporate Circle, Saharanpur"
   },
   "UP332": {
@@ -6871,6 +7852,7 @@ export default {
     "name": "Rashmi Srivastava Smt.",
     "vat_OfficeCode": "69445",
     "DESIG": "Jt.Commissioner",
+    "gst_Scode": "UP332",
     "sector": "Corporate Circle, Moradabad"
   },
   "UP336": {
@@ -6878,6 +7860,7 @@ export default {
     "name": "Vivekanand Shukla",
     "vat_OfficeCode": "69451",
     "DESIG": "Jt.Commissioner",
+    "gst_Scode": "UP336",
     "sector": "Corporate Circle, Varanasi II"
   },
   "UP328": {
@@ -6885,6 +7868,7 @@ export default {
     "name": "Rankendra",
     "vat_OfficeCode": "69442",
     "DESIG": "Jt.Commissioner",
+    "gst_Scode": "UP328",
     "sector": "Corporate Circle, Kanpur II"
   },
   "UP325": {
@@ -6892,6 +7876,7 @@ export default {
     "name": "Rashmi Singh Rajpoot",
     "vat_OfficeCode": "69439",
     "DESIG": "Jt.Commissioner",
+    "gst_Scode": "UP325",
     "sector": "Corporate Circle, Gorakhpur"
   },
   "UP339": {
@@ -6899,6 +7884,7 @@ export default {
     "name": "Anil Kumar-III",
     "vat_OfficeCode": "69456",
     "DESIG": "Jt.Commissioner",
+    "gst_Scode": "UP339",
     "sector": "Corporate Circle,Greater Noida -2"
   },
   "UP333": {
@@ -6906,6 +7892,7 @@ export default {
     "name": "Rajesh Kumar-I",
     "vat_OfficeCode": "69446",
     "DESIG": "Jt.Commissioner",
+    "gst_Scode": "UP333",
     "sector": "Corporate Circle, Noida"
   },
   "UP322": {
@@ -6913,6 +7900,7 @@ export default {
     "name": "Manoj Kumar Singh-III",
     "vat_OfficeCode": "69454",
     "DESIG": "Jt.Commissioner",
+    "gst_Scode": "UP322",
     "sector": "Corporate Circle, Ayodhya"
   },
   "UP337": {
@@ -6920,6 +7908,7 @@ export default {
     "name": "Ashish Niranjan",
     "vat_OfficeCode": "69457",
     "DESIG": "Jt.Commissioner",
+    "gst_Scode": "UP337",
     "sector": "Corporate Circle,Etawah"
   },
   "UP321": {
@@ -6927,6 +7916,7 @@ export default {
     "name": "Ram Kumar-II",
     "vat_OfficeCode": "69437",
     "DESIG": "Jt.Commissioner",
+    "gst_Scode": "UP321",
     "sector": "Corporate Circle, Bareilly"
   },
   "UP320": {
@@ -6934,6 +7924,7 @@ export default {
     "name": "Krishna Chandra Yadav",
     "vat_OfficeCode": "69438",
     "DESIG": "Jt.Commissioner",
+    "gst_Scode": "UP320",
     "sector": "Corporate Circle, Prayagraj"
   },
   "UP326": {
@@ -6941,6 +7932,7 @@ export default {
     "name": "Shakti Pratap Singh",
     "vat_OfficeCode": "69455",
     "DESIG": "Jt.Commissioner",
+    "gst_Scode": "UP326",
     "sector": "Corporate Circle, HO Lucknow"
   },
   "UP318": {
@@ -6948,6 +7940,7 @@ export default {
     "name": "Om Prakash-V",
     "vat_OfficeCode": "69436",
     "DESIG": "Jt.Commissioner",
+    "gst_Scode": "UP318",
     "sector": "Corporate Circle, Agra"
   }
 }
