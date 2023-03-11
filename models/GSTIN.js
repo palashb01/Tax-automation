@@ -9,6 +9,7 @@ export const fetchGSTINList = async (scode) => {
       id: true,
       GSTIN: true,
       div_scode: true,
+      GSTINDetails: true,
     },
   });
 
