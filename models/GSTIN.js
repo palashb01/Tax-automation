@@ -31,3 +31,28 @@ export const fetchGSTINDetails = async (GSTIN) => {
   return data;
 };
 
+export const writeReview = async (id, review) => {
+  const data = await prisma.GSTIN_DETAILS.update({
+    where: {
+      id: id,
+    },
+    data: {
+      review: review,
+    },
+  });
+
+  return data;
+};
+
+export const toggleActionRequired = async (id, action) => {
+  const data = await prisma.GSTIN_DETAILS.update({
+    where: {
+      id: id,
+    },
+    data: {
+      actionRequired: action,
+    },
+  });
+
+  return data;
+};
