@@ -35,6 +35,24 @@ export const fetchGSTINDetails = async (GSTIN) => {
   return data;
 };
 
+export const writeStatus = async (id, updatedData) => {
+  let reqObj = (({ review, action, viewed }) => ({ review, action, viewed }))(
+    updatedData
+  );
+  // filter out undefined properties
+  reqObj = Object.fromEntries(
+        Object.entries(reqObj).filter((entry) => entry[1] != undefined)
+      );
+    const data = await prisma.GSTIN_DETAILS.update({
+      where: {
+        id: id,
+      },
+      data: reqObj,
+    });
+
+    return data;
+}
+
 export const writeReview = async (id, review) => {
   const data = await prisma.GSTIN_DETAILS.update({
     where: {
