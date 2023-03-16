@@ -2,7 +2,7 @@ import prisma from "./index.js";
 
 export const fetchGSTINList = async (scode) => {
   const data =
-    await prisma.$queryRaw`SELECT GSTIN, GSTINDetails, div_scode, actionRequired, review FROM DATA_1718_IIT_ALL.dbo.GSTIN_DETAILS WHERE div_scode=${scode}`;
+    await prisma.$queryRaw`SELECT id, GSTIN, GSTINDetails, div_scode, actionRequired, review FROM DATA_1718_IIT_ALL.dbo.GSTIN_DETAILS WHERE div_scode=${scode}`;
   // const data = await prisma.GSTIN_DETAILS.findMany({
   //   where: {
   //     div_scode: scode,
