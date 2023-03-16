@@ -7,6 +7,17 @@ export const getR9CFilers = async (req, res, next) => {
     try {
       const data = await fetchR9C(GSTIN);
       console.log({ r9cdata: data });
+
+      if (!data.gstr9cdata) {
+        // IF NO DATA OR R9C NOT FILED, ASSUME 0
+        console.log("R9C SENT");
+        return res.status(200).json({
+          message: "Fetch successful",
+          data: {},
+          error: null,
+        })
+      }
+
       if (data && data.gstin.toLowerCase() == GSTIN.toLowerCase()) {
         const datas = JSON.parse(data.gstr9cdata);
         const finaldata = datas.audited_data;
