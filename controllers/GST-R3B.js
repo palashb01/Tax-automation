@@ -38,9 +38,9 @@ export const getR3BFilers = async (req, res, next) => {
           error: null,
         });
       } else {
-        res.status(204).send({
+        res.status(200).send({
           message: "No content present for the provided GSTIN",
-          data: partial_data,
+          data: null,
           error: null,
         });
       }

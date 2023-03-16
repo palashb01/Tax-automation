@@ -63,7 +63,7 @@ export const getR9CFilers = async (req, res, next) => {
           error: null,
         });
       } else {
-        res.status(204).send({
+        res.status(200).send({
           message: "No content present for the provided GSTIN",
           data: null,
           error: null,
