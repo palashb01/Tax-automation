@@ -2,6 +2,7 @@ import {
   fetchGSTINDetails,
   toggleActionRequired,
   writeReview,
+  writeStatus,
 } from "../models/GSTIN.js";
 
 export const getGSTINDetails = async (req, res, next) => {
@@ -40,6 +41,65 @@ export const getGSTINDetails = async (req, res, next) => {
     });
   }
 };
+
+export const postStatus = async (req, res, next) => {
+  console.log("UPDATE GSTIN");
+  const { id, ...updatedObj } = req.body;
+
+  if (id) {
+    try {
+      if (Object.keys(updatedObj).length != 0) {
+        let parsedID = null;
+        try {
+          parsedID = parseInt(id);
+        } catch (e) {
+          res.status(400).send({
+            message: "Please provide a valid ID as Integer",
+            data: null,
+            error: e,
+          });
+        }
+        if (parsedID) {
+          const data = await writeStatus(parsedID, updatedObj);
+          res.status(200).send({
+            message: "Wrote successful",
+            data: (({ review, action, viewed }) => ({
+              review,
+              action,
+              viewed,
+            }))(data),
+            error: null,
+          });
+        } else {
+          res.status(400).send({
+            message: "Please provide a valid ID as Integer",
+            data: null,
+            error: null,
+          });
+        }
+      } else {
+        res.status(400).send({
+          message: "No valid Note send. please send a valid updatable field",
+          data: null,
+          error: null,
+        });
+      }
+    } catch (e) {
+      console.log(e.message);
+      res.status(500).send({
+        message: "An error occured",
+        data: null,
+        error: e.message,
+      });
+    }
+  } else {
+    res.status(400).send({
+      message: "Please provide a valid ID",
+      data: null,
+      error: null,
+    });
+  }
+}
 
 export const postReview = async (req, res, next) => {
   console.log("WRITE REVIEW");
