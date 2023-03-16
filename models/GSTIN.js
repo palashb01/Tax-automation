@@ -36,7 +36,7 @@ export const fetchGSTINDetails = async (GSTIN) => {
 };
 
 export const writeStatus = async (id, updatedData) => {
-  let reqObj = (({ review, action, viewed }) => ({ review, action, viewed }))(
+  let reqObj = (({ review, action, viewed }) => ({ review, actionRequired: action, viewed }))(
     updatedData
   );
   // filter out undefined properties
