@@ -1,12 +1,12 @@
 import { fetchR3B } from "../models/GST-R3B.js";
 
 export const getR3BFilers = async (req, res, next) => {
-  console.log("FETCH R3B");
+  // console.log("FETCH R3B");
   const { GSTIN } = req.query;
   if (GSTIN) {
     try {
       const data = await fetchR3B(GSTIN);
-      console.log("R3B Data: ", data[0]);
+      // console.log("R3B Data: ", data[0]);
       let osup_det = { txval: 0, iamt: 0, camt: 0, samt: 0, csamt: 0 };
       data.forEach((gstr3b) => {
         let sup_details = JSON.parse(gstr3b.sup_details);
@@ -30,7 +30,7 @@ export const getR3BFilers = async (req, res, next) => {
           partial_data.FileId = partial_data.FileId.toString();
         }
 
-        console.log("R3B SENT");
+        // console.log("R3B SENT");
 
         res.status(200).send({
           message: "Fetch successful",
@@ -45,7 +45,7 @@ export const getR3BFilers = async (req, res, next) => {
         });
       }
     } catch (e) {
-      console.log(e.message);
+      // console.log(e.message);
       res.status(500).send({
         message: "An error occured",
         data: null,
