@@ -5,6 +5,8 @@ with open("./constants/input.js") as f:
     print(len(parsed))
     emp_dict = {}
     for emp in parsed:
-        emp_dict[emp["gst_Scode"]] = emp
+        emp_dict[emp["Scode"]] = emp
 
 open("./constants/out.json", "w+").write(str(emp_dict).replace('\'', "\""))
+
+
