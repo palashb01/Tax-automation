@@ -20,9 +20,9 @@ export const getGSTINList = async (req, res) => {
           error: null,
         });
       } else {
-        res.status(204).send({
+        res.status(200).send({
           message: "No content present for the provided scode",
-          data: { emp, gstins },
+          data: null,
           error: null,
         });
       }

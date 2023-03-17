@@ -21,22 +21,13 @@ export const fetchGSTINList = async (scode) => {
 };
 
 export const fetchGSTINDetails = async (GSTIN) => {
-  const data = await prisma.GSTIN_DETAILS.findFirst({
-    where: {
-      GSTIN: GSTIN,
-    },
-    select: {
-      GSTIN: true,
-      GSTINDetails: true,
-      id: true,
-    },
-  });
+  const data = await prisma.$queryRaw`SELECT TOP 1 id, GSTIN, GSTINDetails, div_scode FROM DATA_1718_IIT_ALL.dbo.GSTIN_DETAILS WHERE GSTIN=${GSTIN}`;
 
-  return data;
+  return data[0];
 };
 
 export const writeStatus = async (id, updatedData) => {
-  let reqObj = (({ review, action, viewed }) => ({ review, action, viewed }))(
+  let reqObj = (({ review, action, viewed }) => ({ review, actionRequired: action, viewed }))(
     updatedData
   );
   // filter out undefined properties
