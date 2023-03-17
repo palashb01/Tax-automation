@@ -1,24 +1,11 @@
 import { fetchR9C } from "../models/GST-R9C.js";
 
 export const getR9CFilers = async (req, res, next) => {
-  // console.log("FETCH R9C");
   const { GSTIN } = req.query;
   if (GSTIN) {
     try {
       const data = await fetchR9C(GSTIN);
-      // console.log({ r9cdata: data });
-
-      if (!data.gstr9cdata) {
-        // IF NO DATA OR R9C NOT FILED, ASSUME 0
-        // console.log("R9C SENT");
-        return res.status(200).json({
-          message: "Fetch successful",
-          data: {},
-          error: null,
-        })
-      }
-
-      if (data && data.gstin.toLowerCase() == GSTIN.toLowerCase()) {
+      if (data && data.GSTIN.toLowerCase() == GSTIN.toLowerCase()) {
         const datas = JSON.parse(data.gstr9cdata);
         const finaldata = datas.audited_data;
         const createtable = (name,desc)=>{
@@ -66,22 +53,20 @@ export const getR9CFilers = async (req, res, next) => {
         result.row12c=row12c;
         result.row5p=row5p;
 
-        // console.log("R9C SENT");
-
         res.status(200).send({
           message: "Fetch successful",
           data: result,
           error: null,
         });
       } else {
-        res.status(204).send({
+        res.status(200).send({
           message: "No content present for the provided GSTIN",
           data: null,
           error: null,
         });
       }
     } catch (e) {
-      // console.log(e.message);
+      console.log(e.message);
       res.status(500).send({
         message: "An error occured",
         data: null,

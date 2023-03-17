@@ -17,5 +17,6 @@ export const fetchR9C = async (GSTIN) => {
   //   },
   // });
 
-  return { ...data[0], gstin: GSTIN };
+
+  return data[0] || null;
 };
