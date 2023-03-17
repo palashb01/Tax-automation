@@ -14,9 +14,9 @@ export const getR9Filers = async (req, res, next) => {
           error: null,
         });
       } else {
-        res.status(204).send({
+        res.status(200).send({
           message: "No content present for the provided GSTIN",
-          data: data,
+          data: null,
           error: null,
         });
       }
