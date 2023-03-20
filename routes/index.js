@@ -11,6 +11,7 @@ import {
   postActionRequired,
   postReview,
   postStatus,
+  postViewed,
 } from "../controllers/GSTIN-Details.js";
 
 const router = Router();
@@ -26,6 +27,7 @@ router.get("/", getConnection);
 
 router.post("/post-review", postReview);
 router.post("/post-status", postStatus);
+router.post("/post-viewed", postViewed);
 router.post("/action-required", postActionRequired);
 
 export default router;
