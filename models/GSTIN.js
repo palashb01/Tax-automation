@@ -2,7 +2,7 @@ import prisma from "./index.js";
 
 export const fetchGSTINList = async (scode) => {
   const data =
-    await prisma.$queryRaw`SELECT id, GSTIN, GSTINDetails, div_scode, actionRequired, review, viewed FROM DATA_1718_IIT_ALL.dbo.GSTIN_DETAILS WHERE div_scode=${scode}`;
+    await prisma.$queryRaw`SELECT id, GSTIN, GSTINDetails, div_scode, actionRequired, review, viewed FROM DATA_1718_IIT_20172018.dbo.GSTIN_DETAILS WHERE div_scode=${scode}`;
   // const data = await prisma.GSTIN_DETAILS.findMany({
   //   where: {
   //     div_scode: scode,
@@ -21,7 +21,7 @@ export const fetchGSTINList = async (scode) => {
 };
 
 export const fetchGSTINDetails = async (GSTIN) => {
-  const data = await prisma.$queryRaw`SELECT TOP 1 id, GSTIN, GSTINDetails, div_scode, actionRequired, review FROM DATA_1718_IIT_ALL.dbo.GSTIN_DETAILS WHERE GSTIN=${GSTIN}`;
+  const data = await prisma.$queryRaw`SELECT TOP 1 id, GSTIN, GSTINDetails, div_scode, actionRequired, review FROM DATA_1718_IIT_20172018.dbo.GSTIN_DETAILS WHERE GSTIN=${GSTIN}`;
 
   return data[0];
 };
@@ -72,7 +72,7 @@ export const toggleActionRequired = async (id, action) => {
 
 export const updateViewed = async (gstin, viewed) => {
   const data =
-    await prisma.$queryRaw`UPDATE DATA_1718_IIT_ALL.dbo.GSTIN_DETAILS SET viewed=${viewed} WHERE GSTIN=${gstin}`;
+    await prisma.$queryRaw`UPDATE DATA_1718_IIT_20172018.dbo.GSTIN_DETAILS SET viewed=${viewed} WHERE GSTIN=${gstin}`;
 
   return data;
 };
