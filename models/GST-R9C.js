@@ -1,7 +1,8 @@
 import prisma from "./index.js";
 
 export const fetchR9C = async (GSTIN) => {
-  const data = await prisma.$queryRaw`SELECT TOP 1 * FROM DATA_1718_IIT_ALL.dbo.R9C_FILERS WHERE GSTIN=${GSTIN}`
+  const data =
+    await prisma.$queryRaw`SELECT TOP 1 * FROM DATA_1718_IIT_20172018.dbo.R9C_FILERS WHERE GSTIN=${GSTIN}`;
   // const data = await prisma.R9C_FILERS.findFirst({
   //   where: {
   //     gstr9cdata: {
