@@ -1,6 +1,7 @@
 import {
   fetchGSTINDetails,
   toggleActionRequired,
+  updateViewed,
   writeReview,
   writeStatus,
 } from "../models/GSTIN.js";
@@ -213,6 +214,71 @@ export const postActionRequired = async (req, res) => {
   } else {
     res.status(400).send({
       message: "Please provide a valid ID",
+      data: null,
+      error: null,
+    });
+  }
+};
+
+export const postViewed = async (req, res) => {
+  // console.log("ACTION REQUIRED");
+  const { gstin, viewed } = req.body;
+
+  console.log( req.body )
+
+  if (gstin) {
+    try {
+      if (viewed) {
+        if (typeof viewed !== "boolean") {
+          return res.status(400).send({
+            message: "Please send a valid boolean `viewed` field",
+            data: null,
+            error: null,
+          });
+        }
+        let parsedGSTIN = null;
+        try {
+          parsedGSTIN = gstin.toUpperCase();
+        } catch (e) {
+          res.status(400).send({
+            message: "Please provide a valid gstin",
+            data: null,
+            error: e,
+          });
+        }
+        if (parsedGSTIN) {
+          const data = await updateViewed(parsedGSTIN, viewed);
+          res.status(200).send({
+            message: "`viewed` updated successful",
+            data: data,
+            error: null,
+          });
+        } else {
+          res.status(400).send({
+            message: "Please provide a valid GSTIN",
+            data: null,
+            error: null,
+          });
+        }
+      } else {
+        res.status(400).send({
+          message:
+            "No valid action send. please send a valid boolean `viewed` field",
+          data: null,
+          error: null,
+        });
+      }
+    } catch (e) {
+      // console.log(e.message);
+      res.status(500).send({
+        message: "An error occured",
+        data: null,
+        error: e.message,
+      });
+    }
+  } else {
+    res.status(400).send({
+      message: "Please provide a valid GSTIN",
       data: null,
       error: null,
     });
