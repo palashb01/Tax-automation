@@ -27,7 +27,7 @@ export const getGSTINList = async (req, res) => {
         });
       }
     } catch (e) {
-      // console.log(e.message);
+      console.log(e);
       res.status(500).send({
         message: "An error occured",
         data: null,

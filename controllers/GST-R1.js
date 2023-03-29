@@ -384,7 +384,7 @@ export const getR1Filers = async (req, res, next) => {
         error: null,
       });
     } catch (e) {
-      // console.log(e);
+      console.log(e);
       res.status(500).send({
         message: "An error occured",
         data: null,

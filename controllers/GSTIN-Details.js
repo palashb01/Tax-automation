@@ -27,7 +27,7 @@ export const getGSTINDetails = async (req, res, next) => {
         });
       }
     } catch (e) {
-      // console.log(e.message);
+      console.log(e);
       res.status(500).send({
         message: "An error occured",
         data: null,
@@ -86,7 +86,7 @@ export const postStatus = async (req, res, next) => {
         });
       }
     } catch (e) {
-      // console.log(e.message);
+      console.log(e);
       res.status(500).send({
         message: "An error occured",
         data: null,
@@ -141,7 +141,7 @@ export const postReview = async (req, res, next) => {
         });
       }
     } catch (e) {
-      // console.log(e.message);
+      console.log(e);
       res.status(500).send({
         message: "An error occured",
         data: null,
@@ -204,7 +204,7 @@ export const postActionRequired = async (req, res) => {
         });
       }
     } catch (e) {
-      // console.log(e.message);
+      console.log(e.message);
       res.status(500).send({
         message: "An error occured",
         data: null,
@@ -223,8 +223,6 @@ export const postActionRequired = async (req, res) => {
 export const postViewed = async (req, res) => {
   // console.log("ACTION REQUIRED");
   const { gstin, viewed } = req.body;
-
-  console.log( req.body )
 
   if (gstin) {
     try {
@@ -269,7 +267,7 @@ export const postViewed = async (req, res) => {
         });
       }
     } catch (e) {
-      // console.log(e.message);
+      console.log(e);
       res.status(500).send({
         message: "An error occured",
         data: null,

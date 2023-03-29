@@ -21,7 +21,7 @@ export const getR9Filers = async (req, res, next) => {
         });
       }
     } catch (e) {
-      // console.log(e.message);
+      console.log(e);
       res.status(500).send({
         message: "An error occured",
         data: null,
