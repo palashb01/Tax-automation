@@ -1,4 +1,5 @@
 import { fetchR9C } from "../models/GST-R9C.js";
+import log from "../utils/log.js";
 
 export const getR9CFilers = async (req, res, next) => {
   const { GSTIN } = req.query;
@@ -66,7 +67,7 @@ export const getR9CFilers = async (req, res, next) => {
         });
       }
     } catch (e) {
-      console.log(e);
+      log(e);
       res.status(500).send({
         message: "An error occured",
         data: null,

@@ -5,6 +5,7 @@ import routes from "./routes/index.js";
 import { PORT } from "./utils/constants.js";
 
 import "./models/index.js";
+import log from "./utils/log.js";
 
 const app = express();
 
@@ -23,5 +24,5 @@ app.use(
 app.use("/api/v1", routes);
 
 app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+  log(`Server running on http://localhost:${PORT}`);
 });

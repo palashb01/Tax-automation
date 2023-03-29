@@ -1,7 +1,8 @@
 import { fetchR1 } from "../models/GST-R1.js";
+import log from "../utils/log.js";
 
 export const getR1Filers = async (req, res, next) => {
-  // console.log("FETCH R1");
+  // log("FETCH R1");
   const createTable = (name, desc) => {
     return new Object({
       name: name,
@@ -376,7 +377,7 @@ export const getR1Filers = async (req, res, next) => {
       result["table11B_2"] = A11B;
       result["table12"] = A12;
 
-      // console.log("R1 SENT");
+      // log("R1 SENT");
 
       res.status(200).send({
         message: "Data fetched successfully",
@@ -384,7 +385,7 @@ export const getR1Filers = async (req, res, next) => {
         error: null,
       });
     } catch (e) {
-      console.log(e);
+      log(e);
       res.status(500).send({
         message: "An error occured",
         data: null,

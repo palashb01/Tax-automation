@@ -1,8 +1,9 @@
 import { fetchGSTINList } from "../models/GSTIN.js";
 import EMP_DETAIL from "../constants/emp_detail.js";
+import log from "../utils/log.js";
 
 export const getGSTINList = async (req, res) => {
-  // console.log("FETCHING SCODE");
+  // log("FETCHING SCODE");
   let { scode } = req.query;
   // Prisma findMany returns data in random order if not in UpperCase
   scode = scode.toUpperCase()
@@ -13,7 +14,7 @@ export const getGSTINList = async (req, res) => {
     try {
       const gstins = await fetchGSTINList(scode);
       if (gstins && gstins.length) {
-        // console.log("SENT SCODE");
+        // log("SENT SCODE");
         res.status(200).send({
           message: "Fetch successful",
           data: { emp, gstins },
@@ -27,7 +28,7 @@ export const getGSTINList = async (req, res) => {
         });
       }
     } catch (e) {
-      console.log(e);
+      log(e);
       res.status(500).send({
         message: "An error occured",
         data: null,

@@ -5,15 +5,16 @@ import {
   writeReview,
   writeStatus,
 } from "../models/GSTIN.js";
+import log from "../utils/log.js";
 
 export const getGSTINDetails = async (req, res, next) => {
-  // console.log("FETCH DETAILS");
+  // log("FETCH DETAILS");
   const { GSTIN } = req.query;
   if (GSTIN) {
     try {
       const data = await fetchGSTINDetails(GSTIN);
       if (data && data.GSTIN.toLowerCase() == GSTIN.toLowerCase()) {
-        // console.log("DETAILS SENT");
+        // log("DETAILS SENT");
         res.status(200).send({
           message: "Fetch successful",
           data: data,
@@ -27,7 +28,7 @@ export const getGSTINDetails = async (req, res, next) => {
         });
       }
     } catch (e) {
-      console.log(e);
+      log(e);
       res.status(500).send({
         message: "An error occured",
         data: null,
@@ -44,7 +45,7 @@ export const getGSTINDetails = async (req, res, next) => {
 };
 
 export const postStatus = async (req, res, next) => {
-  // console.log("UPDATE GSTIN");
+  // log("UPDATE GSTIN");
   const { id, ...updatedObj } = req.body;
 
   if (id) {
@@ -86,7 +87,7 @@ export const postStatus = async (req, res, next) => {
         });
       }
     } catch (e) {
-      console.log(e);
+      log(e);
       res.status(500).send({
         message: "An error occured",
         data: null,
@@ -103,7 +104,7 @@ export const postStatus = async (req, res, next) => {
 }
 
 export const postReview = async (req, res, next) => {
-  // console.log("WRITE REVIEW");
+  // log("WRITE REVIEW");
   const { id, review } = req.body;
 
   if (id) {
@@ -141,7 +142,7 @@ export const postReview = async (req, res, next) => {
         });
       }
     } catch (e) {
-      console.log(e);
+      log(e);
       res.status(500).send({
         message: "An error occured",
         data: null,
@@ -158,7 +159,7 @@ export const postReview = async (req, res, next) => {
 };
 
 export const postActionRequired = async (req, res) => {
-  // console.log("ACTION REQUIRED");
+  // log("ACTION REQUIRED");
   const { id, action } = req.body;
 
   if (id) {
@@ -204,7 +205,7 @@ export const postActionRequired = async (req, res) => {
         });
       }
     } catch (e) {
-      console.log(e.message);
+      log(e.message);
       res.status(500).send({
         message: "An error occured",
         data: null,
@@ -221,7 +222,7 @@ export const postActionRequired = async (req, res) => {
 };
 
 export const postViewed = async (req, res) => {
-  // console.log("ACTION REQUIRED");
+  // log("ACTION REQUIRED");
   const { gstin, viewed } = req.body;
 
   if (gstin) {
@@ -267,7 +268,7 @@ export const postViewed = async (req, res) => {
         });
       }
     } catch (e) {
-      console.log(e);
+      log(e);
       res.status(500).send({
         message: "An error occured",
         data: null,
