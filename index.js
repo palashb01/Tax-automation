@@ -7,6 +7,10 @@ import { PORT } from "./utils/constants.js";
 import "./models/index.js";
 import log from "./utils/log.js";
 
+BigInt.prototype.toJSON = function () {
+  return this.toString();
+}
+
 const app = express();
 
 app.use(cors());
