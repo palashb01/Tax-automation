@@ -1,10 +1,14 @@
 import {
   fetchGSTINDetails,
+} from "../models/GSTIN.js";
+
+import {
   toggleActionRequired,
   updateViewed,
   writeReview,
   writeStatus,
-} from "../models/GSTIN.js";
+} from "../models/GSTIN-REVIEW.js"
+
 import log from "../utils/log.js";
 
 export const getGSTINDetails = async (req, res, next) => {
