@@ -130,11 +130,6 @@ model GSTIN_DETAILS {
   GSTINDetails   String?  @db.VarChar(max)
   id             Int      @id @unique
   div_scode      String?  @db.VarChar(10)
-}
-
-model GSTIN_REVIEW {
-  id             Int?     @id @unique
-  div_scode      String?  @db.VarChar(10)
   actionRequired Boolean? @default(false)
   review         String?  @db.VarChar(Max)
   viewed         Boolean? @default(false)
