@@ -250,12 +250,15 @@ model R9C_FILERS {
 }
 
 model OFFICE_MASTER_ACTIONS {
-  Scode           String  @db.VarChar(6) @default("") @id @unique
-  Zcode           String?  @db.VarChar(6) @default("")
-  Rcode           String?  @db.VarChar(6) @default("")
-  Range           String?  @db.VarChar(20) @default("")
-  Zone            String?  @db.VarChar(28) @default("")
-  ASMT_10_Boweb   Int?     @default(0)
-  ASMT_10_73_74   Int?     @default(0)
-  ASMT_10_DRC_03  Int?     @default(0)
+  Zone              String? @default("") @db.VarChar(28)
+  Range             String? @default("") @db.VarChar(20)
+  Sector            String? @default("") @db.VarChar(43)
+  Scode             String  @id @unique @default("") @db.VarChar(6)
+  ASMT_10_Boweb     Int?    @default(0)
+  ASMT_10_73_74     Int?    @default(0)
+  ASMT_10_DRC_03    Int?    @default(0)
+  dealers           Int?    @default(0)
+  actionRequired    Int?    @default(0)
+  viewed            Int?    @default(0)
+  NotactionRequired Int?    @default(0)
 }

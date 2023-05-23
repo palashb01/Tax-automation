@@ -1,6 +1,7 @@
 import prisma from "./index.js";
 
 export const updateASMT = async (scode, boweb, drc, further_action) => {
+  console.log("Triggering scode");
   const data = await prisma.oFFICE_MASTER_ACTIONS.update({
     where: {
       Scode: scode,
