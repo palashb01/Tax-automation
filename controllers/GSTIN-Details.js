@@ -5,6 +5,10 @@ import {
   writeReview,
   writeStatus,
 } from "../models/GSTIN.js";
+import {
+  updateMISActionStatus,
+  updateMISViewdStatus,
+} from "../models/ASMT-10.js";
 import log from "../utils/log.js";
 
 export const getGSTINDetails = async (req, res, next) => {
@@ -46,7 +50,7 @@ export const getGSTINDetails = async (req, res, next) => {
 
 export const postStatus = async (req, res, next) => {
   // log("UPDATE GSTIN");
-  const { id, ...updatedObj } = req.body;
+  const { id, scode, ...updatedObj } = req.body;
 
   if (id) {
     try {
@@ -63,6 +67,10 @@ export const postStatus = async (req, res, next) => {
         }
         if (parsedID) {
           const data = await writeStatus(parsedID, updatedObj);
+          if (scode) {
+            const updated = updateMISActionStatus(data, scode, updatedObj);
+          }
+
           res.status(200).send({
             message: "Wrote successful",
             data: (({ review, action, viewed }) => ({
@@ -101,7 +109,7 @@ export const postStatus = async (req, res, next) => {
       error: null,
     });
   }
-}
+};
 
 export const postReview = async (req, res, next) => {
   // log("WRITE REVIEW");
@@ -223,7 +231,7 @@ export const postActionRequired = async (req, res) => {
 
 export const postViewed = async (req, res) => {
   // log("ACTION REQUIRED");
-  const { gstin, viewed } = req.body;
+  const { gstin, scode, viewed } = req.body;
 
   if (gstin) {
     try {
@@ -247,6 +255,9 @@ export const postViewed = async (req, res) => {
         }
         if (parsedGSTIN) {
           const data = await updateViewed(parsedGSTIN, viewed);
+          if (scode) {
+            const updated = await updateMISViewdStatus(data, scode, viewed);
+          }
           res.status(200).send({
             message: "`viewed` updated successful",
             data: data,

@@ -5,7 +5,7 @@ export const postMISData = async (req, res) => {
   const { scode, boweb: b, drc: d, further_action: f } = req.body;
 
   if (scode) {
-    if(b === undefined || d === undefined || f === undefined) {
+    if (b === undefined || d === undefined || f === undefined) {
       return res.status(400).send({
         message: "Please send all the query",
         data: null,
