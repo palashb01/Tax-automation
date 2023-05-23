@@ -73,6 +73,7 @@ export const toggleActionRequired = async (id, action) => {
 export const updateViewed = async (gstin, viewed) => {
   const data =
     await prisma.$queryRaw`UPDATE DATA_1718_IIT_20172018.dbo.GSTIN_DETAILS SET viewed=${viewed} WHERE GSTIN=${gstin}`;
-
-  return data;
+    const data2 =
+      await prisma.$queryRaw`SELECT top 1 * FROM DATA_1718_IIT_20172018.dbo.GSTIN_DETAILS WHERE GSTIN=${gstin}`;
+  return data2[0];
 };

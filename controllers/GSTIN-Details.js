@@ -10,6 +10,7 @@ import {
   updateMISViewdStatus,
 } from "../models/ASMT-10.js";
 import log from "../utils/log.js";
+import prisma from "../models/index.js";
 
 export const getGSTINDetails = async (req, res, next) => {
   // log("FETCH DETAILS");
@@ -68,7 +69,7 @@ export const postStatus = async (req, res, next) => {
         if (parsedID) {
           const data = await writeStatus(parsedID, updatedObj);
           if (scode) {
-            const updated = updateMISActionStatus(data, scode, updatedObj);
+            const updated = await updateMISActionStatus(data, scode, updatedObj);
           }
 
           res.status(200).send({
@@ -254,10 +255,13 @@ export const postViewed = async (req, res) => {
           });
         }
         if (parsedGSTIN) {
-          const data = await updateViewed(parsedGSTIN, viewed);
           if (scode) {
-            const updated = await updateMISViewdStatus(data, scode, viewed);
+            const updated = await updateMISViewdStatus(
+              parsedGSTIN, scode,
+              viewed
+            );
           }
+          const data = await updateViewed(parsedGSTIN, viewed);
           res.status(200).send({
             message: "`viewed` updated successful",
             data: data,
