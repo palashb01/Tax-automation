@@ -1,4 +1,4 @@
-import { updateASMT } from "../models/ASMT-10.js";
+import { updateASMT, resetMIS } from "../models/ASMT-10.js";
 import log from "../utils/log.js";
 
 export const postMISData = async (req, res) => {
@@ -49,6 +49,52 @@ export const postMISData = async (req, res) => {
           error: null,
         });
       }
+    } catch (e) {
+      log(e.message);
+      res.status(500).send({
+        message: "An error occured",
+        data: null,
+        error: e.message,
+      });
+    }
+  } else {
+    res.status(400).send({
+      message: "Please provide a valid SCode",
+      data: null,
+      error: null,
+    });
+  }
+};
+
+export const postResetValues = async (req, res) => {
+  const {
+    scode,
+    ASMT_10_Boweb,
+    ASMT_10_73_74,
+    ASMT_10_DRC_03,
+    dealers,
+    actionRequired,
+    viewed,
+    NotactionRequired,
+  } = req.body;
+
+  if (scode) {
+    try {
+      const data = await resetMIS(scode, {
+        ASMT_10_Boweb,
+        ASMT_10_73_74,
+        ASMT_10_DRC_03,
+        dealers,
+        actionRequired,
+        viewed,
+        NotactionRequired,
+      });
+
+      return res.status(200).send({
+        message: "ASMT details reset successful",
+        data: data,
+        error: null,
+      });
     } catch (e) {
       log(e.message);
       res.status(500).send({

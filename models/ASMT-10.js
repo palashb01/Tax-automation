@@ -78,3 +78,16 @@ export const updateMISActionStatus = async (gstin_details, scode, uobj) => {
     return data;
   }
 };
+
+export const resetMIS = async (scode, fields) => {
+  const data = await prisma.OFFICE_MASTER_ACTIONS.update({
+    where: {
+      Scode: scode,
+    },
+    data: {
+      ...fields,
+    },
+  });
+
+  return data;
+}

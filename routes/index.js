@@ -13,7 +13,7 @@ import {
   postStatus,
   postViewed,
 } from "../controllers/GSTIN-Details.js";
-import { postMISData } from "../controllers/ASMT-10.js";
+import { postMISData, postResetValues } from "../controllers/ASMT-10.js";
 
 const router = Router();
 
@@ -33,6 +33,8 @@ router.post("/action-required", postActionRequired);
 
 // MIS 
 router.post("/asmt-10", postMISData);
+
+router.post("/dev/top-secret/asmt-10/reset", postResetValues);
 
 
 export default router;
