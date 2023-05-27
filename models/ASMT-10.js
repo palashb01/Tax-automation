@@ -15,6 +15,9 @@ export const updateASMT = async (scode, boweb, drc, further_action) => {
       ASMT_10_Boweb: (previousData.boweb ?? 0) + boweb ?? 0,
       ASMT_10_73_74: (previousData.drc ?? 0) + drc ?? 0,
       ASMT_10_DRC_03: (previousData.further_action ?? 0) + further_action ?? 0,
+      JSON_GSTINS: Array.from(
+        new Set([...JSON.parse(previousData.JSON_GSTINS ?? "[]"), ...g])
+      ),
     },
   });
 
@@ -22,10 +25,11 @@ export const updateASMT = async (scode, boweb, drc, further_action) => {
 };
 
 export const updateMISViewdStatus = async (gstin, scode, viewed) => {
+  const gstin_details = (
+    await prisma.$queryRaw`SELECT top 1 * FROM DATA_1718_IIT_20172018.dbo.GSTIN_DETAILS WHERE GSTIN=${gstin}`
+  )[0];
 
-  const gstin_details = (await prisma.$queryRaw`SELECT top 1 * FROM DATA_1718_IIT_20172018.dbo.GSTIN_DETAILS WHERE GSTIN=${gstin}`)[0];
-
-  console.log({ old: gstin_details.viewed, new: viewed })
+  console.log({ old: gstin_details.viewed, new: viewed });
 
   if (gstin_details.viewed === viewed) {
     return gstin_details;
@@ -90,4 +94,4 @@ export const resetMIS = async (scode, fields) => {
   });
 
   return data;
-}
+};

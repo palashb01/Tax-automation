@@ -2,10 +2,21 @@ import { updateASMT, resetMIS } from "../models/ASMT-10.js";
 import log from "../utils/log.js";
 
 export const postMISData = async (req, res) => {
-  const { scode, boweb: b, drc: d, further_action: f } = req.body;
+  const {
+    scode,
+    boweb: b,
+    drc: d,
+    further_action: f,
+    gstin_array: g,
+  } = req.body;
 
   if (scode) {
-    if (b === undefined || d === undefined || f === undefined) {
+    if (
+      b === undefined ||
+      d === undefined ||
+      f === undefined ||
+      typeof g !== "object"
+    ) {
       return res.status(400).send({
         message: "Please send all the query",
         data: null,
@@ -35,7 +46,11 @@ export const postMISData = async (req, res) => {
           error: e,
         });
       }
-      if (boweb && drc && further_action) {
+      if (
+        boweb !== undefined &&
+        drc !== undefined &&
+        further_action !== undefined
+      ) {
         const data = await updateASMT(scode, boweb, drc, further_action);
         res.status(200).send({
           message: "ASMT details added successful",

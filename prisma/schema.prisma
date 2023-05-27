@@ -261,4 +261,5 @@ model OFFICE_MASTER_ACTIONS {
   actionRequired    Int?    @default(0)
   viewed            Int?    @default(0)
   NotactionRequired Int?    @default(0)
+  JSON_GSTINS       String? @default("") @db.VarChar(max)
 }
