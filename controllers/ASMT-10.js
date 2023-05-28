@@ -51,7 +51,7 @@ export const postMISData = async (req, res) => {
         drc !== undefined &&
         further_action !== undefined
       ) {
-        const data = await updateASMT(scode, boweb, drc, further_action);
+        const data = await updateASMT(scode, boweb, drc, further_action, g);
         res.status(200).send({
           message: "ASMT details added successful",
           data: data,
