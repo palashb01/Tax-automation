@@ -17,22 +17,20 @@ export const updateASMT = async (scode, boweb, drc, further_action, gstin_array)
   //     gstin_array,
   //   },
   // });
-  
+
+  const updatedGSTINS = Array.from(new Set([...gstin_array, ...JSON.parse(previousData.JSON_GSTINS ?? "[]")]))
+
   const data = await prisma.OFFICE_MASTER_ACTIONS.update({
     where: {
       Scode: scode,
     },
     data: {
-      ASMT_10_Boweb: (previousData.ASMT_10_Boweb ?? 0) + boweb ?? 0,
+      ASMT_10_Boweb: updatedGSTINS.length,
       ASMT_10_73_74: (previousData.ASMT_10_73_74 ?? 0) + further_action ?? 0,
       ASMT_10_DRC_03: (previousData.ASMT_10_DRC_03 ?? 0) + drc ?? 0,
-      JSON_GSTINS: JSON.stringify([
-        ...JSON.parse(previousData.JSON_GSTINS ?? "[]"),
-        ...gstin_array,
-      ]),
+      JSON_GSTINS: JSON.stringify(updatedGSTINS),
     },
   });
-  // console.log({finalData: data})
 
   return data;
 };
