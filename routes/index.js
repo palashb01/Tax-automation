@@ -6,6 +6,7 @@ import { getR9Filers } from "../controllers/GST-R9.js";
 import { getR1Filers } from "../controllers/GST-R1.js";
 import { getR9CFilers } from "../controllers/GST-R9C.js";
 import { getGSTINList } from "../controllers/GSTIN-List.js";
+import { getGstinExists } from "../controllers/GSTIN_EXISTS.js";
 import {
   getGSTINDetails,
   postActionRequired,
@@ -18,6 +19,7 @@ import { postMISData, postResetValues } from "../controllers/ASMT-10.js";
 const router = Router();
 
 // router.get("/r12", getR1Filers2);
+router.get("/gstin-exists", getGstinExists);
 router.get("/r1", getR1Filers);
 router.get("/r9", getR9Filers);
 router.get("/r9c", getR9CFilers);
@@ -31,10 +33,10 @@ router.post("/post-status", postStatus);
 router.post("/post-viewed", postViewed);
 router.post("/action-required", postActionRequired);
 
-// MIS 
+// MIS
 router.post("/asmt-10", postMISData);
 
+// Development
 router.post("/dev/top-secret/asmt-10/reset", postResetValues);
-
 
 export default router;

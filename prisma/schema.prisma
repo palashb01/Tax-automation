@@ -7,259 +7,188 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Form_CommodityMaster_corporate_19102022 {
-  code        String  @id @unique @db.VarChar(8)
-  description String? @db.VarChar(2000)
-  AdvTax      String? @db.Char(1)
-  E1          String? @db.Char(1)
-  ES          String? @db.Char(1)
-  F21         String? @db.Char(1)
-  W1          String? @db.VarChar(2)
-  W2          String? @db.VarChar(2)
-}
-
-model Form21_trans_U_corporate_19102022 {
-  Tin           String    @id @unique @db.NVarChar(15)
-  SerialNo      String?   @db.NVarChar(24)
-  Demand_no     String?   @db.NVarChar(14)
-  OfficeCode    String?   @db.NVarChar(5)
-  D_PhoneNo     String?   @db.NVarChar(12)
-  D_regDate     String?   @db.VarChar(10)
-  S_TIN         String?   @db.NVarChar(15)
-  S_Name        String?   @db.NVarChar(100)
-  S_Address     String?   @db.NVarChar(200)
-  S_PhoneNo     String?   @db.NVarChar(12)
-  S_RegDate     String?   @db.VarChar(10)
-  T_Name        String?   @db.NVarChar(100)
-  T_Address     String?   @db.NVarChar(200)
-  T_PhoneNo     String?   @db.NVarChar(12)
-  SPN           String?   @db.NVarChar(15)
-  SPN_regDate   String?   @db.VarChar(10)
-  Receipt_Date  String?   @db.VarChar(25)
-  Receipt_Place String?   @db.VarChar(100)
-  Quantity      String?   @db.NVarChar(10)
-  Unit          String?   @db.Char(15)
-  LoadPlace     String?   @db.NVarChar(100)
-  VehicleNo     String?   @db.NVarChar(12)
-  JourneyDate   String?   @db.VarChar(25)
-  Issue_Date    DateTime? @db.SmallDateTime
-  Status        String?   @db.Char(1)
-  Utilize_Date  DateTime? @db.SmallDateTime
-  Punch         String?   @db.Char(1)
-  Cancel_Date   DateTime? @db.SmallDateTime
-  Update_Status String?   @db.NChar(2)
-  DemandDate    DateTime? @db.SmallDateTime
-  GRNo          String?   @db.VarChar(20)
-  RegAuthCode   String    @db.Char(3)
-  token_no      String    @db.VarChar(12)
-  gstin         String?   @db.VarChar(15)
-}
-
-model Form21InvoiceDetail_u_corporate_19102022 {
-  TIN             String    @id @db.NVarChar(15)
-  Serial_no       String    @db.NVarChar(24)
-  S_TIN           String?   @db.NVarChar(15)
-  TaxInvoice      String    @db.NVarChar(50)
-  TaxInvoice_date String?   @db.VarChar(10)
-  Commodity       String?   @db.Char(8)
-  Quantity_Inv    String?   @db.NVarChar(10)
-  Weight          String?   @db.NVarChar(10)
-  Value_goods     Decimal?  @db.Decimal(18, 2)
-  RegAuthCode     String    @db.Char(3)
-  Updation_date   DateTime? @db.SmallDateTime
-  S_Name          String?   @db.VarChar(100)
-  S_Address       String?   @db.VarChar(200)
-  S_PhoneNo       String?   @db.VarChar(12)
-  gstin           String?   @db.VarChar(15)
-}
-
-model Form38_transUtilized_corporate_19102022 {
-  TIN                       String?  @db.Char(15)
-  Demand_no                 String?  @db.NVarChar(20)
-  Token_no                  String?  @db.NVarChar(25)
-  SubUserPwd                String?  @db.NVarChar(25)
-  Form_no                   String   @db.VarChar(25)
-  DepotCode                 String?  @db.Char(8)
-  Status                    String?  @db.Char(1)
-  OriginStateCode           String?  @db.NVarChar(2)
-  OriginDistrictCode        String?  @db.NVarChar(4)
-  Dest_StateCode            String?  @db.NVarChar(2)
-  Dest_DestrictCode         String?  @db.NVarChar(4)
-  goods_dest                String?  @db.VarChar(200)
-  Name_of_seller            String?  @db.NVarChar(100)
-  Address_of_seller         String?  @db.NVarChar(100)
-  TIN_of_seller             String?  @db.NVarChar(15)
-  Weight                    String?  @db.NVarChar(50)
-  Quantity                  Int
-  Amount                    Decimal? @db.Decimal(18, 2)
-  bill_memo                 String?  @db.NVarChar(100)
-  billdate                  String?  @db.VarChar(10)
-  Name_of_Transporter       String?  @db.NVarChar(100)
-  Address_of_Transporter    String?  @db.NVarChar(100)
-  Service_Providerno        String?  @db.NVarChar(50)
-  Truck_no                  String?  @db.NVarChar(50)
-  Name_of_Driver            String?  @db.NVarChar(100)
-  Address_of_Driver         String?  @db.NVarChar(100)
-  DLNo                      String?  @db.NVarChar(50)
-  Reason_lost               String?  @db.NVarChar(100)
-  Amount_inbound            Decimal? @db.Decimal(18, 2)
-  demand_date               String?  @db.NVarChar(25)
-  Issue_date                String?  @db.NVarChar(25)
-  expiry_date               String?  @db.NVarChar(25)
-  utilize_date              String?  @db.NVarChar(25)
-  lost_date                 String?  @db.NVarChar(10)
-  surrender_date            String?  @db.NVarChar(10)
-  form_expiry               String?  @db.NVarChar(20)
-  printcounter              Int
-  RegAuthCode               String   @unique @db.Char(3)
-  Updation_date             DateTime @db.SmallDateTime
-  EntryDate                 DateTime @db.SmallDateTime
-  BillofEntryNo             String?  @db.VarChar(50)
-  BillOfEntryDate           String?  @db.VarChar(20)
-  GoodsMovement             String?  @db.VarChar(25)
-  CustomClrNo               String?  @db.VarChar(50)
-  CustomClrDate             String?  @db.VarChar(20)
-  TransporterDriverMobileNo String?  @db.VarChar(12)
-  Full_Partial              String?  @db.Char(1)
-  FormExpiryDemand          Int
-  gstin                     String?  @db.VarChar(15)
-}
-
 model GSTIN_DETAILS {
-  GSTIN          String?  @db.VarChar(50)
-  GSTINDetails   String?  @db.VarChar(max)
-  id             Int      @id @unique
-  div_scode      String?  @db.VarChar(10)
-  actionRequired Boolean? @default(false)
-  review         String?  @db.VarChar(Max)
-  viewed         Boolean? @default(false)
+  id             Int       @id @unique
+  arn            String?   @db.VarChar(50)
+  gstin          String    @db.VarChar(15)
+  GSTINDetails   String?   @db.VarChar(Max)
+  RecordTime     DateTime? @db.DateTime
+  EntryTime      DateTime? @db.DateTime
+  ReadSts        Int?
+  aplst          String?   @db.VarChar(10)
+  div_scode      String?   @db.VarChar(10)
+  TurnOver_1718  Float?
+  actionRequired Boolean?
+  review         String?   @db.VarChar(Max)
+  viewed         Boolean?
+  div_scode_old  String?   @db.VarChar(10)
+
+  @@index([id, gstin, div_scode], map: "id_gstin_tsarprince")
 }
 
 model GSTR2A_FILERS {
   Id         Int       @id @unique
   GSTIN      String?   @db.VarChar(15)
   fp         String?   @db.VarChar(10)
-  B2B        String?   @db.VarChar(max)
-  EntryDate  DateTime?
+  B2B        String?   @db.VarChar(Max)
+  EntryDate  DateTime? @db.DateTime
   IsFilerted Int?      @db.Bit()
-}
 
-model R1_Filers {
-  Id                                         BigInt   @id @unique
-  GSTIN                                      String?  @db.VarChar(15)
-  Returnperiod                               String?  @db.VarChar(10)
-  GrossTurnover                              Decimal? @db.Decimal(15, 2)
-  cur_gt                                     Decimal? @db.Decimal(15, 2)
-  filing_typ                                 String?  @db.VarChar(2)
-  fil_dt                                     DateTime @db.Date
-  b2b                                        String?  @db.VarChar(max)
-  b2ba                                       String?  @db.VarChar(max)
-  b2cl                                       String?  @db.VarChar(max)
-  b2cla                                      String?  @db.VarChar(max)
-  b2cs                                       String?  @db.VarChar(max)
-  b2csa                                      String?  @db.VarChar(max)
-  nil                                        String?  @db.VarChar(max)
-  Exports                                    String?  @db.VarChar(max)
-  AdvanceTax                                 String?  @db.VarChar(max)
-  AdvanceTaxAmendment                        String?  @db.VarChar(max)
-  AdvanceAdjustedDetail                      String?  @db.VarChar(max)
-  hsn                                        String?  @db.VarChar(max)
-  CreditandDebitNote                         String?  @db.VarChar(max)
-  CreditandDebitNoteAmendment                String?  @db.VarChar(max)
-  CreditAndDebitNoteForUnregistered          String?  @db.VarChar(max)
-  CreditAndDebitNoteAmendmentForUnregistered String?  @db.VarChar(max)
-  doc_Issue                                  String?  @db.VarChar(max)
-  EntryDate                                  DateTime
-  EntryMonth                                 String?  @db.VarChar(6)
-  URLDate                                    String?  @db.VarChar(1000)
-  FileId                                     BigInt?
-  MainJSON                                   String?  @db.VarChar(max)
-  Filtered                                   Int?     @db.Bit
+  @@index([Id, GSTIN], map: "id_gstin_tsarprince")
 }
 
 model R3B_FILERS {
-  Id               Int       @id @unique
-  gstin            String?   @db.VarChar(15)
+  Id               Int
+  gstin            String    @db.VarChar(15)
   ret_period       String?   @db.VarChar(8)
   fil_dt           DateTime? @db.Date
-  qn               String?   @db.VarChar(max)
-  sup_details      String?   @db.VarChar(max)
-  sup_inter        String?   @db.VarChar(max)
-  itc_elg          String?   @db.VarChar(max)
-  inward_sup       String?   @db.VarChar(max)
-  intr_ltfee       String?   @db.VarChar(max)
-  tax_pmt          String?   @db.VarChar(max)
-  EntryDate        DateTime
-  FileURL          String?   @db.VarChar(max)
-  IsFiltered       Int       @db.Bit
+  qn               String?   @db.VarChar(Max)
+  sup_details      String?   @db.VarChar(Max)
+  sup_inter        String?   @db.VarChar(Max)
+  itc_elg          String?   @db.VarChar(Max)
+  inward_sup       String?   @db.VarChar(Max)
+  intr_ltfee       String?   @db.VarChar(Max)
+  tax_pmt          String?   @db.VarChar(Max)
+  EntryDate        DateTime  @db.DateTime
+  FileURL          String?   @db.VarChar(Max)
+  IsFiltered       Boolean
   FileId           BigInt?
   CompiledTurnOver Float?
-  MainJSON         String?   @db.VarChar(max)
+  MainJSON         String?   @db.VarChar(Max)
+  FileURL_1        String?   @db.VarChar(300)
+
+  @@id([Id, gstin], map: "PK__R3B_FILE__A6CAC49ADAF723DD")
+  @@index([Id, gstin], map: "id_gstin_tsarprince")
 }
 
 model R9_FILERS {
-  Id         BigInt    @id @unique
-  gstin      String?   @db.VarChar(15)
+  Id         BigInt
+  gstin      String    @db.VarChar(15)
   fp         String?   @db.VarChar(10)
   fil_dt     DateTime? @db.Date
-  isnil      String?   @db.VarChar(max)
-  table4     String?   @db.VarChar(max)
-  table5     String?   @db.VarChar(max)
-  table6     String?   @db.VarChar(max)
-  table7     String?   @db.VarChar(max)
-  table8     String?   @db.VarChar(max)
-  table9     String?   @db.VarChar(max)
-  table10    String?   @db.VarChar(max)
-  table14    String?   @db.VarChar(max)
-  table15    String?   @db.VarChar(max)
-  table16    String?   @db.VarChar(max)
-  table17    String?   @db.VarChar(max)
-  table18    String?   @db.VarChar(max)
-  tax_pay    String?   @db.VarChar(max)
-  tax_paid   String?   @db.VarChar(max)
-  EntryDate  DateTime
+  isnil      String?   @db.VarChar(Max)
+  table4     String?   @db.VarChar(Max)
+  table5     String?   @db.VarChar(Max)
+  table6     String?   @db.VarChar(Max)
+  table7     String?   @db.VarChar(Max)
+  table8     String?   @db.VarChar(Max)
+  table9     String?   @db.VarChar(Max)
+  table10    String?   @db.VarChar(Max)
+  table14    String?   @db.VarChar(Max)
+  table15    String?   @db.VarChar(Max)
+  table16    String?   @db.VarChar(Max)
+  table17    String?   @db.VarChar(Max)
+  table18    String?   @db.VarChar(Max)
+  tax_pay    String?   @db.VarChar(Max)
+  tax_paid   String?   @db.VarChar(Max)
+  EntryDate  DateTime  @db.DateTime
   FileURL    String?   @db.VarChar(1000)
   IsFiltered Int       @db.Bit
   FileId     Int?
-}
 
-model utn_commodity_corporate_19102022 {
-  sid             String?   @db.NVarChar(200)
-  Form_no         String?   @db.NVarChar(25)
-  tin_no          String    @db.Char(15)
-  Comodity_code   String?   @db.NVarChar(100)
-  Weight_Measure  Decimal?  @db.Decimal(18, 2)
-  Unit            String?   @db.NVarChar(200)
-  Quantity        Int?
-  UnitQntity      String?   @db.NVarChar(100)
-  GoodsValue      Decimal?  @db.Decimal(18, 2)
-  bill_memo       String?   @db.NVarChar(100)
-  billdate        String?   @db.NVarChar(10)
-  EntryDate       DateTime? @db.SmallDateTime
-  Commodity_code2 String?   @db.NVarChar(25)
-  gstin           String    @unique @db.VarChar(15)
+  @@id([Id, gstin], map: "PK__R9_FILER__A6CAC49AA72EC78F")
+  @@index([Id, gstin], map: "id_gstin_tsarprince")
 }
 
 model R9C_FILERS {
-  Id         BigInt    @id @unique
+  Id         Int
   fil_dt     DateTime? @db.Date
   dcupdtls   String?   @db.VarChar(Max)
   gstr9cdata String?   @db.VarChar(Max)
   FileId     Int?
   IsFiltered Boolean?
+  GSTIN      String    @db.NVarChar(4000)
+
+  @@id([Id, GSTIN], map: "PK__R9C_FILE__C274A26237F71ED7")
+  @@index([Id, GSTIN], map: "id_gstin_tsarprince")
 }
 
 model OFFICE_MASTER_ACTIONS {
-  Zone              String? @default("") @db.VarChar(28)
-  Range             String? @default("") @db.VarChar(20)
-  Sector            String? @default("") @db.VarChar(43)
-  Scode             String  @id @unique @default("") @db.VarChar(6)
-  ASMT_10_Boweb     Int?    @default(0)
-  ASMT_10_73_74     Int?    @default(0)
-  ASMT_10_DRC_03    Int?    @default(0)
-  dealers           Int?    @default(0)
-  actionRequired    Int?    @default(0)
-  viewed            Int?    @default(0)
-  NotactionRequired Int?    @default(0)
-  JSON_GSTINS       String? @default("") @db.VarChar(max)
+  Zone              String  @db.VarChar(28)
+  Range             String  @db.VarChar(28)
+  Sector            String  @db.VarChar(43)
+  Scode             String  @id(map: "PK_OFFICE_MASTER_ACTIONS") @db.VarChar(6)
+  ASMT_10_Boweb     Int?
+  ASMT_10_73_74     Int?
+  ASMT_10_DRC_03    Int?
+  dealers           Int?
+  actionRequired    Int?
+  NotactionRequired Int?
+  viewed            Int?
+  JSON_GSTINS       String? @db.VarChar(Max)
+}
+
+model GSTIN_EXISTS {
+  GSTIN         String   @id(map: "pk_GSTIN_EXISTS_GSTIN") @db.VarChar(15)
+  R3B_FILERS    Boolean?
+  R1_FILERS     Boolean?
+  R9C_FILERS    Boolean?
+  R9_FILERS     Boolean?
+  GSTR2A_FILERS Boolean?
+}
+
+model GSTIN_REVIEW {
+  GSTIN          String   @db.VarChar(50)
+  div_scode      String   @db.VarChar(10)
+  actionRequired Boolean?
+  review         String?  @db.VarChar(Max)
+  viewed         Boolean?
+
+  @@id([GSTIN, div_scode], map: "ID")
+}
+
+model OFFICE_MASTER {
+  Code      Int
+  State     String  @db.VarChar(13)
+  Zcode     String  @db.VarChar(6)
+  Zone      String  @db.VarChar(28)
+  Rcode     String  @db.VarChar(6)
+  Range     String  @db.VarChar(28)
+  Scode     String  @id(map: "PK__office_m__E02C0A1A7DEC0310") @db.VarChar(6)
+  Sector    String  @db.VarChar(43)
+  Desig     String? @db.VarChar(4)
+  Dcode     Int
+  Work_type String? @db.VarChar(512)
+  Wcode     Int?
+  Ocode     String? @db.VarChar(512)
+  District  String? @db.VarChar(512)
+  Location  String? @db.VarChar(512)
+}
+
+model R1_FILERS {
+  Id                                         BigInt
+  GSTIN                                      String    @db.VarChar(15)
+  Returnperiod                               String?   @db.VarChar(10)
+  GrossTurnover                              Decimal?  @db.Decimal(15, 2)
+  cur_gt                                     Decimal?  @db.Decimal(15, 2)
+  filing_typ                                 String?   @db.VarChar(2)
+  fil_dt                                     DateTime? @db.Date
+  b2b                                        String?   @db.Text
+  b2ba                                       String?   @db.Text
+  b2cl                                       String?   @db.Text
+  b2cla                                      String?   @db.Text
+  b2cs                                       String?   @db.Text
+  b2csa                                      String?   @db.Text
+  nil                                        String?   @db.Text
+  Exports                                    String?   @db.Text
+  AdvanceTax                                 String?   @db.Text
+  AdvanceTaxAmendment                        String?   @db.Text
+  AdvanceAdjustedDetail                      String?   @db.Text
+  hsn                                        String?   @db.Text
+  CreditandDebitNote                         String?   @db.Text
+  CreditandDebitNoteAmendment                String?   @db.Text
+  CreditAndDebitNoteForUnregistered          String?   @db.Text
+  CreditAndDebitNoteAmendmentForUnregistered String?   @db.Text
+  doc_Issue                                  String?   @db.Text
+  EntryDate                                  DateTime?
+  EntryMonth                                 String?   @db.VarChar(6)
+  URLDate                                    String?   @db.VarChar(1000)
+  FileId                                     BigInt?
+  MainJSON                                   String?   @db.Text
+  Filtered                                   Boolean?
+  fileIndex                                  Int?
+  totalFiles                                 Int?
+
+  @@id([Id, GSTIN], map: "PK__R1_FILER__C274A2627A56E992")
+  @@index([Id, GSTIN], map: "id_gstin_tsarprince")
 }
