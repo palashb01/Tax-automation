@@ -1,10 +1,29 @@
 import { fetchR9C } from "../models/GST-R9C.js";
+import { fetchExistance } from "../models/GSTIN_EXISTS.js";
 import log from "../utils/log.js";
 
 export const getR9CFilers = async (req, res, next) => {
   const { GSTIN } = req.query;
   if (GSTIN) {
     try {
+      const fetch_if_exists = await fetchExistance(GSTIN);
+      if (!fetch_if_exists) {
+        res.status(404).send({
+          message: "No record found",
+          data: null,
+          error: null,
+        });
+        return;
+      }else{
+        if(!fetch_if_exists.R9C_FILERS){
+          res.status(200).send({
+            message: "No content present for the provided GSTIN",
+            data: null,
+            error: null,
+          });
+          return;
+        }
+      }
       const data = await fetchR9C(GSTIN);
       if (data && data.GSTIN.toLowerCase() == GSTIN.toLowerCase()) {
         const datas = JSON.parse(data.gstr9cdata);

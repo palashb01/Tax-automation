@@ -1,11 +1,30 @@
 import { fetchR3B } from "../models/GST-R3B.js";
 import log from "../utils/log.js";
+import {fetchExistance} from "../models/GSTIN_EXISTS.js";
 
 export const getR3BFilers = async (req, res, next) => {
   // log("FETCH R3B");
   const { GSTIN } = req.query;
   if (GSTIN) {
     try {
+      const fetch_if_exists = await fetchExistance(GSTIN);
+      if (!fetch_if_exists) {
+        res.status(404).send({
+          message: "No record found",
+          data: null,
+          error: null,
+        });
+        return;
+      }else{
+        if(!fetch_if_exists.R3B_FILERS){
+          res.status(200).send({
+            message: "No content present for the provided GSTIN",
+            data: null,
+            error: null,
+          });
+          return;
+        }
+      }
       const data = await fetchR3B(GSTIN);
       // log("R3B Data: ", data[0]);
       let osup_det = { txval: 0, iamt: 0, camt: 0, samt: 0, csamt: 0 };
